@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": "#minecraft:planks",
+        "@": "minecraft:gold_ingot"
+    },
+    "pattern": [
+        "@@",
+        "##",
+        "##"
+    ],
+    "result": {
+        "components": {
+            "minecraft:item_model": "aeternum:class_table/items/class_table",
+            "minecraft:item_name": "{\"translate\":\"aeternum.item.name.class_table\"}",
+            "minecraft:entity_data": {
+                "id": "minecraft:item_frame",
+                "Tags": [
+                    "aeternum.block.class_table.spawner"
+                ]
+            }
+        },
+        "count": 1,
+        "id": "minecraft:item_frame"
+    },
+    "show_notification": false
+}

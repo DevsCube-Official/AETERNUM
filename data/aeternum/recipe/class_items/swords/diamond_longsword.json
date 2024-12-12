@@ -14,12 +14,13 @@
   "result": {
     "components": {
       "minecraft:item_model": "aeternum:general/items/swordsman/diamond_longsword",
-      "minecraft:item_name": "\"Diamond Longsword\"",
+      "minecraft:item_name": "{\"translate\":\"aeternum.item.name.swordsman.longsword\",\"with\":[{\"italic\":false,\"text\":\"Diamond\"}]}",
       "minecraft:lore": [
-        "\"§2+1 §9Reach, §28 §9Damage\""
+        "{\"translate\": \"aeternum.item.lore.sword\",\"with\": [{\"text\": \"+1\",\"color\": \"dark_green\",\"italic\": false},{\"text\": \"8\",\"color\": \"dark_green\",\"italic\": false}],\"italic\": false}"
       ]
     },
     "count": 1,
     "id": "minecraft:diamond_sword"
   }
 }
+

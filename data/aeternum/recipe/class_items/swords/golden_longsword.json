@@ -14,9 +14,9 @@
   "result": {
     "components": {
       "minecraft:item_model": "aeternum:general/items/swordsman/golden_longsword",
-      "minecraft:item_name": "\"Golden Longsword\"",
+      "minecraft:item_name": "{\"translate\":\"aeternum.item.name.swordsman.longsword\",\"with\":[{\"italic\":false,\"text\":\"Golden\"}]}",
       "minecraft:lore": [
-        "\"§2+1 §9Reach, §25 §9Damage\""
+        "{\"translate\": \"aeternum.item.lore.sword\",\"with\": [{\"text\": \"+1\",\"color\": \"dark_green\",\"italic\": false},{\"text\": \"5\",\"color\": \"dark_green\",\"italic\": false}],\"italic\": false}"
       ]
     },
     "count": 1,

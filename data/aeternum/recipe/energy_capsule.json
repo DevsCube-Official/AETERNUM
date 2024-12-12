@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "minecraft:beetroot",
+        "minecraft:glass_bottle",
+        "minecraft:gold_ingot"
+    ],
+    "result": {
+        "id": "minecraft:clock",
+        "count": 1,
+        "components": {
+            "minecraft:item_model": "aeternum:energy_capsule/full",
+            "minecraft:consumable": {
+                "consume_seconds": 1,
+                "animation": "drink",
+                "sound": "minecraft:item.honey_bottle.drink",
+                "has_consume_particles": false
+            },
+            "minecraft:item_name": "{\"translate\":\"aeternum.item.name.energy_capsule\"}",
+            "minecraft:lore": [
+                "{\"translate\":\"aeternum.item.lore.energy_capsule\",\"with\":[{\"color\":\"green\",\"italic\":false,\"text\":\"7\"}]}"
+            ]
+        }
+    }
+}
