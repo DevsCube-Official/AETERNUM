@@ -38,8 +38,8 @@ scoreboard objectives add aeternum.abilities.archer.10.artillery.cool dummy
 scoreboard objectives add aeternum.abilities.archer.10.wind_shot.cool dummy
 scoreboard objectives add aeternum.abilities.archer.10.enchanted_arrows.cool dummy
 
-scoreboard objectives add aeternum.abilities.archer.1.restock_1.use minecraft.used:minecraft.bow
-scoreboard objectives add aeternum.abilities.archer.2.restock_2.use minecraft.used:minecraft.bow
+scoreboard objectives add aeternum.abilities.archer.1.restock_1.use dummy
+scoreboard objectives add aeternum.abilities.archer.2.restock_2.use dummy
 
 scoreboard objectives add aeternum.abilities.archer.arrow.type dummy
 scoreboard objectives add aeternum.abilities.archer.2.tenacious.hunger food
