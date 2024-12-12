@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "": {
+      "trigger": "minecraft:cured_zombie_villager",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags: [\"aeternum.player_data.current_class.healer\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "aeternum:leveling/result"
+  }
+}

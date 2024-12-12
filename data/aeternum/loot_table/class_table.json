@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:entity_data": {
+                  "id": "minecraft:item_frame",
+                  "Tags": ["aeternum.block.class_table.spawner"]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": {
+                "translate": "aeternum.item.name.class_table"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "aeternum:class_table/items/class_table"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

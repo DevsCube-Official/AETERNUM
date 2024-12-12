@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "check_hit": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player"
+        },
+        "damage": {
+          "blocked": false,
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "entity": {
+          "type": "#taglib:hostile"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "check_hit"
+    ]
+  ],
+  "rewards": {
+    "function": "aeternum:abilities/archer/1/bandage_wounds_result"
+  }
+}

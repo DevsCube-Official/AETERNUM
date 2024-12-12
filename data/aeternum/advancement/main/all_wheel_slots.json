@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clock",
+      "components": {
+        "minecraft:item_model": "aeternum:class_table/items/power_wheel"
+      }
+    },
+    "title": {
+      "translate": "aeternum.advancement.title.all_wheel_slots"
+    },
+    "description": {
+      "translate": "aeternum.advancement.description.all_wheel_slots"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "aeternum:main/first_levelup",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

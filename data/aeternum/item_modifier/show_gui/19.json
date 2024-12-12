@@ -1,0 +1,90 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": {
+      "block": "~ ~ ~",
+      "nbt": "Items[{Slot:19b}].components.\"minecraft:custom_data\".aeternum-ability_data.ability",
+      "source": "block",
+      "type": "nbt",
+      "color": "aqua",
+      "italic": false
+    },
+    "target": "item_name"
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        [
+          {
+            "nbt": "Items[{Slot:19b}].components.\"minecraft:custom_data\".aeternum-ability_data.type",
+            "block": "~ ~ ~",
+            "source": "block",
+            "type": "nbt",
+            "color": "green",
+            "italic": false
+          },
+          {
+            "text": " Ability",
+            "color": "gold",
+            "italic": false
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Required Class: ",
+            "color": "red",
+            "italic": false
+          },
+          {
+            "nbt": "Items[{Slot:19b}].components.\"minecraft:custom_data\".aeternum-ability_data.class_id",
+            "block": "~ ~ ~",
+            "source": "block",
+            "type": "nbt",
+            "color": "light_purple",
+            "italic": false
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Required Level: ",
+            "color": "red",
+            "italic": false
+          },
+          {
+            "nbt": "Items[{Slot:19b}].components.\"minecraft:custom_data\".aeternum-ability_data.level",
+            "block": "~ ~ ~",
+            "source": "block",
+            "type": "nbt",
+            "color": "light_purple",
+            "italic": false
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "EN Required: ",
+            "color": "gold",
+            "italic": false
+          },
+          {
+            "nbt": "Items[{Slot:19b}].components.\"minecraft:custom_data\".aeternum-ability_data.en_req",
+            "block": "~ ~ ~",
+            "source": "block",
+            "type": "nbt",
+            "color": "green",
+            "italic": false
+          }
+        ]
+      ]
+    ],
+    "mode": "replace_all"
+  }
+]

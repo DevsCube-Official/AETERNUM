@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_model": "aeternum:general/items/rogue/iron_dagger",
+      "minecraft:item_name": "\"Iron Dagger\"",
+      "minecraft:lore": [
+        "\"§c-1 §9Reach, §28 §9Damage\""
+      ]
+    },
+    "count": 1,
+    "id": "minecraft:iron_sword"
+  }
+}

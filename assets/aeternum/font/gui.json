@@ -1,0 +1,768 @@
+{
+    "providers": [
+        {
+            "type": "space",
+            "advances": {
+                " ": 4,
+                "\u0002": -130
+            }
+        },
+        {
+            "type": "space",
+            "advances": {
+                " ": 4,
+                "\u0003": -66
+            }
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:item/class_table/gui/page_1.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\uF01D"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:item/class_table/gui/page_2.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\uF02D"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:item/class_table/gui/page_3.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\uF03D"
+            ]
+        },
+
+
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/mana/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD01A"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/mana/half.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD01B"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/mana/empty.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD01C"
+            ]
+        },
+
+
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/spirit/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD02A"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/spirit/half.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD02B"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/spirit/empty.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD02C"
+            ]
+        },
+
+
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/metal/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD03A"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/metal/half.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD03B"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/metal/empty.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD03C"
+            ]
+        },
+
+
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/focus/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD04A"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/focus/half.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD04B"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/focus/empty.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD04C"
+            ]
+        },
+
+
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/slash/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD05A"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/slash/half.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD05B"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/slash/empty.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD05C"
+            ]
+        },
+
+
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/charge/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD06A"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/charge/half.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD06B"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/charge/empty.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD06C"
+            ]
+        },
+
+
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/peace/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD07A"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/peace/half.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD07B"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/peace/empty.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD07C"
+            ]
+        },
+
+
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/stamina/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD08A"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/stamina/half.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD08B"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/stamina/empty.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD08C"
+            ]
+        },
+
+
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/xp/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD09A"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/xp/half.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD09B"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/xp/empty.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD09C"
+            ]
+        },
+
+
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/nature/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD10A"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/nature/half.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD10B"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/nature/empty.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD10C"
+            ]
+        },
+
+
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/rage/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD11A"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/rage/half.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD11B"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/rage/empty.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD11C"
+            ]
+        },
+
+
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/blood/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD12A"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/blood/half.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD12B"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/blood/empty.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD12C"
+            ]
+        },
+
+
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/potion/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD13A"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/potion/half.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD13B"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/potion/empty.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD13C"
+            ]
+        },
+
+
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/dark/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD14A"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/dark/half.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD14B"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/dark/empty.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD14C"
+            ]
+        },
+
+
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/shield/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD15A"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/shield/half.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD15B"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/shield/empty.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD15C"
+            ]
+        },
+
+
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/life/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD16A"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/life/half.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD16B"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/life/empty.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD16C"
+            ]
+        },
+
+
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/shadow/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD17A"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/shadow/half.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD17B"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/shadow/empty.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD17C"
+            ]
+        },
+
+
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/rock/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD18A"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/rock/half.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD18B"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/rock/empty.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD18C"
+            ]
+        },
+
+
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/paper/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD19A"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/paper/half.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD19B"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/paper/empty.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD19C"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/mana/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "☄"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/spirit/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "🍖"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/metal/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "⭐"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/focus/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "🏹"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/slash/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "🗡"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/charge/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "🪓"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/peace/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "☮"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/stamina/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "✂"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/xp/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "🔔"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/nature/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "☁"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/rage/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "🔱"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/blood/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "☠"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/potion/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "🧪"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/dark/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "⚗"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/shield/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "🛡"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/life/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "♥"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/shadow/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "🔥"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/rock/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "⛏"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "aeternum:energy/paper/full.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "⏳"
+            ]
+        }
+
+    ]
+}

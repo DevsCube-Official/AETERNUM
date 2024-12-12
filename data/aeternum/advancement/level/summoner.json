@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags: [\"aeternum.player_data.current_class.summoner\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "aeternum:leveling/result"
+  }
+}

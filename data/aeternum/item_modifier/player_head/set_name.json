@@ -1,0 +1,11 @@
+{
+  "function": "minecraft:set_name",
+  "entity": "this",
+  "name": {
+    "selector": "@s",
+    "bold": false,
+    "italic": false
+  },
+  "target": "custom_name"
+}
+

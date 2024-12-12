@@ -1,0 +1,7 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:item_model": "aeternum:class_table/items/slot/8"
+  },
+  "conditions": []
+}

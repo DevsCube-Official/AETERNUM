@@ -1,0 +1,1 @@
+tellraw @s[tag=aeternum.debugger] "Shields"

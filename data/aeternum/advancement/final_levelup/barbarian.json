@@ -1,0 +1,84 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clock",
+      "components": {
+        "minecraft:item_model": "aeternum:class_table/items/class-chooser/barbarian"
+      }
+    },
+    "title": {
+      "translate": "aeternum.advancement.title.barbarian.legendary"
+    },
+    "description": {
+      "translate": "aeternum.advancement.description.barbarian.legendary"
+    },
+    "show_toast": true,
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "aeternum:final_levelup/root",
+  "criteria": {
+    "novice": {
+      "trigger": "minecraft:impossible"
+    },
+    "apprentice": {
+      "trigger": "minecraft:impossible"
+    },
+    "skilled": {
+      "trigger": "minecraft:impossible"
+    },
+    "journeyman": {
+      "trigger": "minecraft:impossible"
+    },
+    "adept": {
+      "trigger": "minecraft:impossible"
+    },
+    "expert": {
+      "trigger": "minecraft:impossible"
+    },
+    "master": {
+      "trigger": "minecraft:impossible"
+    },
+    "grandmaster": {
+      "trigger": "minecraft:impossible"
+    },
+    "elder": {
+      "trigger": "minecraft:impossible"
+    },
+    "legendary": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "legendary"
+    ],
+    [
+      "elder"
+    ],
+    [
+      "grandmaster"
+    ],
+    [
+      "master"
+    ],
+    [
+      "expert"
+    ],
+    [
+      "adept"
+    ],
+    [
+      "journeyman"
+    ],
+    [
+      "skilled"
+    ],
+    [
+      "apprentice"
+    ],
+    [
+      "novice"
+    ]
+  ]
+}

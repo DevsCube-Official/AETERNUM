@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "aeternum:item/general/mage/shield",
+		"particle": "aeternum:item/general/mage/shield"
+	},
+	"elements": [
+		{
+			"from": [-16, 0, 7],
+			"to": [32, 32, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [3.33333, 0, 3.93333, 16], "texture": "#0"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#0"},
+				"west": {"uv": [3.4, 0, 4, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 1], "texture": "#0"},
+				"down": {"uv": [0, 15.7, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, 8, 0]
+		},
+		"fixed": {
+			"translation": [0, 41.5, 0]
+		}
+	}
+}

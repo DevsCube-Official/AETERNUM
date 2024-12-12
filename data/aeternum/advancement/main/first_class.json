@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sheep_spawn_egg",
+      "components": {
+        "minecraft:item_model": "aeternum:class_table/items/power_wheel"
+      }
+    },
+    "title": {
+      "translate": "aeternum.advancement.title.first_class"
+    },    
+    "description": {
+      "translate": "aeternum.advancement.description.first_class"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "aeternum:main/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

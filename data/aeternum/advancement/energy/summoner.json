@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags: [\"aeternum.player_data.current_class.summoner\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "aeternum:energy/result"
+  }
+}

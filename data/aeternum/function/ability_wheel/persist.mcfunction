@@ -1,0 +1,8 @@
+# Check non-existent item
+execute unless items entity @s hotbar.* clock[minecraft:custom_data={aeternum-item_data: {power_wheel:1}}] unless items entity @s inventory.* clock[minecraft:custom_data={aeternum-item_data: {power_wheel:1}}] unless items entity @s weapon.* clock[minecraft:custom_data={aeternum-item_data: {power_wheel:1}}] unless items entity @s armor.* clock[minecraft:custom_data={aeternum-item_data: {power_wheel:1}}] unless items entity @s container.* clock[minecraft:custom_data={aeternum-item_data: {power_wheel:1}}] unless items entity @s player.crafting.* clock[minecraft:custom_data={aeternum-item_data: {power_wheel:1}}] unless items entity @s player.cursor clock[minecraft:custom_data={aeternum-item_data: {power_wheel:1}}] run give @s clock[consumable={consume_seconds:0f,animation:"none",has_consume_particles:false},food={nutrition:0,saturation:0,can_always_eat:true},max_stack_size=1,item_name='{"italic":false,"translate":"aeternum.item.name.power_wheel"}',rarity="uncommon",custom_data={aeternum-item_data:{power_wheel:1}},item_model="aeternum:class_table/items/power_wheel",use_cooldown={seconds:2.0f,cooldown_group:"aeternum:ability_wheel"}] 1
+
+# Check swapping
+execute if items entity @s weapon.offhand clock[minecraft:custom_data={aeternum-item_data: {power_wheel:1}}] run function aeternum:ability_wheel/swap
+
+# Show EN
+execute if items entity @s weapon.* clock[minecraft:custom_data={aeternum-item_data: {power_wheel:1}}] run function aeternum:ability_wheel/show_en/root

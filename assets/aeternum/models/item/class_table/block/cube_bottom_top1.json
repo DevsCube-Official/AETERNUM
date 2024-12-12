@@ -1,0 +1,12 @@
+{
+    "parent": "aeternum:item/class_table/block/cube1",
+    "textures": {
+        "particle": "#side",
+        "down": "#bottom",
+        "up": "#top",
+        "north": "#side",
+        "east": "#side",
+        "south": "#side",
+        "west": "#side"
+    }
+}

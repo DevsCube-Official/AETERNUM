@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:stones/warrior"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:stones/traveler"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:stones/summoner"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:stones/soldier"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:stones/smith"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:stones/monster"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:stones/miner"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:stones/enchanter"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:stones/druid"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:stones/barbarian"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:stones/alchemist"
+        }
+      ]
+    }
+  ]
+}

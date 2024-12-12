@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "#minecraft:wooden_tool_materials",
+    "Y": "#minecraft:logs"
+  },
+  "pattern": [
+    "X",
+    "Y",
+    "#"
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_model": "aeternum:general/items/swordsman/wooden_longsword",
+      "minecraft:item_name": "\"Wooden Longsword\"",
+      "minecraft:lore": [
+        "\"§2+1 §9Reach, §25 §9Damage\""
+      ]
+    },
+    "count": 1,
+    "id": "minecraft:wooden_sword"
+  }
+}

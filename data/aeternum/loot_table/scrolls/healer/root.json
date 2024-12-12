@@ -1,0 +1,117 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/healer/1/heal_self_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/healer/2/requiem"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/healer/2/heal_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/healer/3/cleanse_self"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/healer/3/bless"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/healer/4/greater_heal"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/healer/4/holy"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/healer/5/flying_heal"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/healer/5/heal_self_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/healer/5/lullaby"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/healer/6/mass_heal"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/healer/6/sacrifice_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/healer/6/cleanse"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/healer/7/louder_lullaby"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/healer/7/divine_aura_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/healer/7/holy_bullet"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/healer/8/mass_bless"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/healer/8/blessed_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/healer/8/hallowed_grounds_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/healer/9/healing_beacon"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/healer/9/divine_aura_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/healer/9/heal_self_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/healer/9/blessed_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/healer/10/sanctuary"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/healer/10/hallowed_grounds_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/healer/10/sacrifice_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/healer/10/mass_requiem"
+        }
+      ]
+    }
+  ]
+}

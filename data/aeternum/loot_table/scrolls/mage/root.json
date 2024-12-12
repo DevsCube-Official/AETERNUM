@@ -1,0 +1,117 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/mage/1/magic_bullet"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/mage/2/arcane_shield"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/mage/2/book_bash"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/mage/3/fire_ball_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/mage/3/shiver"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/mage/4/rocket_step"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/mage/4/fire_ball_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/mage/5/disco_spell"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/mage/5/fire_ball_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/mage/5/water_spell"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/mage/6/rain"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/mage/6/shine"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/mage/6/storm"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/mage/7/shockwave"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/mage/7/ring_of_fire"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/mage/7/chainblinder"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/mage/8/up_and_away"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/mage/8/recall"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/mage/8/curse_ground"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/mage/9/mass_recall"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/mage/9/cryostasis"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/mage/9/arcane_ward"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/mage/9/light_step"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/mage/10/reset"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/mage/10/power_of_magic"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/mage/10/magical_protector"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/mage/10/astral_body"
+        }
+      ]
+    }
+  ]
+}

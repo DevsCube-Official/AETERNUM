@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "aeternum.item.lore.energy_capsule",
+                  "with": [
+                    {
+                      "text": "6",
+                      "color": "green",
+                      "italic": false
+                    }
+                  ]
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 1,
+                  "animation": "drink",
+                  "sound": "minecraft:item.honey_bottle.drink",
+                  "has_consume_particles": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": {
+                "translate": "aeternum.item.name.energy_capsule"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "aeternum:energy_capsule/6"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

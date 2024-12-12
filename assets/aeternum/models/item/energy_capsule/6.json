@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "aeternum:item/energy_capsule/6"
+	}
+}

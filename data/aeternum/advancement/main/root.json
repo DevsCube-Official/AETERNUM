@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clock"
+    },
+    "title": {
+      "translate": "aeternum.advancement.title.root"
+    },
+    "description": {
+      "translate": "aeternum.advancement.description.root"
+    },
+    "background": "minecraft:textures/block/iron_block.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "function": "minecraft:set_lore",
+  "entity": "this",
+  "lore": [
+    [
+      {
+        "translate": "aeternum.gui.name.player_head.stats.lore.2",
+        "with": [
+          {
+            "score": {
+              "objective": "aeternum.ability_wheel.maximum_slots",
+              "name": "@s"
+            },
+            "color": "green",
+            "italic": false
+          }
+        ],
+        "color": "light_purple",
+        "italic": false
+      }
+    ]
+  ],
+  "mode": "append",
+  "conditions": []
+}

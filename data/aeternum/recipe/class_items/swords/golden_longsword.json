@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "minecraft:gold_ingot",
+    "Y": "minecraft:gold_block"
+  },
+  "pattern": [
+    "X",
+    "Y",
+    "#"
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_model": "aeternum:general/items/swordsman/golden_longsword",
+      "minecraft:item_name": "\"Golden Longsword\"",
+      "minecraft:lore": [
+        "\"§2+1 §9Reach, §25 §9Damage\""
+      ]
+    },
+    "count": 1,
+    "id": "minecraft:golden_sword"
+  }
+}

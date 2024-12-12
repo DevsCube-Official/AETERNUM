@@ -1,0 +1,28 @@
+{
+  "function": "minecraft:set_lore",
+  "entity": "this",
+  "lore": [
+    [
+      {
+        "translate": "aeternum.gui.name.player_head.stats.lore.1",
+        "with": [
+          {
+            "score": {
+              "objective": "aeternum.player.level",
+              "name": "@s"
+            },
+            "color": "aqua",
+            "italic": false
+          },
+          {
+            "text": "Smith",
+            "color": "gold",
+            "italic": false
+          }
+        ]
+      }
+    ]
+  ],
+  "mode": "replace_all",
+  "conditions": []
+}

@@ -1,0 +1,1 @@
+$data modify storage pdb:main out set from storage pdb:main players[{UUID:[I;$(UUID0),$(UUID1),$(UUID2),$(UUID3)]}]

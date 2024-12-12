@@ -1,0 +1,9 @@
+execute if score @s aeternum.player.level matches 2 run advancement grant @s only aeternum:final_levelup/enchanter apprentice
+execute if score @s aeternum.player.level matches 3 run advancement grant @s only aeternum:final_levelup/enchanter skilled
+execute if score @s aeternum.player.level matches 4 run advancement grant @s only aeternum:final_levelup/enchanter journeyman
+execute if score @s aeternum.player.level matches 5 run advancement grant @s only aeternum:final_levelup/enchanter adept
+execute if score @s aeternum.player.level matches 6 run advancement grant @s only aeternum:final_levelup/enchanter expert
+execute if score @s aeternum.player.level matches 7 run advancement grant @s only aeternum:final_levelup/enchanter master
+execute if score @s aeternum.player.level matches 8 run advancement grant @s only aeternum:final_levelup/enchanter grandmaster
+execute if score @s aeternum.player.level matches 9 run advancement grant @s only aeternum:final_levelup/enchanter elder
+execute if score @s aeternum.player.level matches 10 run advancement grant @s only aeternum:final_levelup/enchanter legendary

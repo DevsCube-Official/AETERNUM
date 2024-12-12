@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "check_hit": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player",
+          "slots": {
+            "weapon.mainhand": {
+              "items": "#minecraft:swords"
+            }
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "check_hit"
+    ]
+  ],
+  "rewards": {
+    "function": "aeternum:abilities/swordsman/10/battle_spirit_result"
+  }
+}

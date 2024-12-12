@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/healer/root"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/archer/root"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/mage/root"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/swordsman/root"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/rogue/root"
+        }
+      ]
+    }
+  ]
+}

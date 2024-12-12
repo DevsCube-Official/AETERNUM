@@ -1,0 +1,230 @@
+{
+  "aeternum.abilities.deny":"§6[Aeternum] §4A cooldown is active for this ability!",
+  "aeternum.abilities.accept":"§6[Aeternum] %s §8ctivated",
+
+  "aeternum.abilities.rogue.weakened_light.deny":"§6[Aeternum] §4Not an empty space!",
+
+  "aeternum.abilities.swordsman.parry.deny":"§6[Aeternum] §4Attack an enemy first!",
+  "aeternum.abilities.swordsman.calculated_strike.deny":"§6[Aeternum] §4Low health!",
+  "aeternum.abilities.swordsman.sense_strength.deny":"§6[Aeternum] §4No players nearby!",
+  "aeternum.abilities.swordsman.parry.accept":"§6[Aeternum] §aYour next melee attack will §bstun an enemy!",
+
+  "aeternum.abilities.archer.restock.deny":"§6[Aeternum] §4You haven't used your arrows!",
+  "aeternum.abilities.archer.bandage_wounds.deny":"§6[Aeternum] §4Hit a hostile mob first!",
+  "aeternum.abilities.archer.regen.deny":"§6[Aeternum] §4Hit a hostile mob first!",
+  "aeternum.abilities.archer.arrow.deny":"§6[Aeternum] §4Shoot an arrow first!",
+  "aeternum.abilities.archer.enchanted_arrows.deny":"§6[Aeternum] §4Not enough arrows to replace!",
+  "aeternum.abilities.archer.explosive_arrow.accept":"§6[Aeternum] §aYour next arrow will be §bexplosive!",
+  "aeternum.abilities.archer.sticky_arrow.accept":"§6[Aeternum] §aYour next arrow will shoot out §bcobwebs!",
+  "aeternum.abilities.archer.light_arrow.accept":"§6[Aeternum] §aYour next arrow will make nearby enemies §bglow!",
+  "aeternum.abilities.archer.damage_arrow.accept":"§6[Aeternum] §aYour next arrow will make nearby enemies §btake damage!",
+  "aeternum.abilities.archer.dog_arrow.accept":"§6[Aeternum] §aYour next arrow will summon a §bwolf!",
+  "aeternum.abilities.archer.poison_arrow.accept":"§6[Aeternum] §aYour next arrow will make a hit enemy §bpoisoned!",
+  "aeternum.abilities.archer.frozen_arrow.accept":"§6[Aeternum] §aYour next arrow will make a hit enemy §bfrozen!",
+  "aeternum.abilities.archer.chain_arrow.accept":"§6[Aeternum] §aYour next arrow will make nearby enemies §bteleport to it!",
+  "aeternum.abilities.archer.power_draw_arrow.accept":"§6[Aeternum] §aYour next arrow will deal §bextra damage!",
+  "aeternum.abilities.archer.teleport_arrow.accept":"§6[Aeternum] §aYour next arrow will §bteleport you!",
+  "aeternum.abilities.archer.invis_arrow.accept":"§6[Aeternum] §aYour next arrow will make you §binvisible!",
+  "aeternum.abilities.archer.snipe_arrow.accept":"§6[Aeternum] §aYour next arrow will have §bno gravity!",
+  "aeternum.abilities.archer.stun_arrow.accept":"§6[Aeternum] §aYour next arrow will make a hit enemy §bstunned!",
+  "aeternum.abilities.archer.fire_arrow.accept":"§6[Aeternum] §aYour next arrow will cause a §bfirey explosion!",
+  "aeternum.abilities.archer.gatling_arrow.accept":"§6[Aeternum] §aYour next arrow will summon a §bgatling turret!",
+
+  "aeternum.abilities.mage.lumos.deny":"§6[Aeternum] §4Not an empty space!",
+  "aeternum.abilities.mage.book_bash.deny":"§6[Aeternum] §4Not enough books to consume!",
+  "aeternum.abilities.mage.book_bash.deny2":"§6[Aeternum] §4You already charged an attack!",
+  "aeternum.abilities.mage.book_bash.charged":"§6[Aeternum] §aYou charged your next attack!",
+  "aeternum.abilities.mage.shiver.deny":"§6[Aeternum] §4No mobs to freeze!",
+  "aeternum.abilities.mage.rocket_step.jump":"§6[Aeternum] §aYou charged your next jump!",
+  "aeternum.abilities.mage.rocket_step.deny":"§6[Aeternum] §4You already charged a jump!",
+  "aeternum.abilities.mage.curse_ground.deny":"§6[Aeternum] §4You're not on the ground!",
+  "aeternum.abilities.mage.arcane_shield.deny":"§6[Aeternum] §4Not enough space!",
+
+  "aeternum.abilities.healer.heal.deny":"§6[Aeternum] §4No one to heal!",
+  "aeternum.abilities.healer.heal.message":"§6[Aeternum] §aYou have been healed!",
+  "aeternum.abilities.healer.requiem.deny":"§6[Aeternum] §4No undead mobs nearby!",
+  "aeternum.abilities.healer.lullaby.deny":"§6[Aeternum] §4No players or mobs nearby!",
+  "aeternum.abilities.healer.cleanse.message":"§6[Aeternum] §aYou have been cleansed!",
+  "aeternum.abilities.healer.mass_bless.message":"§6[Aeternum] §aYou have been blessed!",
+
+  "aeternum.gui.name.cancel": "§cCancel",
+  "aeternum.gui.name.confirm": "§aConfirm",
+
+  "aeternum.gui.name.question": "§c???",
+  "aeternum.gui.name.scroll_up": "§eChange Page",
+  "aeternum.gui.name.scroll_down": "§eChange Page",
+  "aeternum.gui.name.change_slots": "§dChange Selected Slot",
+  "aeternum.gui.name.clear_slot": "§cClear Selected Slot",
+
+  "aeternum.gui.name.stats_detailed": "§aSlot 1: %s\n§aSlot 2: %s\n§aSlot 3: %s\n§aSlot 4: %s\n§aSlot 5: %s\n§aSlot 6: %s\n§aSlot 7: %s\n§aSlot 8: %s",
+
+  "aeternum.gui.name.stats": "§bStats",
+  "aeternum.gui.name.learn_ability": "§eLearn an ability",
+  "aeternum.gui.name.set_slots": "§eSet ability wheel slots",
+  "aeternum.gui.name.use_class_stone": "§eUse a class stone",
+  "aeternum.gui.name.choose_class": "§eChoose a class",
+  "aeternum.gui.msg.cannot_cancel": "§6[Aeternum] §4Remove any items from the middle slot!",
+  "aeternum.gui.msg.cannot_use_stone": "§6[Aeternum] §4You must master your first class before using a class stone!",
+
+  "aeternum.gui.name.class.archer": "§aArcher",
+  "aeternum.gui.name.class.mage": "§aMage",
+  "aeternum.gui.name.class.rogue": "§aRogue",
+  "aeternum.gui.name.class.healer": "§aHealer",
+  "aeternum.gui.name.class.swordsman": "§aSwordsman",
+
+  "aeternum.gui.name.player_head.stats.lore.1": "§6Level %s %s",
+  "aeternum.gui.name.player_head.stats.lore.2": "§d%s Ability wheel slots unlocked",
+
+  "aeternum.item.name.power_wheel": "Ability Wheel",
+  "aeternum.item.name.class_stone": "§aClass Stone",
+  "aeternum.item.name.class_scroll": "§aClass Scroll",
+  "aeternum.item.name.class_table": "§aClass Table",
+  "aeternum.item.name.energy_capsule": "§dEnergy Capsule",
+
+  "aeternum.item.name.swordsman.longsword": "%s Longsword",
+  "aeternum.item.name.rogue.dagger": "%s Dagger",
+  "aeternum.item.lore.sword": "§2%s §9Reach, %s §9Damage",
+
+  "aeternum.item.lore.class_stone": "§9New Class: §d%s",
+  "aeternum.item.lore.energy_capsule": "§9Remaining Uses: §d%s",
+
+  "aeternum.item.lore.class_scroll0": "§a%s §6Ability",
+  "aeternum.item.lore.class_scroll1": "§cName: §d%s",
+  "aeternum.item.lore.class_scroll2": "§cRequired Class: §d%s",
+  "aeternum.item.lore.class_scroll3": "§cRequired Level: §d%s",
+  "aeternum.item.lore.class_scroll4": "§cRequired EN: §d%s",
+
+  "aeternum.item.lore.class_stone2": "§9New Class: §d%s\n\n§a%s §6Ability\n§cName: §d%s\n§cRequired Class: §d%s\n§cRequired Level: §d%s\n§cRequired EN: §d%s\n",
+ 
+  "aeternum.name_text": "§6[Aeternum]",
+  "aeternum.name_text-space": "§6[Aeternum] ",
+  "aeternum.datapack_reloaded": "Datapack Reloaded! | ",
+  "⚠ RESOURCEPACK NOT LOADED!": "%s",
+  "aeternum.player.intro": " §6[Aeternum] §aWelcome to §bAeternum! §aAeternum is an RPG datapack consisting of many classes, mobs, magic, dungeons, and more. To get started, §bfind or craft a class table.",
+
+  "aeternum.info.class.already_mastered": "§6[Aeternum] §4You have already mastered the §b%s §4class!",
+  "aeternum.info.class.no_level": "§6[Aeternum] §4You cannot master the §b%s §4class until you master your current class.",
+  "aeternum.info.class.first": "§6[Aeternum] §aYou learned your first class!",
+  "aeternum.info.class.learnt": "§6[Aeternum] §aYou learned the §b%s §aclass!",
+  "aeternum.info.ability.already_learnt": "§6[Aeternum] §4You have already learnt the §b%s §4ability!",
+  "aeternum.info.ability.no_class": "§6[Aeternum] §4You haven't learnt the §b%s §4class!",
+  "aeternum.info.ability.no_level": "§6[Aeternum] §4Insufficient level for this ability!",
+  "aeternum.info.ability.learnt": "§6[Aeternum] §aYou have learnt the §b%s §aability!",
+  "aeternum.info.ability.cannot_activate_passive_or_key": "§6[Aeternum] §4You cannot activate a passive or key ability!",
+
+  "aeternum.level.increase":"§6[Aeternum] §bYou Advanced to Level §r",
+  "aeternum.level.increase-10":"§6[Aeternum] §bYou Advanced to Level §610, great job!§r",
+  "aeternum.power_wheel.slot_gain1":"You Unlocked a new ",
+  "aeternum.power_wheel.slot_gain2":"Ability Slot!",
+  "aeternum.power_wheel.swap":"§6[Aeternum] §dCurrently selected slot: §a%s",
+  "aeternum.power_wheel.selected":"§6[Aeternum] §dYou have selected the §a%s §dability!",
+  "aeternum.power_wheel.fail_already_selected":"§6[Aeternum] §b%s §4is already selected!",
+  "aeternum.power_wheel.fail_no_ability":"§6[Aeternum] §4This slot has no ability!",
+  "aeternum.power_wheel.fail_no_energy":"§6[Aeternum] §4Not enough energy!",
+
+  "aeternum.power_wheel.fail_missing_slot.1":"§6[Aeternum] §4You haven't unlocked the 1st slot in the ability wheel!",
+  "aeternum.power_wheel.fail_missing_slot.2":"§6[Aeternum] §4You haven't unlocked the 2nd slot in the ability wheel!",
+  "aeternum.power_wheel.fail_missing_slot.3":"§6[Aeternum] §4You haven't unlocked the 3rd slot in the ability wheel!",
+  "aeternum.power_wheel.fail_missing_slot.4":"§6[Aeternum] §4You haven't unlocked the 4th slot in the ability wheel!",
+  "aeternum.power_wheel.fail_missing_slot.5":"§6[Aeternum] §4You haven't unlocked the 5th slot in the ability wheel!",
+  "aeternum.power_wheel.fail_missing_slot.6":"§6[Aeternum] §4You haven't unlocked the 6th slot in the ability wheel!",
+  "aeternum.power_wheel.fail_missing_slot.7":"§6[Aeternum] §4You haven't unlocked the 7th slot in the ability wheel!",
+  "aeternum.power_wheel.fail_missing_slot.8":"§6[Aeternum] §4You haven't unlocked the 8th slot in the ability wheel!",
+  
+  "aeternum.power_wheel.cleared":"§6[Aeternum] §aCleared Slot %s!",
+
+  "aeternum.advancement.title.first_class": "The beginning",
+  "aeternum.advancement.description.first_class": "Learn your first class",
+
+  "aeternum.advancement.title.all_wheel_slots": "Eight times the Power!",
+  "aeternum.advancement.description.all_wheel_slots": "Obtain every single ability wheel slot",
+
+  "aeternum.advancement.title.use_class_stone": "Back to block one",
+  "aeternum.advancement.description.use_class_stone": "Use a class stone for the first time",
+
+  "aeternum.advancement.title.first_levelup": "Going Higher",
+  "aeternum.advancement.description.first_levelup": "Level up your first class",
+
+  "aeternum.advancement.title.learn_ability": "The Basics",
+  "aeternum.advancement.description.learn_ability": "Learn an ability",
+
+  "aeternum.advancement.title.use_ability": "Unleash It!",
+  "aeternum.advancement.description.use_ability": "Activate an ability",
+
+  "aeternum.advancement.title.select_ability": "The power within you",
+  "aeternum.advancement.description.select_ability": "Put an ability in your ability wheel",
+
+  "aeternum.advancement.title.new_class_lvl10": "A new start",
+  "aeternum.advancement.description.new_class_lvl10": "Start learning a new class",
+
+  "aeternum.advancement.title.obtain_class_table": "Ready for Adventure",
+  "aeternum.advancement.description.obtain_class_table": "Obtain a class table",
+
+  "aeternum.advancement.title.obtain_class_stone": "Game-Changer",
+  "aeternum.advancement.description.obtain_class_stone": "Obtain a class stone",
+
+  "aeternum.advancement.title.root": "Aeternum",
+  "aeternum.advancement.description.root": "Welcome to a new adventure!",
+
+  "aeternum.advancement.title.leveling_up.root": "Leveling Up | Aeternum",
+  "aeternum.advancement.description.leveling_up.root": "",
+
+  "aeternum.advancement.title.alchemist.legendary": "Legendary Alchemist",
+  "aeternum.advancement.description.alchemist.legendary": "Reach level 10 of the alchemist class",
+
+  "aeternum.advancement.title.archer.legendary": "Legendary Archer",
+  "aeternum.advancement.description.archer.legendary": "Reach level 10 of the archer class",
+
+  "aeternum.advancement.title.swordsman.legendary": "Legendary Swordsman",
+  "aeternum.advancement.description.swordsman.legendary": "Reach level 10 of the swordsman class",
+
+  "aeternum.advancement.title.healer.legendary": "Legendary Healer",
+  "aeternum.advancement.description.healer.legendary": "Reach level 10 of the healer class",
+
+  "aeternum.advancement.title.rogue.legendary": "Legendary Rogue",
+  "aeternum.advancement.description.rogue.legendary": "Reach level 10 of the rogue class",
+
+  "aeternum.advancement.title.mage.legendary": "Legendary Mage",
+  "aeternum.advancement.description.mage.legendary": "Reach level 10 of the mage class",
+
+  "aeternum.advancement.title.barbarian.legendary": "Legendary Barbarian",
+  "aeternum.advancement.description.barbarian.legendary": "Reach level 10 of the barbarian class",
+
+  "aeternum.advancement.title.warrior.legendary": "Legendary Warrior",
+  "aeternum.advancement.description.warrior.legendary": "Reach level 10 of the warrior class",
+
+  "aeternum.advancement.title.warlock.legendary": "Legendary Warlock",
+  "aeternum.advancement.description.warlock.legendary": "Reach level 10 of the warlock class",
+
+  "aeternum.advancement.title.monster.legendary": "Legendary Monster",
+  "aeternum.advancement.description.monster.legendary": "Reach level 10 of the monster class",
+
+  "aeternum.advancement.title.traveler.legendary": "Legendary Traveler",
+  "aeternum.advancement.description.traveler.legendary": "Reach level 10 of the traveler class",
+
+  "aeternum.advancement.title.wanderer.legendary": "Legendary Wanderer",
+  "aeternum.advancement.description.wanderer.legendary": "Reach level 10 of the wanderer class",
+
+  "aeternum.advancement.title.miner.legendary": "Legendary Miner",
+  "aeternum.advancement.description.miner.legendary": "Reach level 10 of the miner class",
+
+  "aeternum.advancement.title.soldier.legendary": "Legendary Soldier",
+  "aeternum.advancement.description.soldier.legendary": "Reach level 10 of the soldier class",
+
+  "aeternum.advancement.title.summoner.legendary": "Legendary Summoner",
+  "aeternum.advancement.description.summoner.legendary": "Reach level 10 of the summoner class",
+
+  "aeternum.advancement.title.smith.legendary": "Legendary Smith",
+  "aeternum.advancement.description.smith.legendary": "Reach level 10 of the smith class",
+
+  "aeternum.advancement.title.druid.legendary": "Legendary Druid",
+  "aeternum.advancement.description.druid.legendary": "Reach level 10 of the druid class",
+
+  "aeternum.advancement.title.enchanter.legendary": "Legendary Enchanter",
+  "aeternum.advancement.description.enchanter.legendary": "Reach level 10 of the enchanter class",
+
+  "aeternum.advancement.title.pacifist.legendary": "Legendary Pacifist",
+  "aeternum.advancement.description.pacifist.legendary": "Reach level 10 of the pacifist class"
+
+
+}

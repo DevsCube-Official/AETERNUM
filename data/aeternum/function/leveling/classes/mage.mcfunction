@@ -1,0 +1,9 @@
+execute if score @s aeternum.player.level matches 2 run advancement grant @s only aeternum:final_levelup/mage apprentice
+execute if score @s aeternum.player.level matches 3 run advancement grant @s only aeternum:final_levelup/mage skilled
+execute if score @s aeternum.player.level matches 4 run advancement grant @s only aeternum:final_levelup/mage journeyman
+execute if score @s aeternum.player.level matches 5 run advancement grant @s only aeternum:final_levelup/mage adept
+execute if score @s aeternum.player.level matches 6 run advancement grant @s only aeternum:final_levelup/mage expert
+execute if score @s aeternum.player.level matches 7 run advancement grant @s only aeternum:final_levelup/mage master
+execute if score @s aeternum.player.level matches 8 run advancement grant @s only aeternum:final_levelup/mage grandmaster
+execute if score @s aeternum.player.level matches 9 run advancement grant @s only aeternum:final_levelup/mage elder
+execute if score @s aeternum.player.level matches 10 run advancement grant @s only aeternum:final_levelup/mage legendary

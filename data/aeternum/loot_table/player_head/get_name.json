@@ -1,0 +1,40 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:player_head"
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:rarity": "rare"
+            }
+          },
+          {
+            "function": "minecraft:set_custom_data",
+            "tag": "{aeternum-item_data:{gui:1}}"
+          },
+          {
+            "function": "minecraft:fill_player_head",
+            "entity": "this"
+          },
+          {
+            "function": "minecraft:set_name",
+            "entity": "this",
+            "target": "item_name",
+            "name": {
+              "nbt": "Items[{Slot:13b}].components.\"minecraft:profile\".name",
+              "block": "~ ~ ~",
+              "italic": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

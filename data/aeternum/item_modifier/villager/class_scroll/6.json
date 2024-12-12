@@ -1,0 +1,64 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "aeternum.item.lore.class_scroll0",
+        "with": [
+          {
+            "nbt": "Inventory[6].components.\"minecraft:custom_data\".aeternum-scroll_data.ability_detailed.type",
+            "entity": "@s",
+            "color": "light_purple",
+            "italic": false
+          }
+        ]
+      },
+      {
+        "translate": "aeternum.item.lore.class_scroll1",
+        "with": [
+          {
+            "nbt": "Inventory[6].components.\"minecraft:custom_data\".aeternum-scroll_data.ability_detailed.ability",
+            "entity": "@s",
+            "color": "light_purple",
+            "italic": false
+          }
+        ]
+      },
+      {
+        "translate": "aeternum.item.lore.class_scroll2",
+        "with": [
+          {
+            "nbt": "Inventory[6].components.\"minecraft:custom_data\".aeternum-scroll_data.ability_detailed.class_id",
+            "entity": "@s",
+            "color": "light_purple",
+            "italic": false
+          }
+        ]
+      },
+      {
+        "translate": "aeternum.item.lore.class_scroll3",
+        "with": [
+          {
+            "nbt": "Inventory[6].components.\"minecraft:custom_data\".aeternum-scroll_data.ability_detailed.level",
+            "entity": "@s",
+            "color": "light_purple",
+            "italic": false
+          }
+        ]
+      },
+      {
+        "translate": "aeternum.item.lore.class_scroll4",
+        "with": [
+          {
+            "nbt": "Inventory[6].components.\"minecraft:custom_data\".aeternum-scroll_data.ability_detailed.en_req",
+            "entity": "@s",
+            "color": "light_purple",
+            "italic": false
+          }
+        ]
+      }
+    ],
+    "mode": "replace_all"
+  }
+]

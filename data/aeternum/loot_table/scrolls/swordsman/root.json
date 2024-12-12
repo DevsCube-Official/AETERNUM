@@ -1,0 +1,125 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/swordsman/key/swords_tier_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/swordsman/1/quick_strike"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/swordsman/1/rage_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/swordsman/2/parry"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/swordsman/2/rage_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/swordsman/3/deadly_leap"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/swordsman/3/robust"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/swordsman/4/mad_dash"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/swordsman/4/sense_danger"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/swordsman/5/warcry"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/swordsman/5/charge_stance"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/swordsman/5/sense_strength"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/swordsman/6/calculated_strike"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/swordsman/6/revenge_counter"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/swordsman/6/limit_release"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/swordsman/7/shield_wall"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/swordsman/7/blasting_blade"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/swordsman/7/calibrated_strike"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/swordsman/8/combat_trance"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/swordsman/8/swap"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/swordsman/8/bolster_allies"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/swordsman/9/fortify_allies"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/swordsman/9/empower_allies"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/swordsman/9/blood_price"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/swordsman/9/rage_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/swordsman/10/diamond_skin"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/swordsman/10/rage_4"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/swordsman/10/bunker"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/swordsman/10/battle_spirit"
+        }
+      ]
+    }
+  ]
+}

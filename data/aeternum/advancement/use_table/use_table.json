@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:barrel"
+                ],
+                "nbt": "{CustomName:'{\"text\":\"\",\"extra\":[{\"text\":\"Choose your first class\",\"italic\":false},{\"text\":\"\\\\u0002\",\"font\":\"aeternum:gui\"},{\"text\":\"\",\"font\":\"aeternum:gui\",\"color\":\"white\"}]}'}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "aeternum:class-table/raycast/raycast_open_start"
+  }
+}

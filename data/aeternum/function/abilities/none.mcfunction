@@ -1,0 +1,1 @@
+tellraw @s[tag=aeternum.debugger] "SUBSCRIBE TO SWITCHEDCUBE"

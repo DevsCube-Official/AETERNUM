@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags: [\"aeternum.player_data.current_class.soldier\"]}"
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": "#taglib:armor/player_armor"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "aeternum:energy/result"
+  }
+}

@@ -1,0 +1,2 @@
+execute if entity @s[tag=aeternum.block.class_table.spawner] at @s run function aeternum:class_table/place
+execute if entity @s[tag=aeternum.class_table.spawner-first_class] at @s run function aeternum:class_table/place

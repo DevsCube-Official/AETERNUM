@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "deflected_projectile": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags: [\"aeternum.player_data.current_class.soldier\"]}"
+            }
+          }
+        ],
+        "damage": {
+          "blocked": true
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "aeternum:leveling/result"
+  }
+}

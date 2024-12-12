@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "enchanted_item": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags: [\"aeternum.player_data.current_class.enchanter\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "aeternum:leveling/result"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:clock",
+          "components": {
+            "minecraft:item_model": "aeternum:energy_capsule/6"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "aeternum:energy/capsule/5"
+  }
+}

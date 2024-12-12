@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "minecraft:iron_ingot",
+    "Y": "minecraft:iron_block"
+  },
+  "pattern": [
+    "X",
+    "Y",
+    "#"
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_model": "aeternum:general/items/swordsman/iron_longsword",
+      "minecraft:item_name": "\"Iron Longsword\"",
+      "minecraft:lore": [
+        "\"§2+1 §9Reach, §27 §9Damage\""
+      ]
+    },
+    "count": 1,
+    "id": "minecraft:iron_sword"
+  }
+}

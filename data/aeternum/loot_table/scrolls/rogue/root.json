@@ -1,0 +1,129 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/rogue/key/daggers_tier_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/rogue/key/daggers_tier_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/rogue/1/sneak_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/rogue/1/weakened_light"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/rogue/2/confusion"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/rogue/2/dexterous_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/rogue/3/dash"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/rogue/3/soft_paws_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/rogue/4/leap"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/rogue/4/rogue_of_wind"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/rogue/5/shadowed"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/rogue/5/elusive"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/rogue/5/soft_paws_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/rogue/6/sneak_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/rogue/6/houdinni"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/rogue/6/poisoneer"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/rogue/7/echo_location"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/rogue/7/nights_eye"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/rogue/7/1_lucky_man"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/rogue/8/2_lucky_men"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/rogue/8/charming"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/rogue/8/cheat_death"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/rogue/9/sneak_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/rogue/9/3_lucky_men"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/rogue/9/cloak"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/rogue/9/dexterous_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/rogue/10/call_of_the_wind"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/rogue/10/great_escape"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/rogue/10/smaller_steps"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/rogue/10/1_lucky_god"
+        }
+      ]
+    }
+  ]
+}

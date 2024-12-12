@@ -1,0 +1,117 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/archer/1/bandage_wounds"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/archer/2/restock_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/archer/2/tenacious"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/archer/3/explosive_shot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/archer/3/sticky_shot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/archer/4/nimble_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/archer/4/highlight"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/archer/5/splash_damage"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/archer/5/arrow_of_dog"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/archer/5/snipe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/archer/6/nimble_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/archer/6/poison_arrows"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/archer/6/frozen_arrows"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/archer/7/binding_chains"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/archer/7/healing_arrows"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/archer/7/nimble_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/archer/8/power_draw"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/archer/8/summon_gatling"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/archer/8/stun_shot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/archer/9/teleport_arrows"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/archer/9/suction_shot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/archer/9/safe_zone"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/archer/9/camouflage"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/archer/10/fire_charge"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/archer/10/artillery"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/archer/10/wind_shot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/archer/10/enchanted_arrows"
+        }
+      ]
+    }
+  ]
+}

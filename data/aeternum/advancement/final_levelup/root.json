@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clock",
+      "components": {
+        "minecraft:item_model": "aeternum:class_table/gui/page_change"
+      }
+    },
+    "title": {
+      "translate": "aeternum.advancement.title.leveling_up.root"
+    },
+    "description": {
+      "translate": "aeternum.advancement.description.leveling_up.root"
+    },
+    "background": "minecraft:textures/block/gold_block.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

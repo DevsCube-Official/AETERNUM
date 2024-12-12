@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "minecraft:diamond",
+    "Y": "minecraft:diamond_block"
+  },
+  "pattern": [
+    "X",
+    "Y",
+    "#"
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_model": "aeternum:general/items/swordsman/diamond_longsword",
+      "minecraft:item_name": "\"Diamond Longsword\"",
+      "minecraft:lore": [
+        "\"§2+1 §9Reach, §28 §9Damage\""
+      ]
+    },
+    "count": 1,
+    "id": "minecraft:diamond_sword"
+  }
+}

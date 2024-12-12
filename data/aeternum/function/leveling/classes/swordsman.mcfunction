@@ -1,0 +1,9 @@
+execute if score @s aeternum.player.level matches 2 run advancement grant @s only aeternum:final_levelup/swordsman apprentice
+execute if score @s aeternum.player.level matches 3 run advancement grant @s only aeternum:final_levelup/swordsman skilled
+execute if score @s aeternum.player.level matches 4 run advancement grant @s only aeternum:final_levelup/swordsman journeyman
+execute if score @s aeternum.player.level matches 5 run advancement grant @s only aeternum:final_levelup/swordsman adept
+execute if score @s aeternum.player.level matches 6 run advancement grant @s only aeternum:final_levelup/swordsman expert
+execute if score @s aeternum.player.level matches 7 run advancement grant @s only aeternum:final_levelup/swordsman master
+execute if score @s aeternum.player.level matches 8 run advancement grant @s only aeternum:final_levelup/swordsman grandmaster
+execute if score @s aeternum.player.level matches 9 run advancement grant @s only aeternum:final_levelup/swordsman elder
+execute if score @s aeternum.player.level matches 10 run advancement grant @s only aeternum:final_levelup/swordsman legendary

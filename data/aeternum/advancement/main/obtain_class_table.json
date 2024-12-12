@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:item_frame",
+      "components": {
+        "minecraft:item_model": "aeternum:class_table/items/class_table"
+      }
+    },
+    "description": {
+      "translate": "aeternum.advancement.description.obtain_class_table"
+    },
+    "title": {
+      "translate": "aeternum.advancement.title.obtain_class_table"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "aeternum:main/first_class",
+  "criteria": {
+    "obtain_class_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:item_frame",
+            "components": {
+              "minecraft:item_model": "aeternum:class_table/items/class_table"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "aeternum.item.lore.sword",
+                  "with": [
+                    {
+                      "text": "-1",
+                      "color": "red",
+                      "italic": false
+                    },
+                    {
+                      "text": "6",
+                      "color": "dark_green",
+                      "italic": false
+                    }
+                  ],
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "aeternum.item.name.rogue.dagger",
+                "with": [
+                  "Wooden"
+                ],
+                "italic": false
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "aeternum:general/items/rogue/wooden_dagger"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

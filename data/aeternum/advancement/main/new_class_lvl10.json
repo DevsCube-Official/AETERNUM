@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clock",
+      "components": {
+        "minecraft:item_model": "aeternum:class_table/items/max_class_icon"
+      }
+    },
+    "title": {
+      "translate": "aeternum.advancement.title.new_class_lvl10"
+    },
+    "description": {
+      "translate": "aeternum.advancement.description.new_class_lvl10"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "aeternum:main/all_wheel_slots",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

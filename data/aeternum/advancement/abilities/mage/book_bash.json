@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "attack": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "#taglib:hostile"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "attack"
+    ]
+  ],
+  "rewards": {
+    "function": "aeternum:abilities/mage/2/book_bash_result"
+  }
+}

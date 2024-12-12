@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "player_dies": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "aeternum:energy/reset"
+  }
+}

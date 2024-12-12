@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "eat_beetroot": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:beetroot"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "aeternum:energy/regen/beetroot"
+  }
+}
