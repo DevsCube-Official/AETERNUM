@@ -1,6 +1,0 @@
-{
-  "parent": "aeternum:item/class_table/gui/underlay",
-  "textures": {
-    "texture": "aeternum:item/class_table/gui/menu2"
-  }
-}
