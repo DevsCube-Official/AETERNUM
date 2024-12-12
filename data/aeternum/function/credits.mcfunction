@@ -42,4 +42,5 @@ tellraw @p ["",{"text":"Puppet | ","color":"aqua"},{"text":"Ideas | ","color":"g
 
 tellraw @s ["",{"text":"-------------------------","color":"yellow"}]
 
-
+# Playsound
+execute at @s run playsound minecraft:entity.player.levelup player @s ~ ~ ~

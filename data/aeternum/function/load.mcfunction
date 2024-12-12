@@ -1,5 +1,7 @@
 tellraw @a ["",{"text":"[Aeternum]","color":"gold"},{"text":" Datapack Reloaded! | ","color":"green"},{"translate":"⚠ RESOURCEPACK NOT LOADED!","with":["Resourcepack Loaded!"],"color":"light_purple"}]
-tellraw @a ["",{"text":"[Aeternum] ","color":"gold"},{"text":"Click to see credits!","color":"aqua","clickEvent":{"action":"run_command","value":"/function aeternum:credits"},"hoverEvent":{"action":"show_text","contents":["/function aeternum:credits"]}}]
+tellraw @a ["",{"text":"[Aeternum] ","color":"gold"},{"text":"Click to see credits!","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger aeternum.credits"},"hoverEvent":{"action":"show_text","contents":["/trigger aeternum.credits"]}}]
+
+scoreboard objectives add aeternum.credits trigger
 
 scoreboard objectives add aeternum.ability.current_level dummy
 scoreboard objectives add aeternum.ability_wheel.maximum_slots dummy

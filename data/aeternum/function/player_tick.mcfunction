@@ -20,3 +20,8 @@ function aeternum:ability_wheel/passive_tick/8
 
 # Check for key items
 function aeternum:abilities/key_items
+
+# Credits
+execute as @s[scores={aeternum.credits=1..}] run function aeternum:credits
+scoreboard players reset @s[scores={aeternum.credits=-2147483648..2147483647}] aeternum.credits
+scoreboard players enable @s aeternum.credits
