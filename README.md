@@ -4,6 +4,8 @@
 
 **⚠ Click on a spoiler to see more details!**
 
+**[List of all the abiltiies](https://docs.google.com/spreadsheets/d/1a80ub1OECNhR8d4D7AuQ2IObXjS4uoD7A2lb1Gnsn38/edit?usp=sharing)**
+
 ### Overview:
 <details>
 <summary>Spoiler</summary>
