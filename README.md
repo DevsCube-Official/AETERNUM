@@ -269,7 +269,7 @@ Use `/trigger aeternum.credits` to view credits in-game
 
 </details>
 
-### =====License=========================================================
+### =====License=====================================
 
 Aeternum © 2024 by DevsCube is licensed under [Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/) 
 
