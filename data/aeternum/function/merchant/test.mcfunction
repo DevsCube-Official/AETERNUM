@@ -1,2 +1,2 @@
-execute as @s[type=minecraft:wandering_trader,tag=!aeternum.entity.spawned,tag=!aeternum.entity.trader_dungeon] at @s if predicate {"condition":"minecraft:random_chance","chance":0.2} run function aeternum:merchant/summon
+execute as @s[type=minecraft:wandering_trader,tag=!aeternum.entity.spawned,tag=!aeternum.entity.trader_dungeon] at @s if predicate {"condition":"minecraft:random_chance","chance":0.4} run function aeternum:merchant/summon
 tag @s[type=minecraft:wandering_trader,tag=!aeternum.entity.spawned] add aeternum.entity.spawned
