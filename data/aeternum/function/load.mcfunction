@@ -4,6 +4,8 @@ tellraw @a ["",{"text":"[Aeternum] ","color":"gold"},{"text":"Click to see credi
 scoreboard objectives add aeternum.credits trigger
 scoreboard objectives add aeternum.config trigger
 
+scoreboard objectives add aeternum.config.random dummy
+
 scoreboard objectives add aeternum.global_config dummy
 scoreboard objectives add aeternum.global_config.default dummy
 
@@ -52,6 +54,9 @@ scoreboard objectives add aeternum.player.death_count deathCount
 scoreboard objectives add aeternum.player.hunger dummy
 scoreboard objectives add aeternum.player.health dummy
 scoreboard objectives add aeternum.player.health_check health
+
+scoreboard objectives add aeternum.player.xp.level dummy
+scoreboard objectives add aeternum.player.xp.level.old dummy
 
 scoreboard objectives add aeternum.player.id dummy
 execute unless score #global aeternum.player.id matches -2147483647..2147483647 run scoreboard players set #global aeternum.player.id 1

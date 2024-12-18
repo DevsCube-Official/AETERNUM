@@ -8,3 +8,5 @@ advancement revoke @s only aeternum:energy_capsule/4
 advancement revoke @s only aeternum:energy_capsule/5
 advancement revoke @s only aeternum:energy_capsule/6
 advancement revoke @s only aeternum:energy_capsule/full
+
+function aeternum:leveling/randomizer/root {n:12}

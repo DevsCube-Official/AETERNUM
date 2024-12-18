@@ -56,3 +56,4 @@ function aeternum:leveling/set_values
 
 item replace block ~ ~ ~ container.13 with air
 advancement grant @s only aeternum:main/use_class_stone
+execute if predicate {"condition":"minecraft:random_chance","chance":0.5} run function aeternum:leveling/randomizer/root {n:12}

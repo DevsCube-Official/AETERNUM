@@ -37,3 +37,4 @@ $function $(function)
 
 function pdb:save_me
 item replace block ~ ~ ~ container.13 with air
+execute if predicate {"condition":"minecraft:random_chance","chance":0.5} run function aeternum:leveling/randomizer/root {n:12}

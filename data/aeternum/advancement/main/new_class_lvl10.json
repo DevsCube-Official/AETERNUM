@@ -21,5 +21,8 @@
     "": {
       "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "function": "aeternum:leveling/randomizer/main"
   }
 }
