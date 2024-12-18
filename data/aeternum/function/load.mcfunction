@@ -2,6 +2,12 @@ tellraw @a ["",{"text":"[Aeternum]","color":"gold"},{"text":" Datapack Reloaded!
 tellraw @a ["",{"text":"[Aeternum] ","color":"gold"},{"text":"Click to see credits!","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger aeternum.credits"},"hoverEvent":{"action":"show_text","contents":["/trigger aeternum.credits"]}}]
 
 scoreboard objectives add aeternum.credits trigger
+scoreboard objectives add aeternum.config trigger
+
+scoreboard objectives add aeternum.global_config dummy
+scoreboard objectives add aeternum.global_config.default dummy
+
+function aeternum:config/config_default
 
 scoreboard objectives add aeternum.ability.current_level dummy
 scoreboard objectives add aeternum.ability_wheel.maximum_slots dummy
