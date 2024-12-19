@@ -32,7 +32,6 @@ execute if data storage pdb:main in.Aeternum.stats.wheel.abilities_alt_v2[{abili
 execute if data storage pdb:main in.Aeternum.stats.wheel.abilities_alt_v2[{ability:"Soft Paws II"}] run scoreboard players set @s aeternum.ability_wheel.passive_id.8 24
 execute if data storage pdb:main in.Aeternum.stats.wheel.abilities_alt_v2[{ability:"Dexterous I"}] run scoreboard players set @s aeternum.ability_wheel.passive_id.8 25
 execute if data storage pdb:main in.Aeternum.stats.wheel.abilities_alt_v2[{ability:"Dexterous II"}] run scoreboard players set @s aeternum.ability_wheel.passive_id.8 26
-execute if data storage pdb:main in.Aeternum.stats.wheel.abilities_alt_v2[{ability:"Elusive"}] run scoreboard players set @s aeternum.ability_wheel.passive_id.8 27
 execute if data storage pdb:main in.Aeternum.stats.wheel.abilities_alt_v2[{ability:"Charming"}] run scoreboard players set @s aeternum.ability_wheel.passive_id.8 28
 execute if data storage pdb:main in.Aeternum.stats.wheel.abilities_alt_v2[{ability:"Sneak III"}] run scoreboard players set @s aeternum.ability_wheel.passive_id.8 29
 execute if data storage pdb:main in.Aeternum.stats.wheel.abilities_alt_v2[{ability:"One Lucky God"}] run scoreboard players set @s aeternum.ability_wheel.passive_id.8 30

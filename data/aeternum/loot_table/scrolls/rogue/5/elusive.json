@@ -29,7 +29,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{aeternum-scroll_data:{\"function\":\"aeternum:abilities/rogue/5/elusive\",\"ability\":\"Elusive\",\"class_id\":\"rogue\",\"level\":5,\"ability_detailed\":{incom_class:[], incom_ability:[], level:5, type:Passive, en_req:5, ability:\"Elusive\", class_id:rogue, item_model:\"aeternum:class_table/items/class-chooser/rogue\"}}}"
+              "tag": "{aeternum-scroll_data:{\"function\":\"aeternum:abilities/rogue/5/elusive\",\"ability\":\"Elusive\",\"class_id\":\"rogue\",\"level\":5,\"ability_detailed\":{incom_class:[], incom_ability:[], level:5, type:Activated, en_req:5, ability:\"Elusive\", class_id:rogue, item_model:\"aeternum:class_table/items/class-chooser/rogue\"}}}"
             }
           ]
         }

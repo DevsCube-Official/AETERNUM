@@ -26,9 +26,12 @@ execute as @s[scores={aeternum.credits=1..}] run function aeternum:credits
 scoreboard players reset @s[scores={aeternum.credits=-2147483648..2147483647}] aeternum.credits
 scoreboard players enable @s aeternum.credits
 
+# Config
+execute as @s[scores={aeternum.config=1..}] run function aeternum:config
+scoreboard players reset @s[scores={aeternum.config=-2147483648..2147483647}] aeternum.config
+scoreboard players enable @s aeternum.config
+
 # Store XP level
 execute store result score @s aeternum.player.xp.level run data get entity @s XpLevel
-
 execute if score @s aeternum.player.xp.level > @s aeternum.player.xp.level.old run function aeternum:leveling/randomizer/root {n:10}
-
 execute store result score @s aeternum.player.xp.level.old run data get entity @s XpLevel
