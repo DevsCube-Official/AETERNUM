@@ -6,6 +6,23 @@
 
 **[List of all the abiltiies](https://docs.google.com/spreadsheets/d/1a80ub1OECNhR8d4D7AuQ2IObXjS4uoD7A2lb1Gnsn38/edit?usp=sharing)**
 
+### Commands
+<details>
+<summary>Spoiler</summary>
+
+- `/trigger aeternum.credits` - View credits
+- `/trigger aeternum.config` - View config
+
+</details>
+
+### Config
+
+<details>
+<summary>Spoiler</summary>
+
+![Config in game](https://cdn.modrinth.com/data/cached_images/fc152cb00666ad12661083d7c708a764f3cf149f.png)
+</details>
+
 ### Overview:
 <details>
 <summary>Spoiler</summary>
@@ -76,6 +93,11 @@ After doing so, you will able to choose another class.
 Use `/function aeternum:merchant/summon` to summon a merchant
 
 The merchant has a rare chance to spawn in place of a wandering trader. The merchant will sell class scrolls, and **class stones** (upcoming™).
+
+A merchant has a 60% chance to replace the spawn of a wandering trader. This can be changed using the config.
+
+By default, merchants will glow and make a sound to players within 30 blocks of it when spawning.
+Optionally, it is possible to make them display a message when spawned using the config.
 
 ![Merchant in the wild](https://cdn.modrinth.com/data/cached_images/df7a5032b3eba739ad276e9c04cb1d4e0d94a80c.png)
 
@@ -159,6 +181,7 @@ The energy system works as a system to make sure you can't use too many abilitie
 - Passive abilities and Key abilities do not use EN.
 - Your current amount of EN displayed when you hold the ability wheel.
 - A different icon will show depending on your current class. (Have fun seeing them in survival - or by ripping them from the resourcepack!)
+- **Eating Beetroot will generate 2 mana.** This can be disabled in the config.
 
 ![Archer's icons](https://cdn.modrinth.com/data/cached_images/7b0e863384a2393e29eb15dc0ad89d3003fd185a.png)
  This is just an example lol
@@ -209,6 +232,15 @@ But for now, here are all the ways to level up a class:
 - Rogue - Use potions of invisibility
 - Miner - Use pickaxes (change durability of pickaxes)
 - Enchanter - Enchant Items
+
+As of v0.1.3, new methods to level up have been introduced.
+- Eating beetroot (Can be changed using the config.)
+- Learning an ability
+- Using a class stone
+- USING an ability
+- Using an energy capsule
+- Obtaining an advancement from the aeternum advancements 
+- XP level up
 
 </details>
 
@@ -269,7 +301,7 @@ Use `/trigger aeternum.credits` to view credits in-game
 
 </details>
 
-### =====License=====================================
+### =====License=========================================================
 
 Aeternum © 2024 by DevsCube is licensed under [Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/) 
 
