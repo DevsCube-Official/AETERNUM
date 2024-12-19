@@ -1,5 +1,5 @@
 # Merchant Rarity
-scoreboard players set .merchant.rarity aeternum.global_config.default 4
+scoreboard players set .merchant.rarity aeternum.global_config.default 6
 execute unless score .merchant.rarity aeternum.global_config matches -2147483647..2147483647 run scoreboard players operation .merchant.rarity aeternum.global_config = .merchant.rarity aeternum.global_config.default
 
 # Merchant Glow
