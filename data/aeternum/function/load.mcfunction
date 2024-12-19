@@ -15,6 +15,7 @@ scoreboard objectives add aeternum.ability.current_level dummy
 scoreboard objectives add aeternum.ability_wheel.maximum_slots dummy
 scoreboard objectives add aeternum.ability_wheel.selected_slot dummy
 scoreboard objectives add aeternum.ability_wheel.en_req dummy
+scoreboard objectives add aeternum.ability_wheel.deny dummy
 
 scoreboard objectives add aeternum.ability_wheel.passive_id.1 dummy
 scoreboard objectives add aeternum.ability_wheel.passive_id.2 dummy

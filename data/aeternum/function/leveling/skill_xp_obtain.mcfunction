@@ -116,3 +116,5 @@ advancement revoke @s only aeternum:levelup
 # Advancements and Tags
 function aeternum:leveling/set_values
 function aeternum:leveling/all_classes
+
+tag @s remove aeternum.player.level.10
