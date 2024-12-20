@@ -37,8 +37,11 @@ tellraw @p ["",{"text":"Eggy112 | ","color":"aqua"},{"text":"Programmer | ","col
 tellraw @p ["",{"text":"MasterWoodie | ","color":"aqua"},{"text":"Programmer | ","color":"light_purple"},{"text":"Planetminecraft","color":"red","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/member/masterwoodie/"},"hoverEvent":{"action":"show_text","contents":["https://www.planetminecraft.com/member/masterwoodie/"]}}]
 tellraw @p ["",{"text":"Lunar Wanderer | ","color":"aqua"},{"text":"Programmer | ","color":"light_purple"},{"text":"LINK UNAVAILABLE","color":"red"}]
 
+tellraw @s ["",{"text":"-------------------------","color":"yellow"}]
+
 # Ideas only
 tellraw @p ["",{"text":"Puppet | ","color":"aqua"},{"text":"Ideas | ","color":"green"},{"text":"LINK UNAVAILABLE","color":"red"}]
+tellraw @p ["",{"text":"KittenIsLive | ","color":"aqua"},{"text":"Bug Reporting | ","color":"green"},{"text":"LINK UNAVAILABLE","color":"red"}]
 
 tellraw @s ["",{"text":"-------------------------","color":"yellow"}]
 

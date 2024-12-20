@@ -30,6 +30,7 @@ scoreboard players reset @s aeternum.ability_wheel.passive_id.8
 scoreboard players reset @s aeternum.player.id
 scoreboard players operation @s aeternum.player.id = #global aeternum.player.id
 scoreboard players add #global aeternum.player.id 1
+scoreboard players reset @s aeternum.player.quest_id
 
 function pdb:save_me
 
@@ -38,6 +39,8 @@ advancement grant @s only aeternum:final_levelup/root
 advancement grant @s only aeternum:main/root
 advancement revoke @s through aeternum:final_levelup/root
 advancement revoke @s through aeternum:main/root
+advancement revoke @s through aeternum:quests/root
+advancement revoke @s through aeternum:quests_start/root
 
 # Load energy system
 function aeternum:energy/load

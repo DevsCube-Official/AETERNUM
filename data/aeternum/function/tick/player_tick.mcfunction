@@ -35,3 +35,4 @@ scoreboard players enable @s aeternum.config
 execute store result score @s aeternum.player.xp.level run data get entity @s XpLevel
 execute if score @s aeternum.player.xp.level > @s aeternum.player.xp.level.old run function aeternum:leveling/randomizer/root {n:10}
 execute store result score @s aeternum.player.xp.level.old run data get entity @s XpLevel
+

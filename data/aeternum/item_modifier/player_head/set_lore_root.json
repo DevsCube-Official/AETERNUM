@@ -18,6 +18,23 @@
         "color": "light_purple",
         "italic": false
       }
+    ],
+    [
+      {
+        "translate": "aeternum.gui.name.player_head.stats.lore.3",
+        "with": [
+          {
+            "score": {
+              "objective": "aeternum.player.level.small",
+              "name": "@s"
+            },
+            "color": "green",
+            "italic": false
+          }
+        ],
+        "color": "light_purple",
+        "italic": false
+      }
     ]
   ],
   "mode": "append",

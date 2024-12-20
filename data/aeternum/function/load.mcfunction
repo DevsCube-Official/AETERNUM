@@ -30,6 +30,8 @@ scoreboard objectives add aeternum.player.level dummy
 scoreboard objectives add aeternum.player.level.small dummy
 
 scoreboard objectives add aeternum.merchant.hurt_time dummy
+scoreboard objectives add aeternum.merchant.noAI dummy
+scoreboard objectives add aeternum.merchant.random dummy
 
 scoreboard objectives add aeternum.gamerule.spawn_chunk_radius dummy
 scoreboard objectives add aeternum.world.difficulty dummy
@@ -60,6 +62,8 @@ scoreboard objectives add aeternum.player.xp.level dummy
 scoreboard objectives add aeternum.player.xp.level.old dummy
 
 scoreboard objectives add aeternum.player.id dummy
+scoreboard objectives add aeternum.player.quest_id dummy
+
 execute unless score #global aeternum.player.id matches -2147483647..2147483647 run scoreboard players set #global aeternum.player.id 1
 
 schedule function aeternum:abilities/cooldowns 1t replace

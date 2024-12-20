@@ -1,0 +1,43 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:clock",
+            "components": {
+                "minecraft:item_model": "aeternum:class_table/quest/rogue"
+            }
+        },
+        "title": {
+            "translate": "aeternum.quests.start.name",
+            "with": [
+                "Rogue"
+            ],
+            "italic": false
+        },
+        "description": {
+            "translate": "aeternum.quests.start.rogue_3",
+            "italic": false
+        },
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "parent": "aeternum:quests/rogue/rogue_2",
+    "criteria": {
+        "start": {
+            "trigger": "minecraft:impossible"
+        },
+        "end": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "start"
+        ],
+        [
+            "end"
+        ]
+    ],
+    "rewards": {
+        "function": "aeternum:quests/reward"
+    }
+}

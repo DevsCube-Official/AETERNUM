@@ -18,3 +18,5 @@ data modify storage pdb:main in.Aeternum.class_data.stats.all_abilities set valu
 data modify storage pdb:main in.Aeternum.class_data.stats.all_abilities_detailed set value []
 
 data modify storage pdb:main in.Aeternum.class_data.stats.all_classes set value []
+
+data modify storage pdb:main in.Aeternum.quests set value []
