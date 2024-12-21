@@ -3,3 +3,5 @@ execute unless entity @n[type=#taglib:undead,distance=0.01..10] run return run f
 
 execute as @n[type=#taglib:undead,distance=0.01..10] run effect give @s minecraft:instant_health 1
 playsound minecraft:block.amethyst_block.resonate player @a ~ ~ ~
+
+advancement grant @s only aeternum:quest_data/healer/healer_4

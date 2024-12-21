@@ -8,3 +8,5 @@ playsound minecraft:block.enchantment_table.use player @a ~ ~ ~
 tellraw @s {"translate":"aeternum.abilities.mage.rocket_step.jump"}
 
 scoreboard players set @s aeternum.abilities.mage.4.rocket_step.cool 30
+advancement grant @s only aeternum:quest_data/mage/mage_1
+advancement grant @s only aeternum:quest_data/mage/mage_2

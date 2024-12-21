@@ -5,3 +5,5 @@ execute unless entity @e[type=#taglib:hostile,distance=..5] unless entity @a[dis
 scoreboard players set @s aeternum.abilities.mage.7.shockwave.cool 120
 execute as @a[distance=0.01..5] at @s run summon creeper ~ ~ ~ {ExplosionRadius:-1b,Fuse:1s,ignited:true,Silent:1b,Invulnerable:1b,NoAI:1b}
 execute as @e[type=#taglib:hostile,distance=..5] at @s run summon creeper ~ ~ ~ {ExplosionRadius:-1b,Fuse:1s,ignited:true,Silent:1b,Invulnerable:1b,NoAI:1b}
+advancement grant @s only aeternum:quest_data/mage/mage_1
+advancement grant @s only aeternum:quest_data/mage/mage_2

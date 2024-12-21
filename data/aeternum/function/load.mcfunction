@@ -72,6 +72,7 @@ schedule function aeternum:abilities/cooldowns 1t replace
 schedule function aeternum:abilities/cooldowns_15s 1t replace
 
 function aeternum:abilities/load
+function aeternum:quests/load
 
 execute as @a unless score @s aeternum.player.health_check matches -2147483648..2147483647 run damage @s 1
 

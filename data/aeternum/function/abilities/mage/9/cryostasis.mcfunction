@@ -13,3 +13,5 @@ attribute @s minecraft:movement_speed modifier add aeternum:abilities.mage.cryos
 attribute @s minecraft:jump_strength modifier add aeternum:abilities.mage.cryostasis -1000000000 add_value
 effect give @s weakness 15 255 true
 effect give @s resistance 15 255 true
+advancement grant @s only aeternum:quest_data/mage/mage_1
+advancement grant @s only aeternum:quest_data/mage/mage_2

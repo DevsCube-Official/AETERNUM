@@ -4,3 +4,5 @@ execute at @s if block ~ ~-1 ~ #aeternum:pass_through run return run function ae
 
 scoreboard players set @s aeternum.abilities.mage.8.curse_ground.cool 30
 summon minecraft:dragon_fireball ~ ~ ~ {Motion:[0.0,-1.0,0.0]}
+advancement grant @s only aeternum:quest_data/mage/mage_1
+advancement grant @s only aeternum:quest_data/mage/mage_2

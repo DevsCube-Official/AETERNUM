@@ -5,3 +5,5 @@ scoreboard players set @s aeternum.abilities.mage.4.fire_ball.cool 30
 summon minecraft:fireball ^ ^0.8 ^2
 summon minecraft:fireball ^ ^0.8 ^2
 playsound minecraft:entity.blaze.shoot player @s ~ ~ ~
+advancement grant @s only aeternum:quest_data/mage/mage_1
+advancement grant @s only aeternum:quest_data/mage/mage_2

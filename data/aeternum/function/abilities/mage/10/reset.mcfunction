@@ -4,3 +4,5 @@ execute if score @s aeternum.abilities.mage.10.reset.cool matches 1.. run return
 scoreboard players set @s aeternum.abilities.mage.10.reset.cool 1200
 scoreboard players set @s aeternum.energy.bar_type.base 20
 playsound minecraft:item.mace.smash_ground player @s ~ ~ ~
+advancement grant @s only aeternum:quest_data/mage/mage_1
+advancement grant @s only aeternum:quest_data/mage/mage_2

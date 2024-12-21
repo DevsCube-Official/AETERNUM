@@ -6,3 +6,5 @@ scoreboard players set @s aeternum.abilities.mage.8.up_and_away.cool 60
 effect give @a[distance=0.01..6] minecraft:levitation 5
 effect give @e[type=#taglib:hostile,distance=0.01..6] minecraft:levitation 5
 playsound minecraft:entity.shulker.shoot player @a ~ ~ ~
+advancement grant @s only aeternum:quest_data/mage/mage_1
+advancement grant @s only aeternum:quest_data/mage/mage_2

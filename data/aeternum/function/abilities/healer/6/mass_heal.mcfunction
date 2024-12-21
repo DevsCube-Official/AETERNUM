@@ -5,3 +5,5 @@ execute as @a[distance=0.01..5] run tellraw @s {"translate":"aeternum.abilities.
 playsound minecraft:entity.husk.converted_to_zombie player @a ~ ~ ~
 
 effect give @a[distance=0.01..5] regeneration 60 2
+
+advancement grant @s only aeternum:quest_data/healer/healer_3

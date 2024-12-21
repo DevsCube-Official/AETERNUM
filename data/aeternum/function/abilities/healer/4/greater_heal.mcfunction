@@ -4,3 +4,5 @@ execute unless entity @a[distance=0.01..7] run return run function aeternum:abil
 effect give @a[distance=0.01..7] instant_health 1 1
 execute as @a[distance=0.01..7] run tellraw @s {"translate":"aeternum.abilities.healer.heal.message"}
 playsound minecraft:entity.husk.converted_to_zombie player @a ~ ~ ~
+
+advancement grant @s only aeternum:quest_data/healer/healer_3

@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "used_totem": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:totem_of_undying"
+                }
+            },
+            "trigger": "minecraft:used_totem"
+        }
+    },
+    "requirements": [
+        [
+            "used_totem"
+        ]
+    ],
+    "rewards": {
+        "function": "aeternum:quests/data/healer/healer_2"
+    }
+}

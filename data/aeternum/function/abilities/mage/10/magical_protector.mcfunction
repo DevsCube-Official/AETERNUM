@@ -3,3 +3,5 @@ execute if score @s aeternum.abilities.mage.10.magical_protector.cool matches 1.
 
 scoreboard players set @s aeternum.abilities.mage.10.magical_protector.cool 30
 attribute @s minecraft:armor modifier add aeternum:abilities.mage.magical_protector 2 add_multiplied_total
+advancement grant @s only aeternum:quest_data/mage/mage_1
+advancement grant @s only aeternum:quest_data/mage/mage_2

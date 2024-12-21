@@ -8,3 +8,5 @@ execute at @s align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ #aeternum:pass_
 execute at @s align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ #aeternum:pass_through run scoreboard players set @n[tag=aeternum.abilities.mage.1.lumos.marker] aeternum.abilities.mage.1.lumos.cool 15
 execute at @s align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ #aeternum:pass_through run setblock ~ ~ ~ light[level=8]
 playsound minecraft:entity.illusioner.prepare_mirror block @a ~ ~ ~
+advancement grant @s only aeternum:quest_data/mage/mage_1
+advancement grant @s only aeternum:quest_data/mage/mage_2

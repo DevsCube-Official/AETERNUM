@@ -3,3 +3,5 @@ execute unless entity @e[type=#taglib:hostile,distance=..7] run return run funct
 
 playsound minecraft:block.amethyst_block.resonate player @a ~ ~ ~
 scoreboard players add @e[type=#taglib:hostile,distance=..7] aeternum.abilities.healer.10.mass_requiem.pulses 3
+
+advancement grant @s only aeternum:quest_data/healer/healer_4

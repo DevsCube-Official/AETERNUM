@@ -3,3 +3,6 @@ execute if block ~ ~ ~ minecraft:barrel[facing=up,open=true]{CustomName:'{"text"
 tag @s add aeternum.healer.10.sacrifice.temp
 execute at @s anchored eyes positioned ^ ^ ^.1 run function aeternum:abilities/healer/raycast/start
 playsound minecraft:entity.evoker.cast_spell player @a ~ ~ ~
+
+advancement grant @s only aeternum:quest_data/healer/healer_3
+advancement grant @s only aeternum:quest_data/healer/healer_4

@@ -6,3 +6,5 @@ scoreboard players set @s aeternum.abilities.mage.9.mass_recall.cool 2
 execute unless entity @s[tag=aeternum.abilities.mage.recall_marker] run return run function aeternum:abilities/mage/recall_marker
 
 execute as @s[tag=aeternum.abilities.mage.recall_marker] at @s as @e[type=interaction,tag=aeternum.abilities.mage.recall_marker] if score @s aeternum.player.id = @p aeternum.player.id run function aeternum:abilities/mage/recall_success {a:"@a[distance=..5]"}
+advancement grant @s only aeternum:quest_data/mage/mage_1
+advancement grant @s only aeternum:quest_data/mage/mage_2

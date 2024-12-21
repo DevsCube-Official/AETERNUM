@@ -8,3 +8,4 @@ damage @s 6
 playsound entity.evoker.cast_spell player @a ~ ~ ~
 
 scoreboard players set @s aeternum.abilities.swordsman.9.blood_price.cool 60
+advancement grant @s only aeternum:quest_data/swordsman/swordsman_4

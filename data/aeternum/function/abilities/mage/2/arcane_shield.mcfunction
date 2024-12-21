@@ -4,3 +4,5 @@ execute at @s if block ~ ~-1 ~ #aeternum:pass_through run return run function ae
 
 scoreboard players set @s aeternum.abilities.mage.2.arcane_shield.range 5
 execute positioned ^ ^ ^2 rotated ~ 0 run function aeternum:abilities/mage/2/shield_tick
+advancement grant @s only aeternum:quest_data/mage/mage_1
+advancement grant @s only aeternum:quest_data/mage/mage_2

@@ -6,3 +6,5 @@ scoreboard players set @s aeternum.abilities.mage.7.chainblinder.cool 60
 playsound minecraft:block.chain.place block @a ~ ~ ~
 effect give @a[distance=0.01..6] minecraft:blindness 15
 effect give @e[type=#taglib:hostile,distance=0.01..6] minecraft:slowness 7 255 true
+advancement grant @s only aeternum:quest_data/mage/mage_1
+advancement grant @s only aeternum:quest_data/mage/mage_2

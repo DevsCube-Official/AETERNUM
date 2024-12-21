@@ -10,3 +10,5 @@ execute align xyz positioned ~0.5 ~ ~0.5 run scoreboard players operation @n[typ
 playsound entity.evoker.prepare_attack block @a ~ ~ ~
 tag @s add aeternum.abilities.mage.astral_marker
 gamemode spectator
+advancement grant @s only aeternum:quest_data/mage/mage_1
+advancement grant @s only aeternum:quest_data/mage/mage_2

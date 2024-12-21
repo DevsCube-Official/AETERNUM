@@ -4,3 +4,5 @@ execute unless entity @e[type=#taglib:hostile,distance=..6] run return run funct
 
 scoreboard players set @s aeternum.abilities.mage.3.shiver.cool 40
 scoreboard players set @e[type=#taglib:hostile,distance=..6] aeternum.abilities.mage.3.shiver.cool 8
+advancement grant @s only aeternum:quest_data/mage/mage_1
+advancement grant @s only aeternum:quest_data/mage/mage_2

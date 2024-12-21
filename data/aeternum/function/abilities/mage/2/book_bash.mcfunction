@@ -11,3 +11,6 @@ clear @s book 5
 tag @s add aeternum.abilities.mage.book_bash.charged
 playsound minecraft:block.enchantment_table.use player @a ~ ~ ~
 tellraw @s {"translate":"aeternum.abilities.mage.book_bash.charged"}
+advancement grant @s only aeternum:quest_data/mage/mage_5
+advancement grant @s only aeternum:quest_data/mage/mage_1
+advancement grant @s only aeternum:quest_data/mage/mage_2

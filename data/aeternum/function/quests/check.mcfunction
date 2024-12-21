@@ -25,3 +25,4 @@ $scoreboard players set @s aeternum.player.quest_id $(num)
 $data modify storage pdb:main in.Aeternum.quests append value "$(id)"
 
 function pdb:save_me
+function aeternum:quests/reset

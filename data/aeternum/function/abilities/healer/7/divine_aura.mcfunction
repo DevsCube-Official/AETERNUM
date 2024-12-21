@@ -3,3 +3,5 @@ execute if block ~ ~ ~ minecraft:barrel[facing=up,open=true]{CustomName:'{"text"
 
 # playsound minecraft:block.amethyst_block.resonate player @a ~ ~ ~
 effect give @e[type=#taglib:undead,distance=0.01..5] wither 1 0
+
+advancement grant @s only aeternum:quest_data/healer/healer_4

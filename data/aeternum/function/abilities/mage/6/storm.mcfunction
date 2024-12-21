@@ -2,5 +2,10 @@ execute if block ~ ~ ~ minecraft:barrel[facing=up,open=true]{CustomName:'{"text"
 execute if score @s aeternum.abilities.mage.6.storm.cool matches 1.. run return run function aeternum:abilities/deny {en:6}
 
 scoreboard players set @s aeternum.abilities.mage.6.storm.cool 3600
-execute if predicate {condition:"minecraft:random_chance",chance:{type:"minecraft:constant",value:0.1}} run weather thunder
+execute if predicate {condition:"minecraft:random_chance",chance:{type:"minecraft:constant",value:0.9}} run return fail
+
 playsound minecraft:item.trident.return player @a ~ ~ ~
+weather thunder
+advancement grant @s only aeternum:quest_data/mage/mage_4
+advancement grant @s only aeternum:quest_data/mage/mage_1
+advancement grant @s only aeternum:quest_data/mage/mage_2

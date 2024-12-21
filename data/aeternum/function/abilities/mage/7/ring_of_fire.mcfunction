@@ -6,3 +6,5 @@ execute align xyz run summon item_display ~ ~ ~ {item_display:"fixed",Tags:["aet
 execute align xyz run scoreboard players set @n[tag=aeternum.abilities.mage.7.ring_of_fire.marker] aeternum.abilities.mage.7.ring_of_fire.cool 21
 playsound minecraft:entity.evoker.prepare_summon player @a ~ ~ ~
 effect give @s fire_resistance 30 0 true
+advancement grant @s only aeternum:quest_data/mage/mage_1
+advancement grant @s only aeternum:quest_data/mage/mage_2

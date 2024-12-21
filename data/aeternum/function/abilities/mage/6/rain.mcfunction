@@ -4,3 +4,5 @@ execute if score @s aeternum.abilities.mage.6.rain.cool matches 1.. run return r
 scoreboard players set @s aeternum.abilities.mage.6.rain.cool 3600
 execute if predicate {condition:"minecraft:random_chance",chance:{type:"minecraft:constant",value:0.5}} run weather rain
 playsound minecraft:item.trident.return player @a ~ ~ ~
+advancement grant @s only aeternum:quest_data/mage/mage_1
+advancement grant @s only aeternum:quest_data/mage/mage_2

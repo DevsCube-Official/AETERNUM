@@ -4,3 +4,5 @@ execute if score @s aeternum.abilities.mage.9.light_step.cool matches 1.. run re
 scoreboard players set @s aeternum.abilities.mage.9.light_step.cool 30
 effect give @s slow_falling 120
 playsound minecraft:entity.armadillo.unroll_finish player @s ~ ~ ~
+advancement grant @s only aeternum:quest_data/mage/mage_1
+advancement grant @s only aeternum:quest_data/mage/mage_2

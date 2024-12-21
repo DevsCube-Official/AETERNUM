@@ -10,3 +10,5 @@ effect give @s minecraft:resistance 50 1 false
 effect give @s minecraft:resistance 52 0 false
 
 playsound minecraft:entity.allay.item_thrown player @s ~ ~ ~
+advancement grant @s only aeternum:quest_data/mage/mage_1
+advancement grant @s only aeternum:quest_data/mage/mage_2
