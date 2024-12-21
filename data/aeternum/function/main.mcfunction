@@ -14,3 +14,7 @@ execute as @e[type=arrow] run function aeternum:tick/arrow_tick_main
 
 execute as @a run function aeternum:tick/player_tick
 function aeternum:abilities/tick
+
+scoreboard players remove #global aeternum.merchant.timer 1
+execute if score #global aeternum.merchant.timer matches 0 run function aeternum:merchant/marker/spawn_summon
+execute if score #global aeternum.merchant.timer matches 0 run scoreboard players remove #global aeternum.merchant.timer 24000

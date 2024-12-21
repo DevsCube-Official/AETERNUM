@@ -1,6 +1,6 @@
 
-execute at @s if score .merchant.alert.sound aeternum.global_config matches 1 as @a[distance=..30] run playsound minecraft:entity.wandering_trader.reappeared player @s ~ ~ ~
-execute at @s if score .merchant.alert.chat aeternum.global_config matches 1 as @a[distance=..30] run tellraw @s {"translate": "aeternum.merchant.spawn"}
+execute at @s if score .merchant.alert.sound aeternum.global_config matches 1 as @a[distance=..50] run playsound minecraft:entity.wandering_trader.reappeared player @s ~ ~ ~
+execute at @s if score .merchant.alert.chat aeternum.global_config matches 1 as @a[distance=..50] run tellraw @s {"translate": "aeternum.merchant.spawn"}
 
 summon wandering_trader ~ ~ ~ {NoAI:1b,DespawnDelay:48000,DeathLootTable:"minecraft:empty",DeathTime:200s,ArmorDropChances:[-10000.0f,-10000.0f,-10000.0f,-10000.0f],HandDropChances:[-10000.0f,-10000.0f],Silent:1b,CustomNameVisible:1b,CanPickUpLoot:0b,Tags:["aeternum.entity.trader_dungeon"],CustomName:'{"color":"#FF8000","italic":false,"text":"Dungeon Merchant"}'}
 

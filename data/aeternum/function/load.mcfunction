@@ -32,6 +32,8 @@ scoreboard objectives add aeternum.player.level.small dummy
 scoreboard objectives add aeternum.merchant.hurt_time dummy
 scoreboard objectives add aeternum.merchant.noAI dummy
 scoreboard objectives add aeternum.merchant.random dummy
+scoreboard objectives add aeternum.merchant.timer dummy
+scoreboard players set #global aeternum.merchant.timer 24000
 
 scoreboard objectives add aeternum.gamerule.spawn_chunk_radius dummy
 scoreboard objectives add aeternum.world.difficulty dummy
