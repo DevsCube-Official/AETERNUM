@@ -92,7 +92,7 @@ After doing so, you will able to choose another class.
 
 Use `/function aeternum:merchant/summon` to summon a merchant
 
-The merchant has a rare chance to spawn in place of a wandering trader. The merchant will sell class scrolls, and **class stones** (upcoming™).
+The merchant will sell class scrolls, and **class stones** (upcoming™).
 
 A merchant has a 60% chance to replace the spawn of a wandering trader. This can be changed using the config.
 
@@ -243,6 +243,24 @@ As of v0.1.3, new methods to level up have been introduced.
 - XP level up
 
 </details>
+
+### Quests and Quest Merchants
+
+<details>
+<summary>Spoiler</summary>
+
+`/function aeternum:merchant/quest/summon` to summon a quest merchant
+
+Quest merchants will offer you different quests, when you interact with them. There are 5 quests for each class. You can only complete a specific quest if your **current** class is the required class. For each quest completed you are also given an advancement.
+
+![Interacting with a quest merchant](https://cdn.modrinth.com/data/cached_images/29bda9ed7b2727cec5b61367f3bcab1d3f695ee1.png)
+
+![Some quests in aeternum](https://cdn.modrinth.com/data/cached_images/e3d8bb3047c76687d630f40ed73cb24fa7e4e540.png)
+
+when you complete a quest, you are given **30 level points.**
+
+</details>
+
 
 ### Advancements
 
