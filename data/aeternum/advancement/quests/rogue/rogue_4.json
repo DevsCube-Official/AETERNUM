@@ -3,7 +3,7 @@
         "icon": {
             "id": "minecraft:clock",
             "components": {
-                "minecraft:item_model": "aeternum:class_table/quest/rogue"
+                "minecraft:item_model": "aeternum:quest/rogue"
             }
         },
         "title": {
