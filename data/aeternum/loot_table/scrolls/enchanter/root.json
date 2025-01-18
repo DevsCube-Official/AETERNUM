@@ -1,0 +1,117 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/enchanter/1/xp_nova"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/enchanter/2/books_flying"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/enchanter/2/xp_storage"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/enchanter/3/paginated_shield"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/enchanter/3/xp_drain"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/enchanter/4/spellbinding_aura"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/enchanter/4/enchanted_weaponry"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/enchanter/5/experienced_teleportation"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/enchanter/5/mana_surge"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/enchanter/5/xp_infusion"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/enchanter/6/arcane_mastery"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/enchanter/6/homing_tome"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/enchanter/6/knowledge_barrier"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/enchanter/7/empowered_xp_nova"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/enchanter/7/essence_extraction"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/enchanter/7/overload"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/enchanter/8/arcane_beam"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/enchanter/8/runic_trap"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/enchanter/8/scroll_of_empowerment"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/enchanter/9/ethereal_form"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/enchanter/9/magic_warding"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/enchanter/9/reality_warp"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/enchanter/9/xp_bomb"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/enchanter/10/ancient_librarian"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/enchanter/10/arcane_overdrive"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/enchanter/10/quill"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/enchanter/10/shattered_pages"
+        }
+      ]
+    }
+  ]
+}
