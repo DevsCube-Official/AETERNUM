@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "aeternum:class_table/items/class_scroll"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 1
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": {
+                "translate": "aeternum.item.name.class_scroll"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{aeternum-scroll_data:{\"function\":\"aeternum:abilities/smith/1/heat_resistance_1\",\"ability\":\"Heat Resistance I\",\"class_id\":\"smith\",\"level\":1,\"ability_detailed\":{incom_class:[], incom_ability:[], level:1, type:Activated, en_req:1, ability:\"Heat Resistance I\", class_id:smith, item_model:\"aeternum:class_table/items/class-chooser/smith\"}}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

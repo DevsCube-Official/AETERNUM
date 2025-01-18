@@ -1,0 +1,117 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/temp/1/2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/temp/2/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/temp/2/2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/temp/3/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/temp/3/2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/temp/4/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/temp/4/2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/temp/5/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/temp/5/2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/temp/5/3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/temp/6/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/temp/6/2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/temp/6/3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/temp/7/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/temp/7/2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/temp/7/3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/temp/8/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/temp/8/2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/temp/8/3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/temp/9/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/temp/9/2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/temp/9/3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/temp/9/4"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/temp/10/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/temp/10/2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/temp/10/3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/temp/10/4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/smith/1/heat_resistance_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/smith/2/weapon_power_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/smith/2/armor_fortification_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/smith/3/heat_resistance_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/smith/3/hammer_slam_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/smith/4/hammer_slam_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/smith/4/weapon_power_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/smith/5/heavy_armor"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/smith/5/reinforced_strikes_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/smith/5/metal_skin_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/smith/6/iron_wall_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/smith/6/hammer_slam_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/smith/6/heat_resistance_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/smith/7/reinforced_strikes_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/smith/7/armor_fortification_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/smith/7/iron_wall_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/smith/8/weapon_power_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/smith/8/metal_skin_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/smith/8/weapon_sharpening"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/smith/9/iron_wall_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/smith/9/reinforced_strikes_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/smith/9/metal_skin_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/smith/9/warriors_endurance_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/smith/10/unstoppable_force"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/smith/10/armor_fortification_4"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/smith/10/warriors_endurance_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/smith/10/shield_reinforcement"
+        }
+      ]
+    }
+  ]
+}

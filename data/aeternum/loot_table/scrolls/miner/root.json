@@ -1,0 +1,117 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/miner/1/hard_work_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/miner/2/rock_armor_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/miner/2/robust_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/miner/3/adeptness"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/miner/3/energize"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/miner/4/shrink"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/miner/4/hard_work_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/miner/5/trained_eye_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/miner/5/robust_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/miner/5/miners_strength"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/miner/6/hurl_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/miner/6/rocky_protection_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/miner/6/trained_eye_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/miner/7/hard_work_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/miner/7/rock_armor_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/miner/7/ore_vision"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/miner/8/heavy_swing_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/miner/8/miners_experience_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/miner/8/robust_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/miner/9/hurl_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/miner/9/auto_smelt"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/miner/9/simple_resistance"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/miner/9/miners_luck"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/miner/10/trained_eye_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/miner/10/miners_experience_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/miner/10/hurl_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/miner/10/rocky_protection_2"
+        }
+      ]
+    }
+  ]
+}

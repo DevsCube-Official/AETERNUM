@@ -22,6 +22,50 @@
         {
           "type": "minecraft:loot_table",
           "value": "aeternum:scrolls/rogue/root"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/druid/root"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/summoner/root"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/smith/root"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/miner/root"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/enchanter/root"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/soldier/root"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/warrior/root"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/monster/root"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/barbarian/root"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/root"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/traveler/root"
         }
       ]
     }

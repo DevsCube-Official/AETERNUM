@@ -1,0 +1,121 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/druid/1/thorny_vines_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/druid/1/fast_steps_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/druid/2/nutrition_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/druid/2/natures_blessing"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/druid/3/thorny_vines_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/druid/3/nutrition_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/druid/4/bramble_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/druid/4/wither_bloom"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/druid/5/marking_vines"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/druid/5/fast_steps_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/druid/5/longer_vines_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/druid/6/metamorphosis"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/druid/6/longer_vines_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/druid/6/weed_infestation"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/druid/7/thorny_vines_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/druid/7/bramble_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/druid/7/fast_steps_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/druid/8/one_with_nature"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/druid/8/bramble_arena"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/druid/8/pain_and_power_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/druid/9/power_sap"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/druid/9/pain_and_power_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/druid/9/seedling_companion"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/druid/9/withering_seedlings"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/druid/10/endless_growth"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/druid/10/sentient_roots"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/druid/10/seedling_army"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/druid/10/pain_and_power_3"
+        }
+      ]
+    }
+  ]
+}

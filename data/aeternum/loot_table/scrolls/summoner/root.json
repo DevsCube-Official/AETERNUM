@@ -1,0 +1,121 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/summoner/1/energy_harvest_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/summoner/1/spirit_wolf"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/summoner/2/summoners_command"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/summoner/2/linked_healing"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/summoner/3/fire_elemental"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/summoner/3/energy_reservoir_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/summoner/4/empower_summon_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/summoner/4/warding_spirits"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/summoner/5/earth_golem"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/summoner/5/energy_harvest_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/summoner/5/warding_spirits_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/summoner/6/spirit_wyrm"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/summoner/6/energy_reservoir_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/summoner/6/empower_summon_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/summoner/7/ice_elemental"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/summoner/7/shared_strength"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/summoner/7/linked_saturation"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/summoner/8/energy_overload"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/summoner/8/breeze_companion"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/summoner/8/soul_mastery"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/summoner/9/phantom_summoner"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/summoner/9/energy_harvest_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/summoner/9/honeycomb"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/summoner/9/infection"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/summoner/10/avatar_of_spirits"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/summoner/10/combined_power"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/summoner/10/combined_healing"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/summoner/10/sculkify"
+        }
+      ]
+    }
+  ]
+}
