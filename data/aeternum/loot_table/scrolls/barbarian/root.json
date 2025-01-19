@@ -1,0 +1,125 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/barbarian/key/axe_mastery_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/barbarian/1/brutal_smite_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/barbarian/1/cleaving_strike"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/barbarian/2/enhanced_cleave"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/barbarian/2/on_guard_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/barbarian/3/axe_guard_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/barbarian/3/wind_spin_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/barbarian/4/on_guard_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/barbarian/4/power_cleave_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/barbarian/5/axe_slam_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/barbarian/5/brutal_smite_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/barbarian/5/brutal_smite_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/barbarian/6/axe_guard_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/barbarian/6/seismic_wave_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/barbarian/6/wind_spin_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/barbarian/7/axe_slam_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/barbarian/7/power_cleave_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/barbarian/7/unstoppable_force_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/barbarian/8/seismic_wave_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/barbarian/8/unstoppable_force_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/barbarian/8/wind_spin_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/barbarian/9/backstab"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/barbarian/9/max_rage_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/barbarian/9/power_cleave_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/barbarian/9/spikeball_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/barbarian/10/barbarians_wrath"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/barbarian/10/earthquake_strike"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/barbarian/10/max_rage_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/barbarian/10/spikeball_2"
+        }
+      ]
+    }
+  ]
+}
