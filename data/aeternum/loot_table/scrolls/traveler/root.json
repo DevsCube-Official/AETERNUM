@@ -1,0 +1,133 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/traveler/key/dungeon_compass"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/traveler/key/backpack_mastery"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/traveler/key/adventure_pack"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/traveler/1/night_hunter_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/traveler/1/rewarding_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/traveler/2/night_hunter_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/traveler/2/pathfinder"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/traveler/3/terrain_mastery_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/traveler/3/waypoint_beacon_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/traveler/4/night_hunter_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/traveler/4/terrain_mastery_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/traveler/5/surveyors_eye_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/traveler/5/surveyors_eye_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/traveler/5/waypoint_beacon_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/traveler/6/rewarding_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/traveler/6/teleportation_portal_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/traveler/6/terrain_mastery_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/traveler/7/cartographers_craft_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/traveler/7/night_hunter_4"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/traveler/7/teleportation_portal_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/traveler/8/cartographers_craft_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/traveler/8/surveyors_eye_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/traveler/8/travelers_wisdom_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/traveler/9/rewarding_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/traveler/9/swift_traveler_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/traveler/9/teleportation_portal_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/traveler/9/travelers_wisdom_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/traveler/10/easy_mapmaking"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/traveler/10/night_hunter_5"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/traveler/10/swift_traveler_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/traveler/10/travelers_wisdom_3"
+        }
+      ]
+    }
+  ]
+}
