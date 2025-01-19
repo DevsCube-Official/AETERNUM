@@ -1,0 +1,166 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/key/potion_bag_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/key/potion_bag_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/key/potion_bag_4"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/key/potion_box_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/key/potion_box_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/key/transmuter_novice"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/key/transmuter_apprentice"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/key/transmuter_journeyman"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/key/transmuter_expert"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/key/transmuter_master"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/key/elixir_mastery"
+        },
+
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/1/minor_heal_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/1/potion_toss_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/2/explosive_brew_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/2/minor_heal_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/3/acid_splash_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/3/potion_toss_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/4/explosive_brew_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/4/invis_brew_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/5/acid_splash_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/5/potion_harvest"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/5/strength_elixir_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/6/healing_draught_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/6/invis_brew_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/6/strength_elixir_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/7/healing_draught_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/7/herbalist"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/7/poisonous_cloud_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/8/poisonous_cloud_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/8/strength_elixir_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/8/ultimate_brew_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/9/environmental_immunity"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/9/poisonous_cloud_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/9/toxic_skin"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/9/ultimate_brew_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/10/cataclysmic_brew"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/10/bloodspill"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/10/elixir_of_life"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/alchemist/10/viral_resistance"
+        }
+      ]
+    }
+  ]
+}

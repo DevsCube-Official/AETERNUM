@@ -29,7 +29,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{aeternum-scroll_data:{\"function\":\"aeternum:abilities/soldier/key/shield_mastery_1\",\"ability\":\"Shield Mastery [Tier I]\",\"class_id\":\"soldier\",\"level\":8,\"ability_detailed\":{incom_class:[], incom_ability:[], level:8, type:Key, en_req:8, ability:\"Shield Mastery [Tier I]\", class_id:soldier, item_model:\"aeternum:class_table/items/class-chooser/soldier\"}}}"
+              "tag": "{aeternum-scroll_data:{\"function\":\"aeternum:abilities/soldier/key/shield_mastery_1\",\"ability\":\"Shields [Tier II]\",\"class_id\":\"soldier\",\"level\":8,\"ability_detailed\":{incom_class:[], incom_ability:[], level:8, type:Key, en_req:8, ability:\"Shields [Tier II]\", class_id:soldier, item_model:\"aeternum:class_table/items/class-chooser/soldier\"}}}"
             }
           ]
         }

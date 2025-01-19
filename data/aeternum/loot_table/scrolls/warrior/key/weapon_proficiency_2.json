@@ -29,7 +29,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{aeternum-scroll_data:{\"function\":\"aeternum:abilities/warrior/key/weapon_proficiency_2\",\"ability\":\"Weapon Proficiency [Tier II]\",\"class_id\":\"warrior\",\"level\":3,\"ability_detailed\":{incom_class:[], incom_ability:[], level:3, type:Key, en_req:3, ability:\"Weapon Proficiency [Tier II]\", class_id:warrior, item_model:\"aeternum:class_table/items/class-chooser/warrior\"}}}"
+              "tag": "{aeternum-scroll_data:{\"function\":\"aeternum:abilities/warrior/key/weapon_proficiency_2\",\"ability\":\"Maces [Tier II]\",\"class_id\":\"warrior\",\"level\":3,\"ability_detailed\":{incom_class:[], incom_ability:[], level:3, type:Key, en_req:3, ability:\"Maces [Tier II]\", class_id:warrior, item_model:\"aeternum:class_table/items/class-chooser/warrior\"}}}"
             }
           ]
         }

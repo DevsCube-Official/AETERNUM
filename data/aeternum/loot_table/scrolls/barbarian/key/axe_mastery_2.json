@@ -29,7 +29,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{aeternum-scroll_data:{\"function\":\"aeternum:abilities/barbarian/key/axe_mastery_2\",\"ability\":\"Axe Mastery [Tier II]\",\"class_id\":\"barbarian\",\"level\":5,\"ability_detailed\":{incom_class:[], incom_ability:[], level:5, type:Key, en_req:5, ability:\"Axe Mastery [Tier II]\", class_id:barbarian, item_model:\"aeternum:class_table/items/class-chooser/barbarian\"}}}"
+              "tag": "{aeternum-scroll_data:{\"function\":\"aeternum:abilities/barbarian/key/axe_mastery_2\",\"ability\":\"Axes [Tier II]\",\"class_id\":\"barbarian\",\"level\":5,\"ability_detailed\":{incom_class:[], incom_ability:[], level:5, type:Key, en_req:5, ability:\"Axes [Tier II]\", class_id:barbarian, item_model:\"aeternum:class_table/items/class-chooser/barbarian\"}}}"
             }
           ]
         }

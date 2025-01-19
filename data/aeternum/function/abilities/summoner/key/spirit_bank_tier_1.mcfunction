@@ -1,1 +1,0 @@
-tellraw @s[tag=aeternum.debugger] "Spirit Bank"

@@ -29,7 +29,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{aeternum-scroll_data:{\"function\":\"aeternum:abilities/traveler/key/backpack_mastery\",\"ability\":\"Backpack Mastery\",\"class_id\":\"traveler\",\"level\":1,\"ability_detailed\":{incom_class:[], incom_ability:[], level:1, type:Key, en_req:1, ability:\"Backpack Mastery\", class_id:traveler, item_model:\"aeternum:class_table/items/class-chooser/traveler\"}}}"
+              "tag": "{aeternum-scroll_data:{\"function\":\"aeternum:abilities/traveler/key/backpack_mastery\",\"ability\":\"Backpack [Tier I]\",\"class_id\":\"traveler\",\"level\":1,\"ability_detailed\":{incom_class:[], incom_ability:[], level:1, type:Key, en_req:1, ability:\"Backpack [Tier I]\", class_id:traveler, item_model:\"aeternum:class_table/items/class-chooser/traveler\"}}}"
             }
           ]
         }
