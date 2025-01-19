@@ -1,0 +1,125 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/monster/key/vampiric_form_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/monster/key/vampiric_form_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/monster/1/vicious_bite_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/monster/2/claw_swipe_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/monster/2/vicious_bite_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/monster/3/claw_swipe_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/monster/3/shadow_leap_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/monster/4/life_siphon_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/monster/4/shadow_leap_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/monster/5/darkness_shroud_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/monster/5/life_siphon_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/monster/5/vicious_bite_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/monster/6/darkness_shroud_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/monster/6/shadow_leap_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/monster/6/unholy_strike_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/monster/7/life_siphon_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/monster/7/terrifying_roar_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/monster/7/unholy_strike_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/monster/8/deathly_aura_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/monster/8/heart_drain_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/monster/8/unholy_strike_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/monster/9/deathly_aura_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/monster/9/dread_lord_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/monster/9/phantasm"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/monster/9/vicious_bite_4"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/monster/10/blood_drain"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/monster/10/cataclysmic_roar"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/monster/10/dread_lord_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/monster/10/heart_drain_2"
+        }
+      ]
+    }
+  ]
+}
