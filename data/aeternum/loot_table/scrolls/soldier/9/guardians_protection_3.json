@@ -29,7 +29,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{aeternum-scroll_data:{\"function\":\"aeternum:abilities/archer/1/focus_3\",\"ability\":\"Focus III\",\"class_id\":\"archer\",\"level\":1,\"ability_detailed\":{incom_class:[], incom_ability:[], level:1, type:Passive, en_req:1, ability:\"Focus III\", class_id:archer, item_model:\"aeternum:class_table/items/class-chooser/archer\"}}}"
+              "tag": "{aeternum-scroll_data:{\"function\":\"aeternum:abilities/soldier/9/guardians_protection_3\",\"ability\":\"Guardian's Protection III\",\"class_id\":\"soldier\",\"level\":9,\"ability_detailed\":{incom_class:[], incom_ability:[], level:9, type:Activated, en_req:9, ability:\"Guardian's Protection III\", class_id:soldier, item_model:\"aeternum:class_table/items/class-chooser/soldier\"}}}"
             }
           ]
         }

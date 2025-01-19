@@ -1,0 +1,129 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/soldier/key/shield_mastery_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/soldier/key/shield_mastery_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/soldier/1/bash_protection_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/soldier/1/damage_reflection"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/soldier/2/bash_protection_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/soldier/2/guard_up_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/soldier/3/defensive_stance_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/soldier/3/guard_up_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/soldier/4/bash_protection_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/soldier/4/counter_strike_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/soldier/5/counter_strike_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/soldier/5/defensive_stance_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/soldier/5/shield_wall_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/soldier/6/defensive_stance_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/soldier/6/impenetrable_defense_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/soldier/6/shield_wall_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/soldier/7/bash_protection_4"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/soldier/7/counter_strike_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/soldier/7/guardians_protection_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/soldier/8/guardians_protection_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/soldier/8/impenetrable_defense_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/soldier/8/legendary_defender_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/soldier/9/fire_power_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/soldier/9/guardians_protection_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/soldier/9/legendary_defender_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/soldier/9/unstoppable_force"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/soldier/10/fire_power_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/soldier/10/maul"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/soldier/10/reinforcement"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/soldier/10/shield_overload"
+        }
+      ]
+    }
+  ]
+}

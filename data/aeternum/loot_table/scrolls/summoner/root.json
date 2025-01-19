@@ -33,7 +33,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "aeternum:scrolls/summoner/4/warding_spirits"
+          "value": "aeternum:scrolls/summoner/4/warding_spirits_1"
         },
         {
           "type": "minecraft:loot_table",
