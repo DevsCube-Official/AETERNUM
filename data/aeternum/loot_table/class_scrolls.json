@@ -61,10 +61,6 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "aeternum:scrolls/alchemist/root"
-        },
-        {
-          "type": "minecraft:loot_table",
           "value": "aeternum:scrolls/traveler/root"
         }
       ]
