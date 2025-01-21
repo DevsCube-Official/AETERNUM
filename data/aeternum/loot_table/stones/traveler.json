@@ -29,7 +29,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{aeternum-stone_data:{\"function\":\"aeternum:abilities/none\",\"class_id\":\"traveler\",\"ability\":\"Quick Step I\",\"first_class\":0,\"ability_detailed\":{incom_class:[], incom_ability:[], level:1, type:Activated, en_req:1, ability:\"Quick Step I\", class_id:traveler, item_model:\"aeternum:class_table/items/class-chooser/traveler\"}}}"
+              "tag": "{aeternum-stone_data:{\"function\":\"aeternum:abilities/traveler/key/focus\",\"ability\":\"Focus\",\"class_id\":\"traveler\",\"first_class\":0,\"ability_detailed\":{incom_class:[], incom_ability:[], level:1, type:Key, en_req:1, ability:\"Focus\", class_id:traveler, item_model:\"aeternum:class_table/items/class-chooser/traveler\"}}}"
             }
           ]
         }

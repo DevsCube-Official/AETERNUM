@@ -29,7 +29,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{aeternum-stone_data:{\"function\":\"aeternum:abilities/summoner/key/spirit_bank_tier_1\",\"class_id\":\"summoner\",\"ability\":\"Spirit Bank [Tier I]\",\"first_class\":0,\"ability_detailed\":{incom_class:[], incom_ability:[], level:1, type:Key, en_req:1, ability:\"Spirit Bank [Tier I]\", class_id:summoner, item_model:\"aeternum:class_table/items/class-chooser/summoner\"}}}"
+              "tag": "{aeternum-stone_data:{\"function\":\"aeternum:abilities/summoner/key/spirit_bank\",\"ability\":\"Spirit Bank\",\"class_id\":\"summoner\",\"first_class\":0,\"ability_detailed\":{incom_class:[], incom_ability:[], level:1, type:Key, en_req:1, ability:\"Spirit Bank\", class_id:summoner, item_model:\"aeternum:class_table/items/class-chooser/summoner\"}}}"
             }
           ]
         }

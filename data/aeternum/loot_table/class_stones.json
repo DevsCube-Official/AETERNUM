@@ -42,10 +42,6 @@
         {
           "type": "minecraft:loot_table",
           "value": "aeternum:stones/barbarian"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "aeternum:stones/alchemist"
         }
       ]
     }

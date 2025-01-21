@@ -29,7 +29,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{aeternum-stone_data:{\"function\":\"aeternum:abilities/none\",\"class_id\":\"smith\",\"ability\":\"Armor Fortification I\",\"first_class\":0,\"ability_detailed\":{incom_class:[], incom_ability:[], level:1, type:Activated, en_req:1, ability:\"Armor Fortification I\", class_id:smith, item_model:\"aeternum:class_table/items/class-chooser/smith\"}}}"
+              "tag": "{aeternum-stone_data:{\"function\":\"aeternum:abilities/smith/1/armor_fortification_1\",\"ability\":\"Armor Fortification I\",\"class_id\":\"smith\",\"first_class\":0,\"ability_detailed\":{incom_class:[], incom_ability:[], level:1, type:Activated, en_req:1, ability:\"Armor Fortification I\", class_id:smith, item_model:\"aeternum:class_table/items/class-chooser/smith\"}}}"
             }
           ]
         }

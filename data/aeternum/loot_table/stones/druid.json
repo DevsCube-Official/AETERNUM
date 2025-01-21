@@ -29,7 +29,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{aeternum-stone_data:{\"function\":\"aeternum:abilities/druid/key/seedlings\",\"class_id\":\"druid\",\"ability\":\"Seedlings\",\"first_class\":0,\"ability_detailed\":{incom_class:[], incom_ability:[], level:1, type:Key, en_req:1, ability:Seedlings, class_id:druid, item_model:\"aeternum:class_table/items/class-chooser/druid\"}}}"
+              "tag": "{aeternum-stone_data:{\"function\":\"aeternum:abilities/druid/key/seedlings\",\"ability\":\"Seedlings\",\"class_id\":\"druid\",\"first_class\":0,\"ability_detailed\":{incom_class:[], incom_ability:[], level:1, type:Key, en_req:1, ability:\"Seedlings\", class_id:druid, item_model:\"aeternum:class_table/items/class-chooser/druid\"}}}"
             }
           ]
         }

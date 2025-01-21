@@ -29,7 +29,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{aeternum-stone_data:{\"function\":\"aeternum:abilities/soldier/key/shields_tier_1\",\"class_id\":\"soldier\",\"ability\":\"Weaponized Shields\",\"first_class\":0,\"ability_detailed\":{incom_class:[], incom_ability:[], level:1, type:Key, en_req:1, ability:\"Weaponized Shields\", class_id:soldier, item_model:\"aeternum:class_table/items/class-chooser/soldier\"}}}"
+              "tag": "{aeternum-stone_data:{\"function\":\"aeternum:abilities/soldier/key/weaponized_shields\",\"ability\":\"Shields [Tier I]\",\"class_id\":\"soldier\",\"first_class\":0,\"ability_detailed\":{incom_class:[], incom_ability:[], level:1, type:Key, en_req:1, ability:\"Shields [Tier I]\", class_id:soldier, item_model:\"aeternum:class_table/items/class-chooser/soldier\"}}}"
             }
           ]
         }

@@ -29,7 +29,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{aeternum-stone_data:{\"function\":\"aeternum:abilities/none\",\"class_id\":\"monster\",\"ability\":\"Vicious Bite I\",\"first_class\":0,\"ability_detailed\":{incom_class:[], incom_ability:[], level:1, type:Activated, en_req:1, ability:\"Vicious Bite I\", class_id:monster, item_model:\"aeternum:class_table/items/class-chooser/monster\"}}}"
+              "tag": "{aeternum-stone_data:{\"function\":\"aeternum:abilities/monster/1/terrifying_roar_1\",\"ability\":\"Terrifying Roar I\",\"class_id\":\"monster\",\"first_class\":0,\"ability_detailed\":{incom_class:[], incom_ability:[], level:1, type:Activated, en_req:1, ability:\"Terrifying Roar I\", class_id:monster, item_model:\"aeternum:class_table/items/class-chooser/monster\"}}}"
             }
           ]
         }

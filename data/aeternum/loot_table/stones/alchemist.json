@@ -29,7 +29,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{aeternum-stone_data:{\"function\":\"aeternum:abilities/alchemist/key/potion_bag_tier_1\",\"class_id\":\"alchemist\",\"ability\":\"Potion Bag [Tier I]\",\"first_class\":0,\"ability_detailed\":{incom_class:[], incom_ability:[], level:1, type:Key, en_req:1, ability:\"Potion Bag [Tier I]\", class_id:alchemist, item_model:\"aeternum:class_table/items/class-chooser/alchemist\"}}}"
+              "tag": "{aeternum-stone_data:{\"function\":\"aeternum:abilities/alchemist/key/potion_bag_1\",\"ability\":\"Potion Bag [Tier I]\",\"class_id\":\"alchemist\",\"first_class\":0,\"ability_detailed\":{incom_class:[], incom_ability:[], level:1, type:Key, en_req:1, ability:\"Potion Bag [Tier I]\", class_id:alchemist, item_model:\"aeternum:class_table/items/class-chooser/alchemist\"}}}"
             }
           ]
         }

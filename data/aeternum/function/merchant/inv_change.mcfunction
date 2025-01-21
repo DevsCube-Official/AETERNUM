@@ -1,12 +1,12 @@
-# loot replace entity @s villager.0 loot aeternum:class_stones
-# loot replace entity @s villager.1 loot aeternum:class_stones
-# item modify entity @s villager.0 aeternum:villager/class_stone/0
-# item modify entity @s villager.1 aeternum:villager/class_stone/1
+loot replace entity @s villager.0 loot aeternum:class_stones
+loot replace entity @s villager.1 loot aeternum:class_stones
+item modify entity @s villager.0 aeternum:villager/class_stone/0
+item modify entity @s villager.1 aeternum:villager/class_stone/1
 
-loot replace entity @s villager.0 loot aeternum:class_scrolls
-loot replace entity @s villager.1 loot aeternum:class_scrolls
-item modify entity @s villager.0 aeternum:villager/class_scroll/0
-item modify entity @s villager.1 aeternum:villager/class_scroll/1
+# loot replace entity @s villager.0 loot aeternum:class_scrolls
+# loot replace entity @s villager.1 loot aeternum:class_scrolls
+# item modify entity @s villager.0 aeternum:villager/class_scroll/0
+# item modify entity @s villager.1 aeternum:villager/class_scroll/1
 
 loot replace entity @s villager.2 loot aeternum:class_scrolls
 loot replace entity @s villager.3 loot aeternum:class_scrolls
