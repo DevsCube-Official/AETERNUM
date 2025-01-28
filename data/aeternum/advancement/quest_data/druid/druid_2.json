@@ -1,0 +1,37 @@
+{
+    "criteria": {
+        "killed_ghast": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:ghast"
+                        }
+                    }
+                ],
+                "killing_blow": {
+                    "direct_entity": {
+                        "type": "minecraft:fireball"
+                    },
+                    "tags": [
+                        {
+                            "expected": true,
+                            "id": "minecraft:is_projectile"
+                        }
+                    ]
+                }
+            },
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "killed_ghast"
+        ]
+    ],
+    "rewards": {
+        "function": "aeternum:quests/data/druid/druid_2"
+    }
+}

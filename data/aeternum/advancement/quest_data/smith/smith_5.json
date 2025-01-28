@@ -1,0 +1,38 @@
+{
+    "criteria": {
+        "hit": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player",
+                    "slots": {
+                        "weapon.mainhand": {
+                            "components": {
+                                "minecraft:item_model": "aeternum:general/items/smith/diamond_dagger"
+                            }
+                        }
+                    }
+                },
+                "entity": {
+                    "type": "minecraft:piglin_brute"
+                },
+                "killing_blow": {
+                    "tags": [
+                        {
+                            "id": "minecraft:is_player_attack",
+                            "expected": true
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "hit"
+        ]
+    ],
+    "rewards": {
+        "function": "aeternum:quests/data/smith/smith_5"
+    }
+}

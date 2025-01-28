@@ -1,0 +1,43 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:clock",
+            "components": {
+                "minecraft:item_model": "aeternum:quest/monster"
+            }
+        },
+        "title": {
+            "translate": "aeternum.quests.start.name",
+            "with": [
+                "Monster"
+            ],
+            "italic": false
+        },
+        "description": {
+            "translate": "aeternum.quests.start.monster_5",
+            "italic": false
+        },
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "parent": "aeternum:quests/monster/monster_4",
+    "criteria": {
+        "start": {
+            "trigger": "minecraft:impossible"
+        },
+        "end": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "start"
+        ],
+        [
+            "end"
+        ]
+    ],
+    "rewards": {
+        "function": "aeternum:quests/reward"
+    }
+}

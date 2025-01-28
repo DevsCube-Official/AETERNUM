@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "hit": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "hit"
+        ]
+    ],
+    "rewards": {
+        "function": "aeternum:quests/data/enchanter/enchanter_4"
+    }
+}

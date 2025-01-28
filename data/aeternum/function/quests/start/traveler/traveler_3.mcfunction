@@ -1,0 +1,1 @@
+function aeternum:quests/check {"class":"traveler","id":"traveler_3","num":68}

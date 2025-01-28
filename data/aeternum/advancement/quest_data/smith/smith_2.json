@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "minecraft:zombie_villager": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:phantom"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "minecraft:zombie_villager"
+        ]
+    ],
+    "rewards": {
+        "function": "aeternum:quests/data/smith/smith_2"
+    }
+}

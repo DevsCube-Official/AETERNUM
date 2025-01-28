@@ -1,0 +1,39 @@
+{
+    "criteria": {
+        "hit": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player",
+                    "slots": {
+                        "weapon.mainhand": {
+                            "items": "minecraft:snowball"
+                        }
+                    }
+                },
+                "damage": {
+                    "blocked": false,
+                    "type": {
+                        "tags": [
+                            {
+                                "id": "minecraft:is_projectile",
+                                "expected": true
+                            }
+                        ]
+                    }
+                },
+                "entity": {
+                    "type": "minecraft:blaze"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "hit"
+        ]
+    ],
+    "rewards": {
+        "function": "aeternum:quests/data/alchemist/alchemist_1"
+    }
+}

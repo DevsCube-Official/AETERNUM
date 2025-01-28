@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "hit": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "item": {
+                    "items": "minecraft:potion",
+                    "components": {
+                        "minecraft:potion_contents": {
+                            "potion": "minecraft:invisibility"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "hit"
+        ]
+    ],
+    "rewards": {
+        "function": "aeternum:quests/data/smith/smith_1"
+    }
+}

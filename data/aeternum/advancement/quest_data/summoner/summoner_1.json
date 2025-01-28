@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "hit": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player",
+                    "slots": {
+                        "weapon.mainhand": {
+                            "items": "#minecraft:swords"
+                        }
+                    }
+                },
+                "killing_blow": {
+                    "tags": [
+                        {
+                            "id": "minecraft:is_player_attack",
+                            "expected": true
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "hit"
+        ]
+    ],
+    "rewards": {
+        "function": "aeternum:quests/data/summoner/summoner_1"
+    }
+}

@@ -1,0 +1,1 @@
+function aeternum:quests/check {"class":"druid","id":"druid_2","num":27}

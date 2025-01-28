@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "hit": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "item": {
+                    "items": "#taglib:food/food"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "hit"
+        ]
+    ],
+    "rewards": {
+        "function": "aeternum:quests/data/monster/monster_5"
+    }
+}
