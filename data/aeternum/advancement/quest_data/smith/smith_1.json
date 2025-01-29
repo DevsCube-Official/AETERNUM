@@ -1,19 +1,9 @@
 {
     "criteria": {
         "hit": {
-            "trigger": "minecraft:consume_item",
+            "trigger": "minecraft:recipe_crafted",
             "conditions": {
-                "player": {
-                    "type": "minecraft:player"
-                },
-                "item": {
-                    "items": "minecraft:potion",
-                    "components": {
-                        "minecraft:potion_contents": {
-                            "potion": "minecraft:invisibility"
-                        }
-                    }
-                }
+                "recipe_id": "minecraft:lodestone"
             }
         }
     },

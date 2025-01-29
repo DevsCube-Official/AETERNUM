@@ -1,7 +1,10 @@
 {
     "criteria": {
         "hit": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:netherite_block"
+            }
         }
     },
     "requirements": [

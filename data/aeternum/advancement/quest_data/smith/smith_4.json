@@ -1,7 +1,13 @@
 {
     "criteria": {
         "hit": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:falling_block",
+                    "nbt": "{BlockState: {Name:\"minecraft:anvil\",Properties:{facing:\"north\"}}}"
+                }
+            }
         }
     },
     "requirements": [

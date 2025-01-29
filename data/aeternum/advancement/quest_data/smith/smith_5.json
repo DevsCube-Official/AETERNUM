@@ -1,35 +1,58 @@
 {
     "criteria": {
-        "hit": {
-            "trigger": "minecraft:player_killed_entity",
+        "helmet": {
+            "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "player": {
-                    "type": "minecraft:player",
-                    "slots": {
-                        "weapon.mainhand": {
-                            "components": {
-                                "minecraft:item_model": "aeternum:general/items/smith/diamond_dagger"
-                            }
-                        }
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_helmet"
                     }
-                },
-                "entity": {
-                    "type": "minecraft:piglin_brute"
-                },
-                "killing_blow": {
-                    "tags": [
-                        {
-                            "id": "minecraft:is_player_attack",
-                            "expected": true
-                        }
-                    ]
-                }
+                ]
+            }
+        },
+        "chest": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_chestplate"
+                    }
+                ]
+            }
+        },
+        "legs": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_leggings"
+                    }
+                ]
+            }
+        },
+        "boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chainmail_boots"
+                    }
+                ]
             }
         }
     },
     "requirements": [
         [
-            "hit"
+            "legs"
+        ],
+        [
+            "chest"
+        ],
+        [
+            "boots"
+        ],
+        [
+            "helmet"
         ]
     ],
     "rewards": {
