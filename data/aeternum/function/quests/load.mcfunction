@@ -1,3 +1,6 @@
+scoreboard objectives add aeternum.quests.enchanter_3.current_xp xp
+scoreboard objectives add aeternum.quests.enchanter_3.old_xp dummy
+
 scoreboard objectives add aeternum.quests.archer_1.snowballs dummy
 scoreboard objectives add aeternum.quests.archer_2.reflects dummy
 scoreboard objectives add aeternum.quests.archer_3.kills dummy
@@ -35,14 +38,19 @@ scoreboard objectives add aeternum.quests.druid_4.data dummy
 scoreboard objectives add aeternum.quests.druid_5.data dummy
 
 scoreboard objectives add aeternum.quests.enchanter_1.data dummy
-scoreboard objectives add aeternum.quests.enchanter_2.data dummy
+scoreboard objectives add aeternum.quests.enchanter_2.data minecraft.mined:minecraft.lapis_ore
 scoreboard objectives add aeternum.quests.enchanter_3.data dummy
 scoreboard objectives add aeternum.quests.enchanter_4.data dummy
 scoreboard objectives add aeternum.quests.enchanter_5.data dummy
 
-scoreboard objectives add aeternum.quests.miner_1.data dummy
-scoreboard objectives add aeternum.quests.miner_2.data dummy
-scoreboard objectives add aeternum.quests.miner_3.data dummy
+scoreboard objectives add aeternum.quests.miner_1.data minecraft.mined:minecraft.stone
+
+scoreboard objectives add aeternum.quests.miner_2.coal minecraft.mined:minecraft.coal_ore
+scoreboard objectives add aeternum.quests.miner_2.iron minecraft.mined:minecraft.iron_ore
+scoreboard objectives add aeternum.quests.miner_2.copper minecraft.mined:minecraft.copper_ore
+scoreboard objectives add aeternum.quests.miner_2.gold minecraft.mined:minecraft.gold_ore
+
+scoreboard objectives add aeternum.quests.miner_3.data minecraft.mined:minecraft.deepslate_diamond_ore
 scoreboard objectives add aeternum.quests.miner_4.data dummy
 scoreboard objectives add aeternum.quests.miner_5.data dummy
 

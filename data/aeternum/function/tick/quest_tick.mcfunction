@@ -36,21 +36,27 @@ execute if score @s aeternum.player.quest_id matches 25 if score @s aeternum.que
 # Druid
 execute if score @s aeternum.player.quest_id matches 26 if score @s aeternum.quests.druid_1.data matches 1.. run advancement grant @s only aeternum:quests/druid/druid_1
 execute if score @s aeternum.player.quest_id matches 27 if score @s aeternum.quests.druid_2.data matches 1.. run advancement grant @s only aeternum:quests/druid/druid_2
-execute if score @s aeternum.player.quest_id matches 28 if score @s aeternum.quests.druid_3.data matches 1.. run advancement grant @s only aeternum:quests/druid/druid_3
+execute if score @s aeternum.player.quest_id matches 28 if score @s aeternum.quests.druid_3.data matches 100.. run advancement grant @s only aeternum:quests/druid/druid_3
 execute if score @s aeternum.player.quest_id matches 29 if score @s aeternum.quests.druid_4.data matches 1.. run advancement grant @s only aeternum:quests/druid/druid_4
-execute if score @s aeternum.player.quest_id matches 30 if score @s aeternum.quests.druid_5.data matches 1.. run advancement grant @s only aeternum:quests/druid/druid_5
+execute if score @s aeternum.player.quest_id matches 30 if score @s aeternum.quests.druid_5.data matches 2.. run advancement grant @s only aeternum:quests/druid/druid_5
 
 # Enchanter
-execute if score @s aeternum.player.quest_id matches 31 if score @s aeternum.quests.enchanter_1.data matches 1.. run advancement grant @s only aeternum:quests/enchanter/enchanter_1
-execute if score @s aeternum.player.quest_id matches 32 if score @s aeternum.quests.enchanter_2.data matches 1.. run advancement grant @s only aeternum:quests/enchanter/enchanter_2
-execute if score @s aeternum.player.quest_id matches 33 if score @s aeternum.quests.enchanter_3.data matches 1.. run advancement grant @s only aeternum:quests/enchanter/enchanter_3
-execute if score @s aeternum.player.quest_id matches 34 if score @s aeternum.quests.enchanter_4.data matches 1.. run advancement grant @s only aeternum:quests/enchanter/enchanter_4
-execute if score @s aeternum.player.quest_id matches 35 if score @s aeternum.quests.enchanter_5.data matches 1.. run advancement grant @s only aeternum:quests/enchanter/enchanter_5
+execute as @a[tag=aeternum.quests.enchanter_3.near_orb] run scoreboard players operation @s aeternum.quests.enchanter_3.old_xp -= @s aeternum.quests.enchanter_3.current_xp
+execute as @a[tag=aeternum.quests.enchanter_3.near_orb] if score @s aeternum.quests.enchanter_3.old_xp matches -37..-1 run scoreboard players add @s aeternum.quests.enchanter_3.data 1
+execute as @a[tag=aeternum.quests.enchanter_3.near_orb] run scoreboard players operation @s aeternum.quests.enchanter_3.old_xp = @s aeternum.quests.enchanter_3.current_xp
+tag @a[tag=aeternum.quests.enchanter_3.near_orb] remove aeternum.quests.enchanter_3.near_orb
+execute at @e[type=experience_orb] run tag @a[distance=..2] add aeternum.quests.enchanter_3.near_orb
+
+execute if score @s aeternum.player.quest_id matches 31 if score @s aeternum.quests.enchanter_1.data matches 3.. run advancement grant @s only aeternum:quests/enchanter/enchanter_1
+execute if score @s aeternum.player.quest_id matches 32 if score @s aeternum.quests.enchanter_2.data matches 100.. run advancement grant @s only aeternum:quests/enchanter/enchanter_2
+execute if score @s aeternum.player.quest_id matches 33 if score @s aeternum.quests.enchanter_3.data matches 500.. run advancement grant @s only aeternum:quests/enchanter/enchanter_3
+execute if score @s aeternum.player.quest_id matches 34 if score @s aeternum.quests.enchanter_4.data matches 3.. run advancement grant @s only aeternum:quests/enchanter/enchanter_4
+execute if score @s aeternum.player.quest_id matches 35 if score @s aeternum.quests.enchanter_5.data matches 3.. run advancement grant @s only aeternum:quests/enchanter/enchanter_5
 
 # Miner
-execute if score @s aeternum.player.quest_id matches 36 if score @s aeternum.quests.miner_1.data matches 1.. run advancement grant @s only aeternum:quests/miner/miner_1
-execute if score @s aeternum.player.quest_id matches 37 if score @s aeternum.quests.miner_2.data matches 1.. run advancement grant @s only aeternum:quests/miner/miner_2
-execute if score @s aeternum.player.quest_id matches 38 if score @s aeternum.quests.miner_3.data matches 1.. run advancement grant @s only aeternum:quests/miner/miner_3
+execute if score @s aeternum.player.quest_id matches 36 if score @s aeternum.quests.miner_1.data matches 200.. run advancement grant @s only aeternum:quests/miner/miner_1
+execute if score @s aeternum.player.quest_id matches 37 if score @s aeternum.quests.miner_2.coal matches 100.. if score @s aeternum.quests.miner_2.iron matches 100.. if score @s aeternum.quests.miner_2.copper matches 100.. if score @s aeternum.quests.miner_2.gold matches 100.. run advancement grant @s only aeternum:quests/miner/miner_2
+execute if score @s aeternum.player.quest_id matches 38 if score @s aeternum.quests.miner_3.data matches 1.. if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{type:"minecraft:player",location:{position:{y:-54}}}} run advancement grant @s only aeternum:quests/miner/miner_3
 execute if score @s aeternum.player.quest_id matches 39 if score @s aeternum.quests.miner_4.data matches 1.. run advancement grant @s only aeternum:quests/miner/miner_4
 execute if score @s aeternum.player.quest_id matches 40 if score @s aeternum.quests.miner_5.data matches 1.. run advancement grant @s only aeternum:quests/miner/miner_5
 

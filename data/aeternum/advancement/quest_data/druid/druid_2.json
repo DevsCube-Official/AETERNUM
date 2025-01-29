@@ -1,34 +1,206 @@
 {
     "criteria": {
-        "killed_ghast": {
+        "beetroots": {
+            "trigger": "minecraft:item_used_on_block",
             "conditions": {
-                "entity": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "type": "minecraft:ghast"
+                "player": {
+                    "slots": {
+                        "weapon.mainhand": {
+                            "items": "minecraft:bone_meal"
                         }
                     }
-                ],
-                "killing_blow": {
-                    "direct_entity": {
-                        "type": "minecraft:fireball"
-                    },
-                    "tags": [
-                        {
-                            "expected": true,
-                            "id": "minecraft:is_projectile"
+                },
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:beetroots"
+                            }
                         }
-                    ]
-                }
-            },
-            "trigger": "minecraft:player_killed_entity"
+                    }
+                ]
+            }
+        },
+        "carrots": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": {
+                    "slots": {
+                        "weapon.mainhand": {
+                            "items": "minecraft:bone_meal"
+                        }
+                    }
+                },
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:carrots"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "potatoes": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": {
+                    "slots": {
+                        "weapon.mainhand": {
+                            "items": "minecraft:bone_meal"
+                        }
+                    }
+                },
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:potatoes"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wheat": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": {
+                    "slots": {
+                        "weapon.mainhand": {
+                            "items": "minecraft:bone_meal"
+                        }
+                    }
+                },
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:wheat"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "melon_stem": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": {
+                    "slots": {
+                        "weapon.mainhand": {
+                            "items": "minecraft:bone_meal"
+                        }
+                    }
+                },
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:melon_stem"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "pumpkin_stem": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": {
+                    "slots": {
+                        "weapon.mainhand": {
+                            "items": "minecraft:bone_meal"
+                        }
+                    }
+                },
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:pumpkin_stem"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "torchflower_crop": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": {
+                    "slots": {
+                        "weapon.mainhand": {
+                            "items": "minecraft:bone_meal"
+                        }
+                    }
+                },
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:torchflower_crop"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "pitcher_crop": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": {
+                    "slots": {
+                        "weapon.mainhand": {
+                            "items": "minecraft:bone_meal"
+                        }
+                    }
+                },
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:pitcher_crop"
+                            }
+                        }
+                    }
+                ]
+            }
         }
     },
     "requirements": [
         [
-            "killed_ghast"
+            "beetroots"
+        ],
+        [
+            "carrots"
+        ],
+        [
+            "potatoes"
+        ],
+        [
+            "wheat"
+        ],
+        [
+            "melon_stem"
+        ],
+        [
+            "pumpkin_stem"
+        ],
+        [
+            "torchflower_crop"
+        ],
+        [
+            "pitcher_crop"
         ]
     ],
     "rewards": {

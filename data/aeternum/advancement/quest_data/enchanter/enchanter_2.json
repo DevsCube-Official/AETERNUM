@@ -1,17 +1,12 @@
 {
     "criteria": {
-        "used_totem": {
-            "conditions": {
-                "item": {
-                    "items": "minecraft:totem_of_undying"
-                }
-            },
-            "trigger": "minecraft:used_totem"
+        "imp": {
+            "trigger": "minecraft:impossible"
         }
     },
     "requirements": [
         [
-            "used_totem"
+            "imp"
         ]
     ],
     "rewards": {

@@ -41,7 +41,12 @@ scoreboard players reset @s aeternum.quests.enchanter_4.data
 scoreboard players reset @s aeternum.quests.enchanter_5.data
 
 scoreboard players reset @s aeternum.quests.miner_1.data
-scoreboard players reset @s aeternum.quests.miner_2.data
+
+scoreboard players reset @s aeternum.quests.miner_2.coal
+scoreboard players reset @s aeternum.quests.miner_2.iron
+scoreboard players reset @s aeternum.quests.miner_2.copper
+scoreboard players reset @s aeternum.quests.miner_2.gold
+
 scoreboard players reset @s aeternum.quests.miner_3.data
 scoreboard players reset @s aeternum.quests.miner_4.data
 scoreboard players reset @s aeternum.quests.miner_5.data

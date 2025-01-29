@@ -1,7 +1,19 @@
 {
     "criteria": {
         "hit": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:netherite_pickaxe",
+                    "components": {
+                        "minecraft:enchantments": {
+                            "levels": {
+                                "minecraft:efficiency": 5
+                            }
+                        }
+                    }
+                }
+            }
         }
     },
     "requirements": [

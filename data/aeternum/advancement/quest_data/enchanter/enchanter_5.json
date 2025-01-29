@@ -1,13 +1,22 @@
 {
     "criteria": {
         "hit": {
-            "trigger": "minecraft:consume_item",
+            "trigger": "minecraft:player_killed_entity",
             "conditions": {
-                "player": {
-                    "type": "minecraft:player"
+                "entity": {
+                    "type": "#taglib:boss_monsters"
                 },
-                "item": {
-                    "items": "#taglib:food/food"
+                "killing_blow": {
+                    "source_entity": {
+                        "type": "minecraft:player",
+                        "slots": {
+                            "weapon.mainhand": {
+                                "components": {
+                                    "minecraft:enchantments": {}
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }

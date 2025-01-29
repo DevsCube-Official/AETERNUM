@@ -1,7 +1,14 @@
 {
     "criteria": {
         "hit": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:ward_armor_trim_smithing_template"
+                    }
+                ]
+            }
         }
     },
     "requirements": [

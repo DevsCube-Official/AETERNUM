@@ -1,36 +1,71 @@
 {
     "criteria": {
-        "hit": {
-            "trigger": "minecraft:player_hurt_entity",
+        "wheat": {
+            "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "player": {
-                    "type": "minecraft:player",
-                    "slots": {
-                        "weapon.mainhand": {
-                            "items": "minecraft:snowball"
-                        }
+                "items": [
+                    {
+                        "items": "minecraft:wheat_seeds"
                     }
-                },
-                "damage": {
-                    "blocked": false,
-                    "type": {
-                        "tags": [
-                            {
-                                "id": "minecraft:is_projectile",
-                                "expected": true
-                            }
-                        ]
+                ]
+            }
+        },
+        "melon": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:melon_seeds"
                     }
-                },
-                "entity": {
-                    "type": "minecraft:blaze"
-                }
+                ]
+            }
+        },
+        "pumpkin": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:pumpkin_seeds"
+                    }
+                ]
+            }
+        },
+        "beetroot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:beetroot_seeds"
+                    }
+                ]
+            }
+        },
+        "cocoa": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:cocoa_beans"
+                    }
+                ]
             }
         }
     },
     "requirements": [
         [
-            "hit"
+            "wheat"
+        ],
+        [
+            "melon"
+        ],
+        [
+            "cocoa"
+        ],
+        [
+            "beetroot"
+        ],
+        [
+            "pumpkin"
         ]
     ],
     "rewards": {
