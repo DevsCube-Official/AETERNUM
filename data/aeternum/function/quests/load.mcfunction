@@ -66,10 +66,10 @@ scoreboard objectives add aeternum.quests.summoner_3.data dummy
 scoreboard objectives add aeternum.quests.summoner_4.data dummy
 scoreboard objectives add aeternum.quests.summoner_5.data dummy
 
-scoreboard objectives add aeternum.quests.barbarian_1.data dummy
+scoreboard objectives add aeternum.quests.barbarian_1.data minecraft.mined:minecraft.oak_log
 scoreboard objectives add aeternum.quests.barbarian_2.data dummy
 scoreboard objectives add aeternum.quests.barbarian_3.data dummy
-scoreboard objectives add aeternum.quests.barbarian_4.data dummy
+scoreboard objectives add aeternum.quests.barbarian_4.data minecraft.mined:minecraft.cobblestone
 scoreboard objectives add aeternum.quests.barbarian_5.data dummy
 
 scoreboard objectives add aeternum.quests.monster_1.data dummy

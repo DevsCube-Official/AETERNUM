@@ -1,7 +1,34 @@
 {
     "criteria": {
         "hit": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player": {
+                    "slots": {
+                        "weapon.mainhand": {
+                            "items": "minecraft:diamond_axe",
+                            "components": {
+                                "minecraft:enchantments": {
+                                    "levels": {
+                                        "minecraft:vanishing_curse": 1
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "damage": {
+                    "blocked": false,
+                    "type": {
+                        "tags": [
+                            {
+                                "id": "minecraft:is_player_attack",
+                                "expected": true
+                            }
+                        ]
+                    }
+                }
+            }
         }
     },
     "requirements": [
