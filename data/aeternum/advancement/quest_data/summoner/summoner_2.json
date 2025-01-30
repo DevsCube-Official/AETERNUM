@@ -1,125 +1,146 @@
 {
     "criteria": {
-        "minecraft:bogged": {
+        "white": {
             "conditions": {
                 "entity": [
                     {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "minecraft:bogged"
+                            "type_specific": {
+                                "type": "minecraft:horse",
+                                "variant": "white"
+                            }
                         }
                     }
                 ]
             },
-            "trigger": "minecraft:player_killed_entity"
+            "trigger": "minecraft:tame_animal"
         },
-        "minecraft:drowned": {
+        "creamy": {
             "conditions": {
                 "entity": [
                     {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "minecraft:drowned"
+                            "type_specific": {
+                                "type": "minecraft:horse",
+                                "variant": "creamy"
+                            }
                         }
                     }
                 ]
             },
-            "trigger": "minecraft:player_killed_entity"
+            "trigger": "minecraft:tame_animal"
         },
-        "minecraft:husk": {
+        "chestnut": {
             "conditions": {
                 "entity": [
                     {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "minecraft:husk"
+                            "type_specific": {
+                                "type": "minecraft:horse",
+                                "variant": "chestnut"
+                            }
                         }
                     }
                 ]
             },
-            "trigger": "minecraft:player_killed_entity"
+            "trigger": "minecraft:tame_animal"
         },
-        "minecraft:skeleton": {
+        "brown": {
             "conditions": {
                 "entity": [
                     {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "minecraft:skeleton"
+                            "type_specific": {
+                                "type": "minecraft:horse",
+                                "variant": "brown"
+                            }
                         }
                     }
                 ]
             },
-            "trigger": "minecraft:player_killed_entity"
+            "trigger": "minecraft:tame_animal"
         },
-        "minecraft:stray": {
+        "black": {
             "conditions": {
                 "entity": [
                     {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "minecraft:stray"
+                            "type_specific": {
+                                "type": "minecraft:horse",
+                                "variant": "black"
+                            }
                         }
                     }
                 ]
             },
-            "trigger": "minecraft:player_killed_entity"
+            "trigger": "minecraft:tame_animal"
         },
-        "minecraft:zombie": {
+        "gray": {
             "conditions": {
                 "entity": [
                     {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "minecraft:zombie"
+                            "type_specific": {
+                                "type": "minecraft:horse",
+                                "variant": "gray"
+                            }
                         }
                     }
                 ]
             },
-            "trigger": "minecraft:player_killed_entity"
+            "trigger": "minecraft:tame_animal"
         },
-        "minecraft:zombie_villager": {
+        "dark_brown": {
             "conditions": {
                 "entity": [
                     {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "minecraft:zombie_villager"
+                            "type_specific": {
+                                "type": "minecraft:horse",
+                                "variant": "dark_brown"
+                            }
                         }
                     }
                 ]
             },
-            "trigger": "minecraft:player_killed_entity"
+            "trigger": "minecraft:tame_animal"
         }
     },
     "requirements": [
         [
-            "minecraft:bogged"
+            "white"
         ],
         [
-            "minecraft:drowned"
+            "creamy"
         ],
         [
-            "minecraft:husk"
+            "chestnut"
         ],
         [
-            "minecraft:skeleton"
+            "brown"
         ],
         [
-            "minecraft:stray"
+            "black"
         ],
         [
-            "minecraft:zombie_villager"
+            "gray"
         ],
         [
-            "minecraft:zombie"
+            "dark_brown"
         ]
     ],
     "rewards": {

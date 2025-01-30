@@ -1,30 +1,186 @@
 {
     "criteria": {
-        "hit": {
-            "trigger": "minecraft:player_killed_entity",
+        "minecraft:ashen": {
             "conditions": {
-                "player": {
-                    "type": "minecraft:player",
-                    "slots": {
-                        "weapon.mainhand": {
-                            "items": "#minecraft:swords"
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "minecraft:wolf",
+                                "variant": "minecraft:ashen"
+                            }
                         }
                     }
-                },
-                "killing_blow": {
-                    "tags": [
-                        {
-                            "id": "minecraft:is_player_attack",
-                            "expected": true
+                ]
+            },
+            "trigger": "minecraft:tame_animal"
+        },
+        "minecraft:black": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "minecraft:wolf",
+                                "variant": "minecraft:black"
+                            }
                         }
-                    ]
-                }
-            }
+                    }
+                ]
+            },
+            "trigger": "minecraft:tame_animal"
+        },
+        "minecraft:chestnut": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "minecraft:wolf",
+                                "variant": "minecraft:chestnut"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:tame_animal"
+        },
+        "minecraft:pale": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "minecraft:wolf",
+                                "variant": "minecraft:pale"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:tame_animal"
+        },
+        "minecraft:rusty": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "minecraft:wolf",
+                                "variant": "minecraft:rusty"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:tame_animal"
+        },
+        "minecraft:snowy": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "minecraft:wolf",
+                                "variant": "minecraft:snowy"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:tame_animal"
+        },
+        "minecraft:spotted": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "minecraft:wolf",
+                                "variant": "minecraft:spotted"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:tame_animal"
+        },
+        "minecraft:striped": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "minecraft:wolf",
+                                "variant": "minecraft:striped"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:tame_animal"
+        },
+        "minecraft:woods": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "minecraft:wolf",
+                                "variant": "minecraft:woods"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:tame_animal"
         }
     },
     "requirements": [
         [
-            "hit"
+            "minecraft:ashen"
+        ],
+        [
+            "minecraft:black"
+        ],
+        [
+            "minecraft:chestnut"
+        ],
+        [
+            "minecraft:pale"
+        ],
+        [
+            "minecraft:rusty"
+        ],
+        [
+            "minecraft:snowy"
+        ],
+        [
+            "minecraft:spotted"
+        ],
+        [
+            "minecraft:striped"
+        ],
+        [
+            "minecraft:woods"
         ]
     ],
     "rewards": {

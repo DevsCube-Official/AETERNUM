@@ -1,10 +1,28 @@
 {
     "criteria": {
         "hit": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wither_rose"
+                    }
+                ]
+            }
+        },
+        "wither": {
+            "trigger": "minecraft:summoned_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wither"
+                }
+            }
         }
     },
     "requirements": [
+        [
+            "wither"
+        ],
         [
             "hit"
         ]
