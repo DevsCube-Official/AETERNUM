@@ -94,7 +94,7 @@ execute if score @s aeternum.player.quest_id matches 66 if score @s aeternum.que
 execute if score @s aeternum.player.quest_id matches 67 if score @s aeternum.quests.traveler_2.data matches 1.. run advancement grant @s only aeternum:quests/traveler/traveler_2
 execute if score @s aeternum.player.quest_id matches 68 if score @s aeternum.quests.traveler_3.data matches 1.. run advancement grant @s only aeternum:quests/traveler/traveler_3
 execute if score @s aeternum.player.quest_id matches 69 if score @s aeternum.quests.traveler_4.data matches 1.. run advancement grant @s only aeternum:quests/traveler/traveler_4
-execute if score @s aeternum.player.quest_id matches 70 if score @s aeternum.quests.traveler_5.data matches 1.. run advancement grant @s only aeternum:quests/traveler/traveler_5
+execute if score @s aeternum.player.quest_id matches 70 if score @s aeternum.quests.traveler_5.data matches 1000000.. run advancement grant @s only aeternum:quests/traveler/traveler_5
 
 # Warrior
 execute if score @s aeternum.player.quest_id matches 71 if score @s aeternum.quests.warrior_1.data matches 1.. run advancement grant @s only aeternum:quests/warrior/warrior_1

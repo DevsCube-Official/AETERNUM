@@ -1,19 +1,13 @@
 {
     "criteria": {
         "hit": {
-            "trigger": "minecraft:consume_item",
+            "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "player": {
-                    "type": "minecraft:player"
-                },
-                "item": {
-                    "items": "minecraft:potion",
-                    "components": {
-                        "minecraft:potion_contents": {
-                            "potion": "minecraft:invisibility"
-                        }
+                "items": [
+                    {
+                        "items": "minecraft:clock"
                     }
-                }
+                ]
             }
         }
     },

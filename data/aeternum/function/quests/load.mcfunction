@@ -88,7 +88,7 @@ scoreboard objectives add aeternum.quests.traveler_1.data dummy
 scoreboard objectives add aeternum.quests.traveler_2.data dummy
 scoreboard objectives add aeternum.quests.traveler_3.data dummy
 scoreboard objectives add aeternum.quests.traveler_4.data dummy
-scoreboard objectives add aeternum.quests.traveler_5.data dummy
+scoreboard objectives add aeternum.quests.traveler_5.data minecraft.custom:minecraft.walk_one_cm
 
 scoreboard objectives add aeternum.quests.warrior_1.data dummy
 scoreboard objectives add aeternum.quests.warrior_2.data dummy

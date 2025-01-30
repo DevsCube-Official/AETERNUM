@@ -1,23 +1,32 @@
 {
     "criteria": {
-        "minecraft:zombie_villager": {
+        "a": {
+            "trigger": "minecraft:item_used_on_block",
             "conditions": {
-                "entity": [
+                "player": {
+                    "type": "player",
+                    "slots": {
+                        "weapon.mainhand": {
+                            "items": "minecraft:compass"
+                        }
+                    }
+                },
+                "location": [
                     {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
+                        "condition": "minecraft:location_check",
                         "predicate": {
-                            "type": "minecraft:phantom"
+                            "block": {
+                                "blocks": "minecraft:lodestone"
+                            }
                         }
                     }
                 ]
-            },
-            "trigger": "minecraft:player_killed_entity"
+            }
         }
     },
     "requirements": [
         [
-            "minecraft:zombie_villager"
+            "a"
         ]
     ],
     "rewards": {
