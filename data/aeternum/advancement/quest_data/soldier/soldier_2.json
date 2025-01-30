@@ -1,7 +1,19 @@
 {
     "criteria": {
         "hit": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "source_entity": {
+                        "type": "minecraft:player",
+                        "slots": {
+                            "weapon.mainhand": {
+                                "items": "minecraft:crossbow"
+                            }
+                        }
+                    }
+                }
+            }
         }
     },
     "requirements": [

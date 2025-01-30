@@ -1,12 +1,29 @@
 {
     "criteria": {
-        "hit": {
-            "trigger": "minecraft:impossible"
+        "deflected_projectile": {
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "type": "minecraft:creeper",
+                        "nbt": "{powered:1b}"
+                    },
+                    "type": {
+                        "tags": [
+                            {
+                                "expected": true,
+                                "id": "minecraft:is_explosion"
+                            }
+                        ]
+                    },
+                    "blocked": true
+                }
+            },
+            "trigger": "minecraft:entity_hurt_player"
         }
     },
     "requirements": [
         [
-            "hit"
+            "deflected_projectile"
         ]
     ],
     "rewards": {

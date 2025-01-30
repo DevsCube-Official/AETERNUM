@@ -83,11 +83,11 @@ execute if score @s aeternum.player.quest_id matches 59 if score @s aeternum.que
 execute if score @s aeternum.player.quest_id matches 60 if score @s aeternum.quests.monster_5.data matches 1.. run advancement grant @s only aeternum:quests/monster/monster_5
 
 # Soldier
-execute if score @s aeternum.player.quest_id matches 61 if score @s aeternum.quests.soldier_1.data matches 1.. run advancement grant @s only aeternum:quests/soldier/soldier_1
-execute if score @s aeternum.player.quest_id matches 62 if score @s aeternum.quests.soldier_2.data matches 1.. run advancement grant @s only aeternum:quests/soldier/soldier_2
-execute if score @s aeternum.player.quest_id matches 63 if score @s aeternum.quests.soldier_3.data matches 1.. run advancement grant @s only aeternum:quests/soldier/soldier_3
+execute if score @s aeternum.player.quest_id matches 61 if score @s aeternum.quests.soldier_1.data matches 3.. run advancement grant @s only aeternum:quests/soldier/soldier_1
+execute if score @s aeternum.player.quest_id matches 62 if score @s aeternum.quests.soldier_2.data matches 20.. run advancement grant @s only aeternum:quests/soldier/soldier_2
+execute if score @s aeternum.player.quest_id matches 63 if score @s aeternum.quests.soldier_3.data matches 50.. run advancement grant @s only aeternum:quests/soldier/soldier_3
 execute if score @s aeternum.player.quest_id matches 64 if score @s aeternum.quests.soldier_4.data matches 1.. run advancement grant @s only aeternum:quests/soldier/soldier_4
-execute if score @s aeternum.player.quest_id matches 65 if score @s aeternum.quests.soldier_5.data matches 1.. run advancement grant @s only aeternum:quests/soldier/soldier_5
+execute if score @s aeternum.player.quest_id matches 65 if items entity @s armor.head minecraft:carved_pumpkin[minecraft:enchantments={levels:{"minecraft:binding_curse":1}}] run advancement grant @s only aeternum:quests/soldier/soldier_5
 
 # Traveler
 execute if score @s aeternum.player.quest_id matches 66 if score @s aeternum.quests.traveler_1.data matches 1.. run advancement grant @s only aeternum:quests/traveler/traveler_1

@@ -1,12 +1,25 @@
 {
     "criteria": {
-        "hit": {
-            "trigger": "minecraft:impossible"
+        "deflected_projectile": {
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "tags": [
+                            {
+                                "expected": true,
+                                "id": "minecraft:is_projectile"
+                            }
+                        ]
+                    },
+                    "blocked": true
+                }
+            },
+            "trigger": "minecraft:entity_hurt_player"
         }
     },
     "requirements": [
         [
-            "hit"
+            "deflected_projectile"
         ]
     ],
     "rewards": {
