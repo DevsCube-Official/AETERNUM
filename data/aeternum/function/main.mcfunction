@@ -12,6 +12,7 @@ execute as @e[type=wandering_trader] run function aeternum:tick/wandering_trader
 
 execute as @e[type=arrow] run function aeternum:tick/arrow_tick_main
 
+function aeternum:tick/quest_tick_2
 execute as @a run function aeternum:tick/player_tick
 function aeternum:abilities/tick
 

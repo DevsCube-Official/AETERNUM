@@ -41,12 +41,6 @@ execute if score @s aeternum.player.quest_id matches 29 if score @s aeternum.que
 execute if score @s aeternum.player.quest_id matches 30 if score @s aeternum.quests.druid_5.data matches 2.. run advancement grant @s only aeternum:quests/druid/druid_5
 
 # Enchanter
-execute as @a[tag=aeternum.quests.enchanter_3.near_orb] run scoreboard players operation @s aeternum.quests.enchanter_3.old_xp -= @s aeternum.quests.enchanter_3.current_xp
-execute as @a[tag=aeternum.quests.enchanter_3.near_orb] if score @s aeternum.quests.enchanter_3.old_xp matches -37..-1 run scoreboard players add @s aeternum.quests.enchanter_3.data 1
-execute as @a[tag=aeternum.quests.enchanter_3.near_orb] run scoreboard players operation @s aeternum.quests.enchanter_3.old_xp = @s aeternum.quests.enchanter_3.current_xp
-tag @a[tag=aeternum.quests.enchanter_3.near_orb] remove aeternum.quests.enchanter_3.near_orb
-execute at @e[type=experience_orb] run tag @a[distance=..2] add aeternum.quests.enchanter_3.near_orb
-
 execute if score @s aeternum.player.quest_id matches 31 if score @s aeternum.quests.enchanter_1.data matches 3.. run advancement grant @s only aeternum:quests/enchanter/enchanter_1
 execute if score @s aeternum.player.quest_id matches 32 if score @s aeternum.quests.enchanter_2.data matches 100.. run advancement grant @s only aeternum:quests/enchanter/enchanter_2
 execute if score @s aeternum.player.quest_id matches 33 if score @s aeternum.quests.enchanter_3.data matches 500.. run advancement grant @s only aeternum:quests/enchanter/enchanter_3
