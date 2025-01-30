@@ -1,17 +1,17 @@
 {
     "criteria": {
-        "used_totem": {
+        "hit": {
+            "trigger": "minecraft:player_killed_entity",
             "conditions": {
-                "item": {
-                    "items": "minecraft:totem_of_undying"
+                "entity": {
+                    "type": "#taglib:hostile"
                 }
-            },
-            "trigger": "minecraft:used_totem"
+            }
         }
     },
     "requirements": [
         [
-            "used_totem"
+            "hit"
         ]
     ],
     "rewards": {

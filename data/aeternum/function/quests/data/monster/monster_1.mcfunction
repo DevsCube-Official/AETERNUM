@@ -1,2 +1,2 @@
-scoreboard players add @s aeternum.quests.monster_1.data 1
+execute if predicate {"condition": "minecraft:time_check","value": {"min": 13000,"max": 24000}} run scoreboard players add @s aeternum.quests.monster_1.data 1
 advancement revoke @s only aeternum:quest_data/monster/monster_1

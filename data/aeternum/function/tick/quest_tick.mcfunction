@@ -76,9 +76,9 @@ execute if score @s aeternum.player.quest_id matches 54 if score @s aeternum.que
 execute if score @s aeternum.player.quest_id matches 55 if score @s aeternum.quests.barbarian_5.data matches 1.. run advancement grant @s only aeternum:quests/barbarian/barbarian_5
 
 # Monster
-execute if score @s aeternum.player.quest_id matches 56 if score @s aeternum.quests.monster_1.data matches 1.. run advancement grant @s only aeternum:quests/monster/monster_1
-execute if score @s aeternum.player.quest_id matches 57 if score @s aeternum.quests.monster_2.data matches 1.. run advancement grant @s only aeternum:quests/monster/monster_2
-execute if score @s aeternum.player.quest_id matches 58 if score @s aeternum.quests.monster_3.data matches 1.. run advancement grant @s only aeternum:quests/monster/monster_3
+execute if score @s aeternum.player.quest_id matches 56 if score @s aeternum.quests.monster_1.data matches 10.. run advancement grant @s only aeternum:quests/monster/monster_1
+execute if score @s aeternum.player.quest_id matches 57 if score @s aeternum.quests.monster_2.data matches 100.. run advancement grant @s only aeternum:quests/monster/monster_2
+execute if score @s aeternum.player.quest_id matches 58 if score @s aeternum.quests.monster_3.data matches 15.. run advancement grant @s only aeternum:quests/monster/monster_3
 execute if score @s aeternum.player.quest_id matches 59 if score @s aeternum.quests.monster_4.data matches 1.. run advancement grant @s only aeternum:quests/monster/monster_4
 execute if score @s aeternum.player.quest_id matches 60 if score @s aeternum.quests.monster_5.data matches 1.. run advancement grant @s only aeternum:quests/monster/monster_5
 

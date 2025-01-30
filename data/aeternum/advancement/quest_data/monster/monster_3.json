@@ -1,7 +1,12 @@
 {
     "criteria": {
         "hit": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "#taglib:hostile"
+                }
+            }
         }
     },
     "requirements": [
