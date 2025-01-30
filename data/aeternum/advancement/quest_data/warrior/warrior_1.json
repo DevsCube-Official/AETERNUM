@@ -1,24 +1,13 @@
 {
     "criteria": {
         "hit": {
-            "trigger": "minecraft:player_killed_entity",
+            "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "player": {
-                    "type": "minecraft:player",
-                    "slots": {
-                        "weapon.mainhand": {
-                            "items": "#minecraft:swords"
-                        }
+                "items": [
+                    {
+                        "items": "minecraft:heavy_core"
                     }
-                },
-                "killing_blow": {
-                    "tags": [
-                        {
-                            "id": "minecraft:is_player_attack",
-                            "expected": true
-                        }
-                    ]
-                }
+                ]
             }
         }
     },

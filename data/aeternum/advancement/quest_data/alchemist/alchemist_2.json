@@ -1,34 +1,33 @@
 {
     "criteria": {
-        "killed_ghast": {
+        "thick_bottle": {
+            "trigger": "minecraft:brewed_potion",
             "conditions": {
-                "entity": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "type": "minecraft:ghast"
-                        }
-                    }
-                ],
-                "killing_blow": {
-                    "direct_entity": {
-                        "type": "minecraft:fireball"
-                    },
-                    "tags": [
-                        {
-                            "expected": true,
-                            "id": "minecraft:is_projectile"
-                        }
-                    ]
-                }
-            },
-            "trigger": "minecraft:player_killed_entity"
+                "potion": "minecraft:thick"
+            }
+        },
+        "mundane": {
+            "trigger": "minecraft:brewed_potion",
+            "conditions": {
+                "potion": "minecraft:mundane"
+            }
+        },
+        "awkward": {
+            "trigger": "minecraft:brewed_potion",
+            "conditions": {
+                "potion": "minecraft:awkward"
+            }
         }
     },
     "requirements": [
         [
-            "killed_ghast"
+            "mundane"
+        ],
+        [
+            "awkward"
+        ],
+        [
+            "thick_bottle"
         ]
     ],
     "rewards": {

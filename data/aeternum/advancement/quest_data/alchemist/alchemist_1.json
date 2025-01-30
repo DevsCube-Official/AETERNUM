@@ -1,36 +1,45 @@
 {
     "criteria": {
-        "hit": {
-            "trigger": "minecraft:player_hurt_entity",
+        "blaze_powder": {
+            "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "player": {
-                    "type": "minecraft:player",
-                    "slots": {
-                        "weapon.mainhand": {
-                            "items": "minecraft:snowball"
-                        }
+                "items": [
+                    {
+                        "items": "minecraft:blaze_powder"
                     }
-                },
-                "damage": {
-                    "blocked": false,
-                    "type": {
-                        "tags": [
-                            {
-                                "id": "minecraft:is_projectile",
-                                "expected": true
-                            }
-                        ]
+                ]
+            }
+        },
+        "ghast_tear": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:ghast_tear"
                     }
-                },
-                "entity": {
-                    "type": "minecraft:blaze"
-                }
+                ]
+            }
+        },
+        "spider_eye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "fermented_spider_eye"
+                    }
+                ]
             }
         }
     },
     "requirements": [
         [
-            "hit"
+            "spider_eye"
+        ],
+        [
+            "ghast_tear"
+        ],
+        [
+            "blaze_powder"
         ]
     ],
     "rewards": {

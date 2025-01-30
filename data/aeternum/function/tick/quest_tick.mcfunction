@@ -100,12 +100,12 @@ execute if score @s aeternum.player.quest_id matches 70 if score @s aeternum.que
 execute if score @s aeternum.player.quest_id matches 71 if score @s aeternum.quests.warrior_1.data matches 1.. run advancement grant @s only aeternum:quests/warrior/warrior_1
 execute if score @s aeternum.player.quest_id matches 72 if score @s aeternum.quests.warrior_2.data matches 1.. run advancement grant @s only aeternum:quests/warrior/warrior_2
 execute if score @s aeternum.player.quest_id matches 73 if score @s aeternum.quests.warrior_3.data matches 1.. run advancement grant @s only aeternum:quests/warrior/warrior_3
-execute if score @s aeternum.player.quest_id matches 74 if score @s aeternum.quests.warrior_4.data matches 1.. run advancement grant @s only aeternum:quests/warrior/warrior_4
+execute if score @s aeternum.player.quest_id matches 74 if score @s aeternum.quests.warrior_4.data matches 50.. run advancement grant @s only aeternum:quests/warrior/warrior_4
 execute if score @s aeternum.player.quest_id matches 75 if score @s aeternum.quests.warrior_5.data matches 1.. run advancement grant @s only aeternum:quests/warrior/warrior_5
 
 # Alchemist
 execute if score @s aeternum.player.quest_id matches 76 if score @s aeternum.quests.alchemist_1.data matches 1.. run advancement grant @s only aeternum:quests/alchemist/alchemist_1
 execute if score @s aeternum.player.quest_id matches 77 if score @s aeternum.quests.alchemist_2.data matches 1.. run advancement grant @s only aeternum:quests/alchemist/alchemist_2
 execute if score @s aeternum.player.quest_id matches 78 if score @s aeternum.quests.alchemist_3.data matches 1.. run advancement grant @s only aeternum:quests/alchemist/alchemist_3
-execute if score @s aeternum.player.quest_id matches 79 if score @s aeternum.quests.alchemist_4.data matches 1.. run advancement grant @s only aeternum:quests/alchemist/alchemist_4
-execute if score @s aeternum.player.quest_id matches 80 if score @s aeternum.quests.alchemist_5.data matches 1.. run advancement grant @s only aeternum:quests/alchemist/alchemist_5
+execute if score @s aeternum.player.quest_id matches 79 if score @s aeternum.quests.alchemist_4.data matches 3.. run advancement grant @s only aeternum:quests/alchemist/alchemist_4
+execute if score @s aeternum.player.quest_id matches 80 at @s if block ~ ~ ~ minecraft:lava_cauldron run advancement grant @s only aeternum:quests/alchemist/alchemist_5

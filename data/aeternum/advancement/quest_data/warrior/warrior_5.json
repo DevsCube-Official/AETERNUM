@@ -1,29 +1,16 @@
 {
     "criteria": {
         "hit": {
-            "trigger": "minecraft:player_killed_entity",
+            "trigger": "minecraft:item_used_on_block",
             "conditions": {
                 "player": {
-                    "type": "minecraft:player",
                     "slots": {
                         "weapon.mainhand": {
-                            "components": {
-                                "minecraft:item_model": "aeternum:general/items/warrior/diamond_longsword"
-                            }
+                            "items": "minecraft:ominous_trial_key"
                         }
                     }
                 },
-                "entity": {
-                    "type": "minecraft:breeze"
-                },
-                "killing_blow": {
-                    "tags": [
-                        {
-                            "id": "minecraft:is_player_attack",
-                            "expected": true
-                        }
-                    ]
-                }
+                "location": []
             }
         }
     },
