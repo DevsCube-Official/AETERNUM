@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:honey_bottle",
+          "components": {
+            "minecraft:lore": [
+              "{\"translate\":\"aeternum.item.lore.xp_bottle\"}"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "a"
+    ]
+  ],
+  "rewards": {
+    "function": "aeternum:abilities/enchanter/2/give_xp"
+  }
+}
