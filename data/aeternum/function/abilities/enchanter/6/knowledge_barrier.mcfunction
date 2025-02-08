@@ -10,4 +10,9 @@ execute positioned ~ ~ ~ run scoreboard players set @n[tag=aeternum.abilities.en
 execute positioned ~ ~1 ~ run scoreboard players set @n[tag=aeternum.abilities.enchanter.books_flying.missile2] aeternum.abilities.enchanter.6.ability.3.cool 30
 execute positioned ~ ~2 ~ run scoreboard players set @n[tag=aeternum.abilities.enchanter.books_flying.missile2] aeternum.abilities.enchanter.6.ability.3.cool 30
 
+execute if score @s aeternum.abilities.enchanter.mastery matches 1.. run execute positioned ~ ~ ~ run scoreboard players set @n[tag=aeternum.abilities.enchanter.books_flying.missile2] aeternum.abilities.enchanter.6.ability.3.cool 45
+execute if score @s aeternum.abilities.enchanter.mastery matches 1.. run execute positioned ~ ~1 ~ run scoreboard players set @n[tag=aeternum.abilities.enchanter.books_flying.missile2] aeternum.abilities.enchanter.6.ability.3.cool 45
+execute if score @s aeternum.abilities.enchanter.mastery matches 1.. run execute positioned ~ ~2 ~ run scoreboard players set @n[tag=aeternum.abilities.enchanter.books_flying.missile2] aeternum.abilities.enchanter.6.ability.3.cool 45
+
+
 playsound block.enchantment_table.use player @s ~ ~ ~

@@ -42,6 +42,9 @@ execute as @a[scores={aeternum.abilities.enchanter.10.ability.4.cool=1..}] run s
 execute as @a[scores={aeternum.abilities.enchanter.1.ability.2.cool=597}] at @s run function aeternum:abilities/enchanter/1/explod
 execute as @a[scores={aeternum.abilities.enchanter.7.ability.1.cool=597}] at @s run function aeternum:abilities/enchanter/7/explod
 
+execute as @a[scores={aeternum.abilities.enchanter.1.ability.2.cool=597}] at @s if score @s aeternum.abilities.enchanter.mastery matches 1.. run function aeternum:abilities/enchanter/1/explod
+execute as @a[scores={aeternum.abilities.enchanter.7.ability.1.cool=597}] at @s if score @s aeternum.abilities.enchanter.mastery matches 1.. run function aeternum:abilities/enchanter/7/explod
+
 execute as @e[type=item_display,tag=aeternum.abilities.enchanter.books_flying.book,tag=aeternum.abilities.enchanter.books_flying.type_book] at @s run function aeternum:abilities/enchanter/2/book_shoot
 execute as @e[type=item_display,tag=aeternum.abilities.enchanter.books_flying.book,tag=aeternum.abilities.enchanter.books_flying.type_tome] at @s run summon minecraft:armor_stand ~ ~1 ~ {Tags:["aeternum.abilities.enchanter.books_flying.missile"],NoGravity:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"minecraft:knowledge_book",count:1}]}
 execute as @e[type=item_display,tag=aeternum.abilities.enchanter.books_flying.book] at @s run rotate @s ~45 ~

@@ -5,3 +5,5 @@ execute unless score @s aeternum.player.xp.level matches 10.. run return run fun
 xp add @s -10 levels
 give @p honey_bottle[rarity=uncommon,consumable={consume_seconds:1.6f,animation:"drink",sound:"entity.generic.drink",has_consume_particles:false,on_consume_effects:[{type:"minecraft:play_sound",sound:"entity.wandering_trader.reappeared"}]},lore=['{"translate":"aeternum.item.lore.xp_bottle"}'],item_model="minecraft:experience_bottle",item_name='{"translate":"item.minecraft.experience_bottle"}',food={nutrition:1,saturation:0.1,can_always_eat:true}] 1
 playsound minecraft:entity.wandering_trader.disappeared player @a ~ ~ ~
+
+execute if score @s aeternum.abilities.enchanter.mastery matches 1.. run xp add @s 3 levels

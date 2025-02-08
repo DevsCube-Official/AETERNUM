@@ -1,3 +1,5 @@
+scoreboard players reset @a aeternum.abilities.enchanter.mastery
+
 execute as @e[type=snowball,tag=aeternum.abilities.enchanter.books_flying] at @s unless block ~ ~-1 ~ air as @e[type=#taglib:hostile,distance=..2] run damage @s 3
 execute as @e[type=snowball,tag=aeternum.abilities.enchanter.books_flying] at @s unless block ~ ~-1 ~ air as @e[type=player,distance=..2] run damage @s 3
 

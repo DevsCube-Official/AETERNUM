@@ -9,3 +9,4 @@ execute at @s run effect give @a[distance=0.1..7] slowness 40 2 true
 execute at @s run effect give @e[type=#taglib:hostile,distance=..7] slowness 40 2 true
 execute at @s run playsound block.enchantment_table.use player @a ~ ~ ~
 scoreboard players set @s aeternum.abilities.enchanter.4.ability.2.cool 150
+execute if score @s aeternum.abilities.enchanter.mastery matches 1.. run scoreboard players set @s aeternum.abilities.enchanter.4.ability.2.cool 100

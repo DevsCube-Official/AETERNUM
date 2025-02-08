@@ -6,3 +6,4 @@ xp add @s -10 levels
 effect give @s instant_health 1 3 false
 playsound block.enchantment_table.use player @a ~ ~ ~
 scoreboard players set @s aeternum.abilities.enchanter.5.ability.3.cool 300
+execute if score @s aeternum.abilities.enchanter.mastery matches 1.. run xp add @s 3 levels

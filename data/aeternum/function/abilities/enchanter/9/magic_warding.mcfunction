@@ -7,3 +7,4 @@ xp add @s -10 levels
 effect give @a[distance=..3] minecraft:resistance 20 255 false
 execute at @s run playsound block.enchantment_table.use player @a ~ ~ ~
 scoreboard players set @s aeternum.abilities.enchanter.9.ability.2.cool 1000
+execute if score @s aeternum.abilities.enchanter.mastery matches 1.. run scoreboard players set @s aeternum.abilities.enchanter.9.ability.2.cool 800

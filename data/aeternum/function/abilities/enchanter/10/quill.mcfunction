@@ -6,3 +6,4 @@ execute unless items entity @s weapon.offhand book[count=1] run return run funct
 item modify entity @s weapon.offhand [{function:"minecraft:enchant_randomly",options:"#minecraft:on_random_loot"}]
 playsound minecraft:block.enchantment_table.use player @s ~ ~ ~
 scoreboard players set @s aeternum.abilities.enchanter.10.ability.3.cool 1200
+execute if score @s aeternum.abilities.enchanter.mastery matches 1.. run scoreboard players set @s aeternum.abilities.enchanter.10.ability.3.cool 1000

@@ -71,3 +71,6 @@ scoreboard objectives add aeternum.abilities.enchanter.7.ability.3.motion.orb3 d
 
 # Arcane Beam
 scoreboard objectives add aeternum.abilities.enchanter.arcane_beam.raycast dummy
+
+# Arcane Mastery
+scoreboard objectives add aeternum.abilities.enchanter.mastery dummy
