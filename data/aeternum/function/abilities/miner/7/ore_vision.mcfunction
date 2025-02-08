@@ -1,2 +1,7 @@
 execute if block ~ ~ ~ minecraft:barrel[facing=up,open=true]{CustomName:'{"text":"","extra":[{"text":"Class Table","italic":false},{"text":"\\u0003","font":"aeternum:gui"},{"text":"","font":"aeternum:gui","color":"white"}]}'} run return fail
-execute if score @s aeternum.abilities.miner.7.ability.2.cool matches 1.. run return run function aeternum:abilities/deny {en:7}
+
+execute as @s at @s unless score @s aeternum.abilities.miner.7.ability.2.cool matches 1.. store result score @s aeternum.abilities.miner.ore_vision run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 minecraft:command_block[facing=north]{LastOutput:'{"text":"[17:44:39] ","extra":[{"translate":"commands.function.scheduled.single","with":["aeternum:miner"]}]}'} replace diamond_ore
+execute as @s at @s unless score @s aeternum.abilities.miner.7.ability.2.cool matches 1.. store result score @s aeternum.abilities.miner.ore_vision run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 diamond_ore replace minecraft:command_block[facing=north]{LastOutput:'{"text":"[17:44:39] ","extra":[{"translate":"commands.function.scheduled.single","with":["aeternum:miner"]}]}'}
+execute as @s at @s unless score @s aeternum.abilities.miner.7.ability.2.cool matches 1.. if score @s aeternum.abilities.miner.ore_vision matches 1.. run tellraw @s {"translate": "aeternum.abilities.miner.ore_vision"}
+execute as @s at @s unless score @s aeternum.abilities.miner.7.ability.2.cool matches 1.. if score @s aeternum.abilities.miner.ore_vision matches 1.. run playsound minecraft:entity.experience_orb.pickup player @s ~ ~ ~
+execute as @s at @s unless score @s aeternum.abilities.miner.7.ability.2.cool matches 1.. run scoreboard players set @s aeternum.abilities.miner.7.ability.2.cool 300
