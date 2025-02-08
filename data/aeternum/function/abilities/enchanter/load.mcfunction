@@ -60,3 +60,14 @@ scoreboard objectives add aeternum.abilities.enchanter.3.paginated_shield.time d
 
 # XP Drain
 scoreboard objectives add aeternum.abilities.enchanter.3.xp_drain.val dummy
+
+# Overload
+scoreboard objectives add aeternum.abilities.enchanter.7.ability.3.motion.player1 dummy
+scoreboard objectives add aeternum.abilities.enchanter.7.ability.3.motion.player2 dummy
+scoreboard objectives add aeternum.abilities.enchanter.7.ability.3.motion.player3 dummy
+scoreboard objectives add aeternum.abilities.enchanter.7.ability.3.motion.orb1 dummy
+scoreboard objectives add aeternum.abilities.enchanter.7.ability.3.motion.orb2 dummy
+scoreboard objectives add aeternum.abilities.enchanter.7.ability.3.motion.orb3 dummy
+
+# Arcane Beam
+scoreboard objectives add aeternum.abilities.enchanter.arcane_beam.raycast dummy

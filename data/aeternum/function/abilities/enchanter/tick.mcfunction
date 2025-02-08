@@ -10,3 +10,9 @@ execute as @e[tag=aeternum.abilities.enchanter.books_flying.missile] at @s ancho
 execute as @e[tag=aeternum.abilities.enchanter.books_flying.missile] at @s anchored eyes if entity @e[type=#taglib:hostile,distance=..1] run summon creeper ~ ~ ~ {Fuse:0,ignited:1b,DeathTime:200s}
 execute as @e[tag=aeternum.abilities.enchanter.books_flying.missile] at @s anchored eyes if entity @e[type=#taglib:hostile,distance=..1] run kill @s
 execute as @e[tag=aeternum.abilities.enchanter.books_flying.missile] at @s anchored eyes unless block ^ ^ ^ air run kill @s
+
+execute as @e[type=snowball,tag=aeternum.abilities.enchanter.orb_shooter2] at @s unless block ~ ~-0.5 ~ air run summon creeper ~ ~ ~ {Fuse:0s}
+
+execute as @e[type=#taglib:hostile,nbt={HurtTime:10s}] on attacker if score @s aeternum.abilities.enchanter.7.ability.2.cool matches 440.. run xp add @s 200 points
+
+execute as @e[tag=aeternum.abilities.enchanter.ghost] run execute rotated as @s on passengers run rotate @s ~ 0

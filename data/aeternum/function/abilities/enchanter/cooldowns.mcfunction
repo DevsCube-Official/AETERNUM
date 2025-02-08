@@ -25,15 +25,15 @@ execute as @a[scores={aeternum.abilities.enchanter.7.ability.2.cool=1..}] run sc
 execute as @a[scores={aeternum.abilities.enchanter.7.ability.3.cool=1..}] run scoreboard players remove @s aeternum.abilities.enchanter.7.ability.3.cool 1
 
 execute as @a[scores={aeternum.abilities.enchanter.8.ability.1.cool=1..}] run scoreboard players remove @s aeternum.abilities.enchanter.8.ability.1.cool 1
-execute as @a[scores={aeternum.abilities.enchanter.8.ability.2.cool=1..}] run scoreboard players remove @s aeternum.abilities.enchanter.8.ability.2.cool 1
+execute as @e[scores={aeternum.abilities.enchanter.8.ability.2.cool=1..}] run scoreboard players remove @s aeternum.abilities.enchanter.8.ability.2.cool 1
 execute as @a[scores={aeternum.abilities.enchanter.8.ability.3.cool=1..}] run scoreboard players remove @s aeternum.abilities.enchanter.8.ability.3.cool 1
 
 execute as @a[scores={aeternum.abilities.enchanter.9.ability.1.cool=1..}] run scoreboard players remove @s aeternum.abilities.enchanter.9.ability.1.cool 1
 execute as @a[scores={aeternum.abilities.enchanter.9.ability.2.cool=1..}] run scoreboard players remove @s aeternum.abilities.enchanter.9.ability.2.cool 1
 execute as @a[scores={aeternum.abilities.enchanter.9.ability.3.cool=1..}] run scoreboard players remove @s aeternum.abilities.enchanter.9.ability.3.cool 1
-execute as @a[scores={aeternum.abilities.enchanter.9.ability.4.cool=1..}] run scoreboard players remove @s aeternum.abilities.enchanter.9.ability.4.cool 1
+execute as @e[scores={aeternum.abilities.enchanter.9.ability.4.cool=1..}] run scoreboard players remove @s aeternum.abilities.enchanter.9.ability.4.cool 1
 
-execute as @a[scores={aeternum.abilities.enchanter.10.ability.1.cool=1..}] run scoreboard players remove @s aeternum.abilities.enchanter.10.ability.1.cool 1
+execute as @e[scores={aeternum.abilities.enchanter.10.ability.1.cool=1..}] run scoreboard players remove @s aeternum.abilities.enchanter.10.ability.1.cool 1
 execute as @a[scores={aeternum.abilities.enchanter.10.ability.2.cool=1..}] run scoreboard players remove @s aeternum.abilities.enchanter.10.ability.2.cool 1
 execute as @a[scores={aeternum.abilities.enchanter.10.ability.3.cool=1..}] run scoreboard players remove @s aeternum.abilities.enchanter.10.ability.3.cool 1
 execute as @a[scores={aeternum.abilities.enchanter.10.ability.4.cool=1..}] run scoreboard players remove @s aeternum.abilities.enchanter.10.ability.4.cool 1
@@ -59,3 +59,12 @@ execute as @a[scores={aeternum.abilities.enchanter.5.ability.2.cool=210}] at @s 
 execute as @e[tag=aeternum.abilities.enchanter.books_flying.missile] unless entity @e[type=#taglib:hostile] run kill @s
 
 execute as @e[tag=aeternum.abilities.enchanter.books_flying.missile2,scores={aeternum.abilities.enchanter.6.ability.3.cool=0}] run kill @s
+
+execute as @e[tag=aeternum.abilities.enchanter.runic_trap,scores={aeternum.abilities.enchanter.8.ability.2.cool=0}] at @s if entity @e[gamemode=!creative,gamemode=!spectator,distance=..2,tag=!aeternum.abilities.enchanter.runic_trap] run summon creeper ~ ~ ~ {Fuse:0s}
+execute as @e[tag=aeternum.abilities.enchanter.runic_trap,scores={aeternum.abilities.enchanter.8.ability.2.cool=0}] at @s if entity @e[gamemode=!creative,gamemode=!spectator,distance=..2,tag=!aeternum.abilities.enchanter.runic_trap] run kill @s
+
+execute as @e[tag=aeternum.abilities.enchanter.xp_bomb,scores={aeternum.abilities.enchanter.9.ability.4.cool=0}] at @s run summon creeper ~ ~ ~ {Fuse:0s}
+execute as @e[tag=aeternum.abilities.enchanter.xp_bomb,scores={aeternum.abilities.enchanter.9.ability.4.cool=0}] at @s run kill @s
+
+execute as @e[scores={aeternum.abilities.enchanter.10.ability.1.cool=0},tag=aeternum.abilities.enchanter.ghost] at @s run playsound minecraft:entity.evoker.cast_spell hostile @a ~ ~ ~
+execute as @e[scores={aeternum.abilities.enchanter.10.ability.1.cool=0},tag=aeternum.abilities.enchanter.ghost] at @s run tp @s ~ ~-1000 ~

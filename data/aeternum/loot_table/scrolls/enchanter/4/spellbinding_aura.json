@@ -29,7 +29,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{aeternum-scroll_data:{\"function\":\"aeternum:abilities/enchanter/4/spellbinding_aura\",\"ability\":\"Spellbinding Aura\",\"class_id\":\"enchanter\",\"level\":4,\"ability_detailed\":{incom_class:[], incom_ability:[], level:4, type:Passive, en_req:4, ability:\"Spellbinding Aura\", class_id:enchanter, item_model:\"aeternum:class_table/items/class-chooser/enchanter\"}}}"
+              "tag": "{aeternum-scroll_data:{\"function\":\"aeternum:abilities/enchanter/4/spellbinding_aura\",\"ability\":\"Spellbinding Aura\",\"class_id\":\"enchanter\",\"level\":4,\"ability_detailed\":{incom_class:[], incom_ability:[], level:4, type:Activated, en_req:4, ability:\"Spellbinding Aura\", class_id:enchanter, item_model:\"aeternum:class_table/items/class-chooser/enchanter\"}}}"
             }
           ]
         }

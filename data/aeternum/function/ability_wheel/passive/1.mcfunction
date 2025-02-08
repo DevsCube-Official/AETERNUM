@@ -43,7 +43,6 @@ execute if data storage pdb:main in.Aeternum.stats.wheel.abilities_alt_v2[{abili
 
 # Enchanter
 execute if data storage pdb:main in.Aeternum.stats.wheel.abilities_alt_v2[{ability:"XP Drain"}] run scoreboard players set @s aeternum.ability_wheel.passive_id.1 34
-execute if data storage pdb:main in.Aeternum.stats.wheel.abilities_alt_v2[{ability:"Spellbinding Aura"}] run scoreboard players set @s aeternum.ability_wheel.passive_id.1 35
 execute if data storage pdb:main in.Aeternum.stats.wheel.abilities_alt_v2[{ability:"Arcane Mastery"}] run scoreboard players set @s aeternum.ability_wheel.passive_id.1 36
 
 # Soldier
