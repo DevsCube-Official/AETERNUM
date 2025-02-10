@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mace",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "aeternum.item.lore.mace",
+                  "with": [
+                    {
+                      "text": "+0",
+                      "color": "red",
+                      "italic": false
+                    },
+                    {
+                      "text": "8",
+                      "color": "dark_green",
+                      "italic": false
+                    }
+                  ],
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "aeternum.item.name.warrior.mace",
+                "with": [
+                  "Wooden"
+                ],
+                "italic": false
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "aeternum:general/items/warrior/wooden_mace"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

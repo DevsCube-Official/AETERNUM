@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "minecraft:gold_ingot"
+  },
+  "pattern": [
+    "XXX",
+    "X#X",
+    " # "
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_model": "aeternum:general/items/smith/golden_hammer",
+      "minecraft:item_name": "{\"translate\":\"aeternum.item.name.smith.hammer\",\"with\":[{\"italic\":false,\"text\":\"Golden\"}]}",
+      "minecraft:lore": [
+        "{\"translate\": \"aeternum.item.lore.hammer\",\"with\": [{\"text\": \"+0\",\"color\": \"red\",\"italic\": false},{\"text\": \"+0\",\"color\": \"dark_green\",\"italic\": false}],\"italic\": false}"
+      ]
+    },
+    "count": 1,
+    "id": "minecraft:golden_axe"
+  }
+}

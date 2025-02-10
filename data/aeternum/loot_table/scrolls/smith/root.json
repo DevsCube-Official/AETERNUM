@@ -5,6 +5,18 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/smith/key/hammers_tier_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/smith/key/hammers_tier_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:scrolls/smith/key/hammers_tier_3"
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "aeternum:scrolls/smith/1/heat_resistance_1"
         },
         {

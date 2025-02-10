@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:mace",
+    "X": "#minecraft:stone_tool_materials"
+  },
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_model": "aeternum:general/items/warrior/stone_mace",
+      "minecraft:item_name": "{\"translate\":\"aeternum.item.name.warrior.mace\",\"with\":[{\"italic\":false,\"text\":\"Stone\"}]}",
+      "minecraft:lore": [
+        "{\"translate\": \"aeternum.item.lore.mace\",\"with\": [{\"text\": \"+0\",\"color\": \"red\",\"italic\": false},{\"text\": \"8\",\"color\": \"dark_green\",\"italic\": false}],\"italic\": false}"
+      ]
+    },
+    "count": 1,
+    "id": "minecraft:mace"
+  }
+}
