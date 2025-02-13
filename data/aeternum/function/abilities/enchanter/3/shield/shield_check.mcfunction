@@ -23,6 +23,13 @@ execute positioned ~ ~1 ~ if block ~ ~ ~ #taglib:air align xyz positioned ~0.5 ~
 execute positioned ^1 ^1 ^ if block ~ ~ ~ #taglib:air align xyz positioned ~0.5 ~ ~0.5 run scoreboard players set @n[tag=aeternum.abilities.enchanter.paginated_shield.marker] aeternum.abilities.enchanter.3.paginated_shield.time 1800
 execute positioned ^-1 ^1 ^ if block ~ ~ ~ #taglib:air align xyz positioned ~0.5 ~ ~0.5 run scoreboard players set @n[tag=aeternum.abilities.enchanter.paginated_shield.marker] aeternum.abilities.enchanter.3.paginated_shield.time 1800
 
+execute if score @s aeternum.abilities.enchanter.mastery matches 1.. positioned ~ ~ ~ if block ~ ~ ~ #taglib:air align xyz positioned ~0.5 ~ ~0.5 run scoreboard players set @n[tag=aeternum.abilities.enchanter.paginated_shield.marker] aeternum.abilities.enchanter.3.paginated_shield.time 2700
+execute if score @s aeternum.abilities.enchanter.mastery matches 1.. positioned ^1 ^ ^ if block ~ ~ ~ #taglib:air align xyz positioned ~0.5 ~ ~0.5 run scoreboard players set @n[tag=aeternum.abilities.enchanter.paginated_shield.marker] aeternum.abilities.enchanter.3.paginated_shield.time 2700
+execute if score @s aeternum.abilities.enchanter.mastery matches 1.. positioned ^-1 ^ ^ if block ~ ~ ~ #taglib:air align xyz positioned ~0.5 ~ ~0.5 run scoreboard players set @n[tag=aeternum.abilities.enchanter.paginated_shield.marker] aeternum.abilities.enchanter.3.paginated_shield.time 2700
+execute if score @s aeternum.abilities.enchanter.mastery matches 1.. positioned ~ ~1 ~ if block ~ ~ ~ #taglib:air align xyz positioned ~0.5 ~ ~0.5 run scoreboard players set @n[tag=aeternum.abilities.enchanter.paginated_shield.marker] aeternum.abilities.enchanter.3.paginated_shield.time 2700
+execute if score @s aeternum.abilities.enchanter.mastery matches 1.. positioned ^1 ^1 ^ if block ~ ~ ~ #taglib:air align xyz positioned ~0.5 ~ ~0.5 run scoreboard players set @n[tag=aeternum.abilities.enchanter.paginated_shield.marker] aeternum.abilities.enchanter.3.paginated_shield.time 2700
+execute if score @s aeternum.abilities.enchanter.mastery matches 1.. positioned ^-1 ^1 ^ if block ~ ~ ~ #taglib:air align xyz positioned ~0.5 ~ ~0.5 run scoreboard players set @n[tag=aeternum.abilities.enchanter.paginated_shield.marker] aeternum.abilities.enchanter.3.paginated_shield.time 2700
+
 execute positioned ~ ~ ~ if block ~ ~ ~ #taglib:air run setblock ~ ~ ~ barrier
 execute positioned ^1 ^ ^ if block ~ ~ ~ #taglib:air run setblock ~ ~ ~ barrier
 execute positioned ^-1 ^ ^ if block ~ ~ ~ #taglib:air run setblock ~ ~ ~ barrier

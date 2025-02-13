@@ -32,6 +32,10 @@ scoreboard players operation @s aeternum.player.id = #global aeternum.player.id
 scoreboard players add #global aeternum.player.id 1
 scoreboard players reset @s aeternum.player.quest_id
 
+scoreboard players set @a aeternum.abilities.summoner.spirit_energy.max 0
+scoreboard players set @a aeternum.abilities.summoner.spirit_energy.current 0
+scoreboard players set @a aeternum.abilities.summoner.spirit_energy.modifier 0
+
 function pdb:save_me
 
 # Grant advancements

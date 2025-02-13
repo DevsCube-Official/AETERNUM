@@ -37,3 +37,6 @@ scoreboard objectives add aeternum.abilities.monster.10.ability.1.cool dummy
 scoreboard objectives add aeternum.abilities.monster.10.ability.2.cool dummy
 scoreboard objectives add aeternum.abilities.monster.10.ability.3.cool dummy
 scoreboard objectives add aeternum.abilities.monster.10.ability.4.cool dummy
+
+scoreboard objectives add aeternum.abilities.monster.heart_drain dummy
+scoreboard objectives add aeternum.abilities.monster.hearts dummy

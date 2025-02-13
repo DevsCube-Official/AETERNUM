@@ -5,14 +5,6 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "aeternum:scrolls/monster/key/vampiric_form_1"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "aeternum:scrolls/monster/key/vampiric_form_2"
-        },
-        {
-          "type": "minecraft:loot_table",
           "value": "aeternum:scrolls/monster/1/vicious_bite_1"
         },
         {

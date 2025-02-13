@@ -37,3 +37,7 @@ scoreboard objectives add aeternum.abilities.barbarian.10.ability.1.cool dummy
 scoreboard objectives add aeternum.abilities.barbarian.10.ability.2.cool dummy
 scoreboard objectives add aeternum.abilities.barbarian.10.ability.3.cool dummy
 scoreboard objectives add aeternum.abilities.barbarian.10.ability.4.cool dummy
+
+scoreboard objectives add aeternum.abilities.barbarian.wind_spin dummy
+scoreboard objectives add aeternum.abilities.barbarian.wind_spin2 dummy
+scoreboard objectives add aeternum.abilities.barbarian.wind_spin3 dummy

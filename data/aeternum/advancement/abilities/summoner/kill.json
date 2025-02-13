@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "check_hit": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "check_hit"
+    ]
+  ],
+  "rewards": {
+    "function": "aeternum:abilities/summoner/1/kill"
+  }
+}

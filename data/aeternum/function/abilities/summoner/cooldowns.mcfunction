@@ -37,3 +37,6 @@ execute as @a[scores={aeternum.abilities.summoner.10.ability.1.cool=1..}] run sc
 execute as @a[scores={aeternum.abilities.summoner.10.ability.2.cool=1..}] run scoreboard players remove @s aeternum.abilities.summoner.10.ability.2.cool 1
 execute as @a[scores={aeternum.abilities.summoner.10.ability.3.cool=1..}] run scoreboard players remove @s aeternum.abilities.summoner.10.ability.3.cool 1
 execute as @a[scores={aeternum.abilities.summoner.10.ability.4.cool=1..}] run scoreboard players remove @s aeternum.abilities.summoner.10.ability.4.cool 1
+
+execute as @e[scores={aeternum.abilities.summoner.summon_cool=1..}] run scoreboard players remove @s aeternum.abilities.summoner.summon_cool 1
+execute as @e[scores={aeternum.abilities.summoner.summon_cool=0}] run kill @s

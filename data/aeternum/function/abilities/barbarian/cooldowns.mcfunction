@@ -37,3 +37,18 @@ execute as @a[scores={aeternum.abilities.barbarian.10.ability.1.cool=1..}] run s
 execute as @a[scores={aeternum.abilities.barbarian.10.ability.2.cool=1..}] run scoreboard players remove @s aeternum.abilities.barbarian.10.ability.2.cool 1
 execute as @a[scores={aeternum.abilities.barbarian.10.ability.3.cool=1..}] run scoreboard players remove @s aeternum.abilities.barbarian.10.ability.3.cool 1
 execute as @a[scores={aeternum.abilities.barbarian.10.ability.4.cool=1..}] run scoreboard players remove @s aeternum.abilities.barbarian.10.ability.4.cool 1
+
+# Other Stuff
+
+execute as @a run attribute @s minecraft:armor modifier remove aeternum.classes.barbarian.max_rage
+execute as @a run attribute @s minecraft:attack_speed modifier remove aeternum.classes.barbarian.max_rage
+execute as @a run attribute @s minecraft:attack_damage modifier remove aeternum.classes.barbarian.max_rage
+
+execute as @a[scores={aeternum.abilities.barbarian.10.ability.3.cool=190..}] run attribute @s minecraft:armor modifier add aeternum.classes.barbarian.max_rage -4 add_value
+execute as @a[scores={aeternum.abilities.barbarian.10.ability.3.cool=190..}] run attribute @s minecraft:attack_speed modifier add aeternum.classes.barbarian.max_rage 1 add_value
+execute as @a[scores={aeternum.abilities.barbarian.10.ability.3.cool=190..}] run attribute @s minecraft:attack_damage modifier add aeternum.classes.barbarian.max_rage 3 add_value
+
+execute as @a[scores={aeternum.abilities.barbarian.9.ability.2.cool=190..}] run attribute @s minecraft:armor modifier add aeternum.classes.barbarian.max_rage -2 add_value
+execute as @a[scores={aeternum.abilities.barbarian.9.ability.2.cool=190..}] run attribute @s minecraft:attack_speed modifier add aeternum.classes.barbarian.max_rage 1 add_value
+execute as @a[scores={aeternum.abilities.barbarian.9.ability.2.cool=190..}] run attribute @s minecraft:attack_damage modifier add aeternum.classes.barbarian.max_rage 2 add_value
+

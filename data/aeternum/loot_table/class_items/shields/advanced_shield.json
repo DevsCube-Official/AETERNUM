@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+                        {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "aeternum.item.name.soldier.shield",
+                "with": [
+                  "Advanced"
+                ],
+                "italic": false
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "aeternum:general/items/soldier/advanced_shield"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

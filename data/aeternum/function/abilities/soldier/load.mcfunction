@@ -37,3 +37,10 @@ scoreboard objectives add aeternum.abilities.soldier.10.ability.1.cool dummy
 scoreboard objectives add aeternum.abilities.soldier.10.ability.2.cool dummy
 scoreboard objectives add aeternum.abilities.soldier.10.ability.3.cool dummy
 scoreboard objectives add aeternum.abilities.soldier.10.ability.4.cool dummy
+
+# Shield
+scoreboard objectives add aeternum.abilities.soldier.5.shield.range dummy
+scoreboard objectives add aeternum.abilities.soldier.5.shield.time dummy
+
+scoreboard objectives add aeternum.abilities.soldier.6.shield.range dummy
+scoreboard objectives add aeternum.abilities.soldier.6.shield.time dummy

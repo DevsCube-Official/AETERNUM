@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "deflected_projectile": {
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft:mob_attack"
+              }
+            ]
+          },
+          "blocked": true
+        }
+      },
+      "trigger": "minecraft:entity_hurt_player"
+    }
+  },
+  "requirements": [
+    [
+      "deflected_projectile"
+    ]
+  ],
+  "rewards": {
+    "function": "aeternum:abilities/soldier/1/reflect"
+  }
+}

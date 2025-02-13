@@ -5,26 +5,6 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "aeternum:scrolls/alchemist/key/potion_bag_2"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "aeternum:scrolls/alchemist/key/potion_bag_3"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "aeternum:scrolls/alchemist/key/potion_bag_4"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "aeternum:scrolls/alchemist/key/potion_box_1"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "aeternum:scrolls/alchemist/key/potion_box_2"
-        },
-        {
-          "type": "minecraft:loot_table",
           "value": "aeternum:scrolls/alchemist/key/transmuter_novice"
         },
         {
@@ -42,10 +22,6 @@
         {
           "type": "minecraft:loot_table",
           "value": "aeternum:scrolls/alchemist/key/transmuter_master"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "aeternum:scrolls/alchemist/key/elixir_mastery"
         },
 
         {

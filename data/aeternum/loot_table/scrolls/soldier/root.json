@@ -9,10 +9,6 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "aeternum:scrolls/soldier/key/shield_mastery_2"
-        },
-        {
-          "type": "minecraft:loot_table",
           "value": "aeternum:scrolls/soldier/1/bash_protection_1"
         },
         {

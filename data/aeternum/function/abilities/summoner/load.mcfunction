@@ -37,3 +37,10 @@ scoreboard objectives add aeternum.abilities.summoner.10.ability.1.cool dummy
 scoreboard objectives add aeternum.abilities.summoner.10.ability.2.cool dummy
 scoreboard objectives add aeternum.abilities.summoner.10.ability.3.cool dummy
 scoreboard objectives add aeternum.abilities.summoner.10.ability.4.cool dummy
+
+scoreboard objectives add aeternum.abilities.summoner.summon_cool dummy
+scoreboard objectives add aeternum.abilities.summoner.spirit_energy.max dummy
+scoreboard objectives add aeternum.abilities.summoner.spirit_energy.current dummy
+scoreboard objectives add aeternum.abilities.summoner.spirit_energy.modifier dummy
+
+scoreboard objectives add aeternum.abilities.summoner.summon_id dummy
