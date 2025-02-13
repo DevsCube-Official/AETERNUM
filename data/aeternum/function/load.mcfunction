@@ -76,3 +76,4 @@ function aeternum:quests/load
 
 execute as @a unless score @s aeternum.player.health_check matches -2147483648..2147483647 run damage @s 1
 
+scoreboard objectives add aeternum.backstab.raycast dummy
