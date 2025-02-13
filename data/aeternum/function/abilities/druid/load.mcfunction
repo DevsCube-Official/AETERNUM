@@ -37,3 +37,12 @@ scoreboard objectives add aeternum.abilities.druid.10.ability.1.cool dummy
 scoreboard objectives add aeternum.abilities.druid.10.ability.2.cool dummy
 scoreboard objectives add aeternum.abilities.druid.10.ability.3.cool dummy
 scoreboard objectives add aeternum.abilities.druid.10.ability.4.cool dummy
+
+scoreboard objectives add aeternum.abilities.druid.vine.cool dummy
+
+scoreboard objectives add aeternum.abilities.druid.longer_vines_1 dummy
+scoreboard objectives add aeternum.abilities.druid.longer_vines_2 dummy
+scoreboard objectives add aeternum.abilities.druid.marking_vines dummy
+scoreboard objectives add aeternum.abilities.druid.wither_vines dummy
+scoreboard objectives add aeternum.abilities.druid.one_with_nature dummy
+scoreboard objectives add aeternum.abilities.druid.power_sap dummy
