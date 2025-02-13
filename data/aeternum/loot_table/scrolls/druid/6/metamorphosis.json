@@ -29,7 +29,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{aeternum-scroll_data:{\"function\":\"aeternum:abilities/druid/6/metamorphosis\",\"ability\":\"Metamorphosis\",\"class_id\":\"druid\",\"level\":6,\"ability_detailed\":{incom_class:[], incom_ability:[], level:6, type:Activated, en_req:6, ability:\"Metamorphosis\", class_id:druid, item_model:\"aeternum:class_table/items/class-chooser/druid\"}}}"
+              "tag": "{aeternum-scroll_data:{\"function\":\"aeternum:abilities/druid/6/metamorphosis\",\"ability\":\"Metamorphosis\",\"class_id\":\"druid\",\"level\":6,\"ability_detailed\":{incom_class:[], incom_ability:[], level:6, type:Activated, en_req:20, ability:\"Metamorphosis\", class_id:druid, item_model:\"aeternum:class_table/items/class-chooser/druid\"}}}"
             }
           ]
         }
