@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "minecraft:iron_ingot",
+    "#": "minecraft:iron_axe"
+  },
+  "pattern": [
+    "XXX",
+    "X#X",
+    "XXX"
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_model": "aeternum:general/items/barbarian/basic_axe",
+      "minecraft:item_name": "{\"translate\":\"aeternum.item.name.barbarian.axe\",\"with\":[{\"italic\":false,\"text\":\"Basic\"}]}",
+      "minecraft:lore": [
+        "{\"translate\": \"aeternum.item.lore.axe\",\"with\": [{\"text\": \"+0\",\"color\": \"red\",\"italic\": false},{\"text\": \"10\",\"color\": \"dark_green\",\"italic\": false}],\"italic\": false}"
+      ]
+    },
+    "count": 1,
+    "id": "minecraft:diamond_axe"
+  }
+}

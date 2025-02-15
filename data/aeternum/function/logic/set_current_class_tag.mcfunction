@@ -40,6 +40,11 @@ execute if data storage pdb:main in.Aeternum.class_data.stats{current_class:"enc
 execute if data storage pdb:main in.Aeternum.class_data.stats{current_class:"swordsman"} run tag @s add aeternum.player_data.unlocked_class.swordsman
 execute if data storage pdb:main in.Aeternum.class_data.stats{current_class:"rogue"} run tag @s add aeternum.player_data.unlocked_class.rogue
 
+execute if data storage pdb:main in.Aeternum.class_data.stats{current_class:"warrior"} run tag @s add aeternum.player_data.unlocked_class.warrior
+execute if data storage pdb:main in.Aeternum.class_data.stats{current_class:"soldier"} run tag @s add aeternum.player_data.unlocked_class.soldier
+execute if data storage pdb:main in.Aeternum.class_data.stats{current_class:"barbarian"} run tag @s add aeternum.player_data.unlocked_class.barbarian
+execute if data storage pdb:main in.Aeternum.class_data.stats{current_class:"traveler"} run tag @s add aeternum.player_data.unlocked_class.traveler
+
 # Add scores
 scoreboard players set @s aeternum.player.level 1
 scoreboard players set @s aeternum.player.level.small 1

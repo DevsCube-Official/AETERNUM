@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:nether_wart" },
+        { "type": "minecraft:item", "name": "minecraft:gunpowder" },
+        { "type": "minecraft:item", "name": "minecraft:spider_eye" },
+        { "type": "minecraft:item", "name": "minecraft:fermented_spider_eye" },
+        { "type": "minecraft:item", "name": "minecraft:ghast_tear" },
+        { "type": "minecraft:item", "name": "minecraft:rabbit_foot" },
+        { "type": "minecraft:item", "name": "minecraft:blaze_powder" },
+        { "type": "minecraft:item", "name": "minecraft:glistering_melon_slice" },
+        { "type": "minecraft:item", "name": "minecraft:sugar" },
+        { "type": "minecraft:item", "name": "minecraft:magma_cream" },
+        { "type": "minecraft:item", "name": "minecraft:redstone" },
+        { "type": "minecraft:item", "name": "minecraft:dragon_breath" },
+        { "type": "minecraft:item", "name": "minecraft:pufferfish" },
+        { "type": "minecraft:item", "name": "minecraft:golden_carrot" },
+        { "type": "minecraft:item", "name": "minecraft:turtle_helmet" },
+        { "type": "minecraft:item", "name": "minecraft:phantom_membrane" },
+        { "type": "minecraft:item", "name": "minecraft:breeze_rod" },
+        { "type": "minecraft:item", "name": "minecraft:cobweb" },
+        { "type": "minecraft:item", "name": "minecraft:slime_block" },
+        { "type": "minecraft:item", "name": "minecraft:stone" }
+      ]
+    }
+  ]
+}

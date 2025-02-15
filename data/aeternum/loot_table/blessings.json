@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:blessings/kalistar"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:blessings/mil"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:blessings/neera"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:blessings/razar"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:blessings/tarmee"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:blessings/torg"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:blessings/zethros"
+        }
+      ]
+    }
+  ]
+}

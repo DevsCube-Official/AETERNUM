@@ -1,0 +1,28 @@
+{
+    "criteria": {
+      "open_gui": {
+        "trigger": "minecraft:any_block_use",
+        "conditions": {
+          "location": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetY": 1,
+              "predicate": {
+                "block": {
+                  "blocks": "#aeternum:crops"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "open_gui"
+      ]
+    ],
+    "rewards": {
+      "function": "aeternum:abilities/alchemist/5/har"
+    }
+  }

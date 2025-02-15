@@ -19,3 +19,15 @@ function aeternum:abilities/tick
 scoreboard players remove #global aeternum.merchant.timer 1
 execute if score #global aeternum.merchant.timer matches 0 run function aeternum:merchant/marker/spawn_summon
 execute if score #global aeternum.merchant.timer matches 0 run scoreboard players remove #global aeternum.merchant.timer 24000
+
+execute as @e[type=minecraft:marker,tag=aeternum.gods.altar.summon] at @s run function aeternum:gods/altar_place
+
+execute as @e[type=item_frame,tag=aeternum.gods.altar.ender_frame] at @s unless data entity @s Item run data modify entity @s Invulnerable set value 1b
+execute as @e[type=item_frame,tag=aeternum.gods.altar.ender_frame] at @s if data entity @s Item run data modify entity @s Invulnerable set value 0b
+
+execute as @e[type=item_frame,tag=aeternum.gods.altar.ender_frame] at @s if data entity @s Item{id:"minecraft:ender_eye"} run function aeternum:gods/altar_reward
+
+execute as @e[type=minecraft:item_frame,tag=aeternum.trader_totem] at @s run function aeternum:merchant/summon
+execute as @e[type=minecraft:item_frame,tag=aeternum.trader_totem] at @s run kill @s
+
+function aeternum:boxes/main

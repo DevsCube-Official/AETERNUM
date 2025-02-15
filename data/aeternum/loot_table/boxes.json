@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:boxes/basic"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:boxes/medium"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:boxes/advanced"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:boxes/lucky"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:boxes/sketchy"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "aeternum:boxes/shulker"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "minecraft:iron_ingot",
+    "#": "minecraft:bundle"
+  },
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_model": "aeternum:general/items/traveler/basic_backpack",
+      "minecraft:item_name": "{\"translate\":\"aeternum.item.name.traveler.backpack\",\"with\":[{\"italic\":false,\"text\":\"Basic\"}]}"
+    },
+    "count": 1,
+    "id": "minecraft:bundle"
+  }
+}

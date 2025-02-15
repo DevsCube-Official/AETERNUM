@@ -1,0 +1,64 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "aeternum.item.lore.class_scroll0",
+        "with": [
+          {
+            "nbt": "Items[{Slot:5b}].components.\"minecraft:custom_data\".aeternum-scroll_data.ability_detailed.type",
+            "block": "~ ~ ~",
+            "color": "light_purple",
+            "italic": false
+          }
+        ]
+      },
+      {
+        "translate": "aeternum.item.lore.class_scroll1",
+        "with": [
+          {
+            "nbt": "Items[{Slot:5b}].components.\"minecraft:custom_data\".aeternum-scroll_data.ability_detailed.ability",
+            "block": "~ ~ ~",
+            "color": "light_purple",
+            "italic": false
+          }
+        ]
+      },
+      {
+        "translate": "aeternum.item.lore.class_scroll2",
+        "with": [
+          {
+            "nbt": "Items[{Slot:5b}].components.\"minecraft:custom_data\".aeternum-scroll_data.ability_detailed.class_id",
+            "block": "~ ~ ~",
+            "color": "light_purple",
+            "italic": false
+          }
+        ]
+      },
+      {
+        "translate": "aeternum.item.lore.class_scroll3",
+        "with": [
+          {
+            "nbt": "Items[{Slot:5b}].components.\"minecraft:custom_data\".aeternum-scroll_data.ability_detailed.level",
+            "block": "~ ~ ~",
+            "color": "light_purple",
+            "italic": false
+          }
+        ]
+      },
+      {
+        "translate": "aeternum.item.lore.class_scroll4",
+        "with": [
+          {
+            "nbt": "Items[{Slot:5b}].components.\"minecraft:custom_data\".aeternum-scroll_data.ability_detailed.en_req",
+            "block": "~ ~ ~",
+            "color": "light_purple",
+            "italic": false
+          }
+        ]
+      }
+    ],
+    "mode": "replace_all"
+  }
+]

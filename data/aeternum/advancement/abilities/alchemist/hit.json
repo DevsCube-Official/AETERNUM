@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "deflected_projectile": {
+      "conditions": {
+        "damage": {
+          "blocked": false
+        }
+      },
+      "trigger": "minecraft:entity_hurt_player"
+    }
+  },
+  "requirements": [
+    [
+      "deflected_projectile"
+    ]
+  ],
+  "rewards": {
+    "function": "aeternum:abilities/alchemist/9/hit"
+  }
+}

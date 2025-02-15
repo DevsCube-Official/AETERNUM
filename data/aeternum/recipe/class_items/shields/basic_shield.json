@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "minecraft:iron_ingot",
+    "#": "minecraft:shield"
+  },
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_model": "aeternum:general/items/soldier/basic_shield",
+      "minecraft:item_name": "{\"translate\":\"aeternum.item.name.soldier.shield\",\"with\":[{\"italic\":false,\"text\":\"Basic\"}]}"
+    },
+    "count": 1,
+    "id": "minecraft:shield"
+  }
+}
