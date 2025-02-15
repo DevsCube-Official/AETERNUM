@@ -1,16 +1,29 @@
 {
   "pools": [
     {
-      "rolls": 6,
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 0,
+        "max": 4
+      },
       "entries": [
         {
-          "type": "minecraft:loot_table",
-          "value": "aeternum:boxes"
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ]
         }
       ]
     },
     {
-      "rolls": 3,
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 0,
+        "max": 5
+      },
       "entries": [
         {
           "type": "minecraft:loot_table",
@@ -19,7 +32,11 @@
       ]
     },
     {
-      "rolls": 8,
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 11
+      },
       "entries": [
         {
           "type": "minecraft:loot_table",
