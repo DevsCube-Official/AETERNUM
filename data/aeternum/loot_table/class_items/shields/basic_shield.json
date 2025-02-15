@@ -17,12 +17,24 @@
                 ],
                 "italic": false
               },
-              "target": "item_name"
+              "target": "custom_name"
             },
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_model": "aeternum:general/items/soldier/basic_shield"
+                "minecraft:item_model": "aeternum:general/items/soldier/basic_shield",
+                "minecraft:banner_patterns": [
+                  {
+                    "color": "light_blue",
+                    "pattern": "minecraft:skull"
+                  },
+                  {
+                    "color": "light_gray",
+                    "pattern": "minecraft:border"
+                  }
+                ],
+                "minecraft:base_color": "black",
+                "minecraft:hide_additional_tooltip": {}
               }
             }
           ]

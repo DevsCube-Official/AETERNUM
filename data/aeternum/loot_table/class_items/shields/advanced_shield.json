@@ -7,7 +7,7 @@
           "type": "minecraft:item",
           "name": "minecraft:shield",
           "functions": [
-                        {
+            {
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
@@ -17,12 +17,24 @@
                 ],
                 "italic": false
               },
-              "target": "item_name"
+              "target": "custom_name"
             },
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_model": "aeternum:general/items/soldier/advanced_shield"
+                "minecraft:item_model": "aeternum:general/items/soldier/advanced_shield",
+                "minecraft:banner_patterns": [
+                  {
+                    "color": "orange",
+                    "pattern": "minecraft:skull"
+                  },
+                  {
+                    "color": "yellow",
+                    "pattern": "minecraft:border"
+                  }
+                ],
+                "minecraft:base_color": "black",
+                "minecraft:hide_additional_tooltip": {}
               }
             }
           ]
