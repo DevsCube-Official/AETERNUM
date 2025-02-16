@@ -29,14 +29,15 @@
 
 Aeternum is an RPG Datapack for Minecraft, featuring:
 
-- 350 + new abilities
-- 16 classes (11 upcoming™)
-- dungeons (upcoming™)
+- Over 400 abilities
+- 16 classes
+- dungeons (soon™)
 - an energy system
 - A level-up system
-- Magic (upcoming™)
-- Custom items + mobs
-- and so much more (upcoming™)!
+- Custom items + mobs (soon™)
+- boxes (loot-boxes)
+- gods
+- and so much more!
 
 ![All the classes in Aeternum](https://cdn.modrinth.com/data/cached_images/3ba4bbca20bfd5cbd8a578db18ffddea0c0037fd.png)
 
@@ -76,12 +77,26 @@ In order to use Aeternum's features, it is advised to learn a choose a class fir
 - Swordsman
 - Rogue
 - Healer
+
+In v1.0, 11 new classes have been introduced:
+
+- Miner
+- Enchanter
+- Smith
+- Soldier
+- Warrior
+- Summoner
+- Druid
+- Traveler
+- Alchemist
+- Monster
+- Barbarian
   
 ![Classes](https://cdn.modrinth.com/data/cached_images/e1c5ba2575fb6a20f33ba4a5f9e4e619a67455ee.png)
 
 Choosing a new class will give you a starting ability to use, and might provide custom items (for example, swordsman's longswords and rogue's daggers).
-After you choose a class, you might master that class by leveling up to level 10 in that class.
-After doing so, you will able to choose another class.
+After you choose a class, you can master that class by leveling up to level 10 in that class.
+After doing so, you will able to choose another class, through class stones, or through the GUI shown above.
 
 </details>
 
@@ -92,7 +107,7 @@ After doing so, you will able to choose another class.
 
 Use `/function aeternum:merchant/summon` to summon a merchant
 
-The merchant will sell class scrolls, and **class stones** (upcoming™).
+The merchant will sell class scrolls, and **class stones** (v1.0).
 
 A merchant has a 60% chance to replace the spawn of a wandering trader. This can be changed using the config.
 
@@ -101,7 +116,7 @@ Optionally, it is possible to make them display a message when spawned using the
 
 ![Merchant in the wild](https://cdn.modrinth.com/data/cached_images/df7a5032b3eba739ad276e9c04cb1d4e0d94a80c.png)
 
-![Trades](https://cdn.modrinth.com/data/cached_images/db2036aadd9f46cc289077ee441a652a00249ae9.png)
+![Trades in alpha version](https://cdn.modrinth.com/data/cached_images/db2036aadd9f46cc289077ee441a652a00249ae9.png)
 
 </details>
 
@@ -112,7 +127,7 @@ Optionally, it is possible to make them display a message when spawned using the
 
 Use `/loot give @s loot aeternum:scrolls/...` to give yourself class scrolls
 
-Throughout your journey in the minecraft world, you may find **class scrolls** (obtained from dungeon merchants as of alpha release), which are the various abilities your class gives you. To add a class scroll to your unlocked abilties, you may use the "Use a class scroll" menu in the class table.
+Throughout your journey in the minecraft world, you may find **class scrolls** (obtained from dungeon merchants [alpha], and boxes [v1.0]), which are the various abilities your class gives you. To add a class scroll to your unlocked abilties, you may use the "Use a class scroll" menu in the class table.
 
 ![Learning Abilities](https://cdn.modrinth.com/data/cached_images/a857eb76c65cac06aab2cbe1d58463cef73f0576.png)
 
@@ -127,7 +142,7 @@ Each class scroll can only be used in this menu **if you have the required class
 <details>
 <summary>Spoiler</summary>
 
-As Aeternum offers 500 unique abilties, this menu will serve as a guide to keep track of them all. Here you can **select abilities to put in your ability wheel, remove them from the slots in the ability wheel, and scroll through 24 pages of possible abilities to choose from** (that is, if you unlocked all of them).
+As Aeternum offers a lot of unique abilties, this menu will serve as a guide to keep track of them all. Here you can **select abilities to put in your ability wheel, remove them from the slots in the ability wheel, and scroll through 24 pages of possible abilities to choose from** (that is, if you unlocked all of them).
 
 ![Example](https://cdn.modrinth.com/data/cached_images/f873f856bfe9eb158caab2b40f2b72ff1122e913.png)
 ![Example 2](https://cdn.modrinth.com/data/cached_images/4de420dd97a75fedc3847ae710531d62b9d4aa78.png)
@@ -179,7 +194,7 @@ The energy system works as a system to make sure you can't use too many abilitie
 - It regenerates like normal health.
 - *Generally* an ability costs an EN amount equivalent to the level of the ability to use.
 - Passive abilities and Key abilities do not use EN.
-- Your current amount of EN displayed when you hold the ability wheel.
+- Your current amount of EN is displayed when you hold the ability wheel.
 - A different icon will show depending on your current class. (Have fun seeing them in survival - or by ripping them from the resourcepack!)
 - **Eating Beetroot will generate 2 mana.** This can be disabled in the config.
 
@@ -195,7 +210,7 @@ Icon list:
 - Mage - Mana
 - Traveler - XP
 - Druid - Nature
-- Warrior - ???
+- Warrior - I genuinely don't remember this one
 - Monster - Blood
 - Alchemist - Potion
 - Soldier - Shield
@@ -213,9 +228,7 @@ Icon list:
 
 To level up a class in aeternum you need to do a specific thing related to your current class.
 
-This functionality will be changed in a future release, when **quests** become a reality.
-
-But for now, here are all the ways to level up a class:
+Here are all the ways to level up a class:
 - Summoner - Breed animals
 - Smith - Use weapons (change durability of weapons)
 - Archer - Kill enemies (bow/crossbow ranged damage)
@@ -225,7 +238,7 @@ But for now, here are all the ways to level up a class:
 - Traveler - Ride an entity (Will change)
 - Druid - Use hoes (change durability of hoes)
 - Warrior - Kill enemies (mace/trident)
-- Monster - ***WIP***
+- Monster - Kill enemies
 - Alchemist - Brew Potions
 - Soldier - Entity hurt player
 - Healer - Cure zombie villager
@@ -242,6 +255,8 @@ As of v0.1.3, new methods to level up have been introduced.
 - Obtaining an advancement from the aeternum advancements 
 - XP level up
 
+v0.2.0 introduced quests, and you can complete quests to level up as well.
+
 </details>
 
 ### Quests and Quest Merchants
@@ -257,8 +272,6 @@ Quest merchants will offer you different quests, when you interact with them. Th
 
 ![Some quests in aeternum](https://cdn.modrinth.com/data/cached_images/e3d8bb3047c76687d630f40ed73cb24fa7e4e540.png)
 
-when you complete a quest, you are given **30 level points.**
-
 </details>
 
 
@@ -271,22 +284,80 @@ when you complete a quest, you are given **30 level points.**
 
 </details>
 
-### Class Stones
+### Class Stones [v1.0]
 
 <details>
 <summary>Spoiler</summary>
 
-An upcoming feature in **release beta**
-
 Allows you to learn classes that are outside of the base 5 you see in version alpha.
 
-Obtained from the dungeon merchant.
+Obtained from the dungeon merchant [alpha], or by boxes [v1.0].
 
 ![Class Stone GUI](https://cdn.modrinth.com/data/cached_images/8fdb0db2651b1f9856a2eca6e3dfd225e1388590.png)
 
 </details>
 
+### Class Items/Key Items
 
+<details>
+<summary>Spoiler</summary>
+
+![Some class items seen in aeternum](https://cdn.modrinth.com/data/cached_images/d40187b0f36f41d8e9e53198112f4cbbc1602979.png)
+
+These Items can be obtained through key abilities found in certain classes. These items (usually) give effects exclusive to the class, such as increased damage/range, or an effect.
+
+</details>
+
+### Gods and Altars [v1.0]
+
+<details>
+<summary>Spoiler</summary>
+
+Throughout the world, you find structures that look like this:
+![A white box, made of quartz, with bookshelves, an anvil, a grindstone, and an altar inside.](https://cdn.modrinth.com/data/cached_images/76d05dd5ce4d7829c3c7009974532061799d4ec0.png)
+
+Inside these structures, there will be an altar. If you place an ender eye inside the item frame, it will reward you with a blessing or box!
+
+![How to use an altar](https://cdn.modrinth.com/data/cached_images/9d0207e7e64d12c75c69c914c8503671b3b9b7e8.png)
+
+</details>
+
+### Blessings [v1.0]
+
+<details>
+<summary>Spoiler</summary>
+
+Blessings are basically potion bottles that have an effect that lasts 2.5 hours, and can only be obtained from altars.
+There are 7 different types of blessings, that can be obtained from different gods:
+
+![Table that shows all the gods](https://cdn.modrinth.com/data/cached_images/3847d31b05e933f48847c238a4cd0a7ac06cef12.png)![Tooltip of a blessing](https://cdn.modrinth.com/data/cached_images/8bafc67bd1f223a4e1b0773c67c836847113fe12.png)
+![All blessing items](https://cdn.modrinth.com/data/cached_images/52d1457e3ae9f7280b638437d66bb168ac49c354.png)
+
+</details>
+
+### Boxes [v1.0]
+
+<details>
+<summary>Spoiler</summary>
+
+Boxes are what you'd expect. They're lootboxes, and can be obtained from altars.
+Here are all the box types:
+
+![Table of every box type](https://cdn.modrinth.com/data/cached_images/d1c92ad1ad42f066d31962e9a962993e7e3737c4.png)
+
+- When you get the box, you have to place it down
+- When you right click the interaction entity, it will tell you how many emeralds are required to open the box, and how many emeralds it has recieved so far
+- When you right-click the interaction with emeralds, the emerald item will be removed and a scoreboard in the interaction will increase by 1.
+- When the scoreboard reaches a certain amount (20), the interaction entity is removed and the effect of the box (i.e. loot, explosion, etc) is given
+
+![how to use a box](https://cdn.modrinth.com/data/cached_images/43c0af4cfcf4d318bab1e16a851288af8ca9845f.png)
+
+- You can then open the box and get your rewards (advanced box only)
+- Advanced Box Loot:
+  
+![Advanced Box Loot](https://cdn.modrinth.com/data/cached_images/b90c1ac84b6535885fb5135b6888c5411d02d422.png)
+
+</details>
 
 ### ???
 
@@ -315,7 +386,6 @@ Use `/trigger aeternum.credits` to view credits in-game
 ![OG Creator Credits](https://cdn.modrinth.com/data/cached_images/4071d16012a6f7240186bcd7e6e8f6aa2448793f.png)
 
 - "Aeternum" in latin means "forever"! How cool!
-- The pronounciation for "aeternum" in the datapack title is `ay-tur-nuh-m`
 
 </details>
 
