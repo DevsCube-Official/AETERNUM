@@ -330,7 +330,8 @@ Inside these structures, there will be an altar. If you place an ender eye insid
 Blessings are basically potion bottles that have an effect that lasts 2.5 hours, and can only be obtained from altars.
 There are 7 different types of blessings, that can be obtained from different gods:
 
-![Table that shows all the gods](https://cdn.modrinth.com/data/cached_images/3847d31b05e933f48847c238a4cd0a7ac06cef12.png)![Tooltip of a blessing](https://cdn.modrinth.com/data/cached_images/8bafc67bd1f223a4e1b0773c67c836847113fe12.png)
+![Table that shows all the gods](https://cdn.modrinth.com/data/cached_images/3847d31b05e933f48847c238a4cd0a7ac06cef12.png)
+![Tooltip of a blessing](https://cdn.modrinth.com/data/cached_images/8bafc67bd1f223a4e1b0773c67c836847113fe12.png)
 ![All blessing items](https://cdn.modrinth.com/data/cached_images/52d1457e3ae9f7280b638437d66bb168ac49c354.png)
 
 </details>
