@@ -1,6 +1,6 @@
 ![Cover Art](https://cdn.modrinth.com/data/cached_images/8a9a4e6aad7b845a07c46278291c19d777f4dfff_0.webp)
 
-**Aeternum is an RPG Datapack for minecraft 1.21.4 inspired by the Origins Mod!**
+**Aeternum is an RPG Datapack for minecraft 1.21.4+ inspired by the Origins Mod!**
 
 **⚠ Click on a spoiler to see more details!**
 
