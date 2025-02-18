@@ -1,7 +1,7 @@
-scoreboard players set @n[type=item_display,tag=aeternum.class_table.display,limit=1,sort=nearest] aeternum.class_table.page 1
-scoreboard players set @n[type=item_display,tag=aeternum.class_table.display,limit=1,sort=nearest] aeternum.class_table.cool 4
-scoreboard players set @n[type=item_display,tag=aeternum.class_table.display,limit=1,sort=nearest] aeternum.class_table.wheel.slot 1
-scoreboard players set @n[type=item_display,tag=aeternum.class_table.display,limit=1,sort=nearest] aeternum.class_table.wheel.page 1
+scoreboard players set @e[type=item_display,tag=aeternum.class_table.display,limit=1,sort=nearest] aeternum.class_table.page 1
+scoreboard players set @e[type=item_display,tag=aeternum.class_table.display,limit=1,sort=nearest] aeternum.class_table.cool 4
+scoreboard players set @e[type=item_display,tag=aeternum.class_table.display,limit=1,sort=nearest] aeternum.class_table.wheel.slot 1
+scoreboard players set @e[type=item_display,tag=aeternum.class_table.display,limit=1,sort=nearest] aeternum.class_table.wheel.page 1
 
 
 execute unless items block ~ ~ ~ container.0 minecraft:light_gray_stained_glass_pane[item_model="minecraft:air",hide_tooltip={},custom_data~{aeternum-item_data:{gui:1}}] run item replace block ~ ~ ~ container.0 with minecraft:light_gray_stained_glass_pane[item_model="minecraft:air",hide_tooltip={},custom_data={aeternum-item_data:{container:0,gui:1}}]

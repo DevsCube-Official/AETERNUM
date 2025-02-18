@@ -1,7 +1,7 @@
 
 # Return items to player
 
-execute unless items block ~ ~ ~ container.0 minecraft:light_gray_stained_glass_pane[custom_data~{aeternum-item_data:{gui:1,scroll:1}}] if items entity @s player.cursor minecraft:light_gray_stained_glass_pane[custom_data~{aeternum-item_data:{gui:1,scroll:1}}] run tellraw @a[tag=sussybaka] "If you are reading this sussy message that means you have a sussy tag xD (or you just looked at the code)"
+execute unless items block ~ ~ ~ container.0 minecraft:light_gray_stained_glass_pane[custom_data~{aeternum-item_data:{gui:1,scroll:1}}] if items entity @s player.cursor minecraft:light_gray_stained_glass_pane[custom_data~{aeternum-item_data:{gui:1,scroll:1}}] run say sus
 
 execute unless items block ~ ~ ~ container.0 minecraft:light_gray_stained_glass_pane[custom_data~{aeternum-item_data:{gui:1,scroll:1}}] run item replace entity @s player.cursor from block ~ ~ ~ container.0
 execute unless items block ~ ~ ~ container.1 minecraft:light_gray_stained_glass_pane[custom_data~{aeternum-item_data:{gui:1,scroll:1}}] run item replace entity @s player.cursor from block ~ ~ ~ container.1

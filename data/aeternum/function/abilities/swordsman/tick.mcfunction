@@ -1,1 +1,1 @@
-execute as @s[type=#taglib:hostile,nbt={HurtTime:10s}] at @s on attacker if entity @s[tag=aeternum.abilities.swordsman.parry.player] if items entity @s weapon.* #swords run function aeternum:abilities/swordsman/2/parry_result
+execute as @e[type=#taglib:hostile,nbt={HurtTime:10s}] at @s on attacker if entity @s[tag=aeternum.abilities.swordsman.parry.player] if items entity @s weapon.* #swords run function aeternum:abilities/swordsman/2/parry_result
