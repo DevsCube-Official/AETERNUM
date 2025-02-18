@@ -120,6 +120,17 @@ Optionally, it is possible to make them display a message when spawned using the
 
 </details>
 
+### Trader Totem [v1.0]
+
+<details>
+<summary>Spoiler</summary>
+
+The trader totem is dropped by the dungeon merchant when it dies. It is basically a spawn egg that allows you to summon another dungeon merchant wherever you please.
+
+![Trader Totem spawning a merchant](https://cdn.modrinth.com/data/cached_images/7cef7e384a798bd280228dc52bc208f1eda54773_0.webp)
+
+</details>
+
 ### Learning abilities
 
 <details>
@@ -390,7 +401,7 @@ Use `/trigger aeternum.credits` to view credits in-game
 
 </details>
 
-### =====License=========================================================
+### =====License===================================================
 
 Aeternum © 2024 by DevsCube is licensed under [Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/) 
 
