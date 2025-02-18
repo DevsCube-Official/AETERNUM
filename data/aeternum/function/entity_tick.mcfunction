@@ -44,3 +44,4 @@ execute as @s[tag=aeternum.boxes.type.advanced.modifier] at @s if block ~ ~ ~ ba
 execute as @s[tag=aeternum.boxes.type.advanced.modifier] at @s unless block ~ ~ ~ barrel run loot spawn ~ ~ ~ loot aeternum:boxes/advanced
 execute as @s[tag=aeternum.boxes.type.advanced.modifier] at @s unless block ~ ~ ~ barrel run kill @s
 
+execute as @s run function aeternum:abilities/tick

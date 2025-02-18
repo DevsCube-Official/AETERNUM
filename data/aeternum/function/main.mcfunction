@@ -10,8 +10,6 @@ execute if score #global2 aeternum.schedule.cool matches 0 run scoreboard player
 
 execute as @e run function aeternum:entity_tick
 
-function aeternum:abilities/tick
-
 scoreboard players remove #global aeternum.merchant.timer 1
 execute if score #global aeternum.merchant.timer matches 0 run function aeternum:merchant/marker/spawn_summon
 execute if score #global aeternum.merchant.timer matches 0 run scoreboard players set #global aeternum.merchant.timer 24000
