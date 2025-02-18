@@ -1,2 +1,1 @@
 function aeternum:abilities/healer/cooldowns_15s
-schedule function aeternum:abilities/cooldowns_15s 15s replace

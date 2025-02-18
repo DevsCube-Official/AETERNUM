@@ -8,3 +8,5 @@ execute if score .merchant.rarity aeternum.global_config matches 6 at @s if pred
 execute if score .merchant.rarity aeternum.global_config matches 7 at @s if predicate {"condition":"minecraft:random_chance","chance":0.7} run function aeternum:merchant/marker/decide
 execute if score .merchant.rarity aeternum.global_config matches 8 at @s if predicate {"condition":"minecraft:random_chance","chance":0.8} run function aeternum:merchant/marker/decide
 execute if score .merchant.rarity aeternum.global_config matches 9 at @s if predicate {"condition":"minecraft:random_chance","chance":0.9} run function aeternum:merchant/marker/decide
+
+kill @s

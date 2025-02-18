@@ -13,7 +13,4 @@ function aeternum:abilities/soldier/cooldowns
 function aeternum:abilities/summoner/cooldowns
 function aeternum:abilities/traveler/cooldowns
 function aeternum:abilities/warrior/cooldowns
-
 function aeternum:abilities/alchemist/cooldowns
-
-schedule function aeternum:abilities/cooldowns 1s replace
