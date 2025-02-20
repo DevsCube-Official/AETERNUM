@@ -2,6 +2,6 @@ execute unless block ~ ~ ~ minecraft:barrel[facing=up,open=true]{CustomName:'{"t
 
 tag @s add aeternum.backstab.aeternum.player_data.unlocked_class.summoner
 
-execute run scoreboard players set @s aeternum.abilities.summoner.spirit_energy.modifier 0
-execute run scoreboard players set @s aeternum.abilities.summoner.spirit_energy.max 20
-execute run scoreboard players set @s aeternum.abilities.summoner.spirit_energy.current 20
+scoreboard players set @s aeternum.abilities.summoner.spirit_energy.modifier 0
+scoreboard players set @s aeternum.abilities.summoner.spirit_energy.max 20
+scoreboard players set @s aeternum.abilities.summoner.spirit_energy.current 20
