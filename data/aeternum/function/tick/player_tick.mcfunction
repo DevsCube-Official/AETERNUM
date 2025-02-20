@@ -37,3 +37,12 @@ execute if score @s aeternum.player.xp.level > @s aeternum.player.xp.level.old r
 execute store result score @s aeternum.player.xp.level.old run data get entity @s XpLevel
 
 function aeternum:tick/quest_tick
+
+# Enchanter
+execute as @s[tag=aeternum.quests.enchanter_3.near_orb] run scoreboard players operation @s aeternum.quests.enchanter_3.old_xp -= @s aeternum.quests.enchanter_3.current_xp
+execute as @s[tag=aeternum.quests.enchanter_3.near_orb] if score @s aeternum.quests.enchanter_3.old_xp matches -37..-1 run scoreboard players add @s aeternum.quests.enchanter_3.data 1
+execute as @s[tag=aeternum.quests.enchanter_3.near_orb] if score @s aeternum.quests.enchanter_3.old_xp matches -37..-1 if score @s aeternum.abilities.enchanter.5.ability.2.cool matches 210.. run xp add @s 15 points
+execute as @s[tag=aeternum.quests.enchanter_3.near_orb] run scoreboard players operation @s aeternum.quests.enchanter_3.old_xp = @s aeternum.quests.enchanter_3.current_xp
+tag @s[tag=aeternum.quests.enchanter_3.near_orb] remove aeternum.quests.enchanter_3.near_orb
+
+execute if score .global2 aeternum.schedule.cool matches 0 as @a run function aeternum:abilities/cooldowns_15s

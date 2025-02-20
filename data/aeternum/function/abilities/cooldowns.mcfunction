@@ -13,7 +13,6 @@ function aeternum:abilities/soldier/cooldowns
 function aeternum:abilities/summoner/cooldowns
 function aeternum:abilities/traveler/cooldowns
 function aeternum:abilities/warrior/cooldowns
-
 function aeternum:abilities/alchemist/cooldowns
 
-schedule function aeternum:abilities/cooldowns 1s replace
+execute if score .global aeternum.schedule.cool matches ..0 run scoreboard players set .global aeternum.schedule.cool 20

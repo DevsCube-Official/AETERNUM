@@ -1,7 +1,7 @@
 function aeternum:class_table/pages/wheel/get_stats
 
-scoreboard players set @e[type=item_display,tag=aeternum.class_table.display,limit=1,sort=nearest] aeternum.class_table.page 3
-scoreboard players set @e[type=item_display,tag=aeternum.class_table.display,limit=1,sort=nearest] aeternum.class_table.cool 4
+scoreboard players set @n[type=item_display,tag=aeternum.class_table.display,limit=1,sort=nearest] aeternum.class_table.page 3
+scoreboard players set @n[type=item_display,tag=aeternum.class_table.display,limit=1,sort=nearest] aeternum.class_table.cool 4
 execute unless items block ~ ~ ~ container.26 minecraft:clock[item_name='{"translate":"aeternum.gui.name.cancel"}',custom_data~{aeternum-item_data:{gui:1}}] run item replace block ~ ~ ~ container.26 with clock[item_name='{"translate":"aeternum.gui.name.cancel"}',custom_data={aeternum-item_data:{gui:1}},item_model="aeternum:class_table/gui/false"] 1
 
 execute unless items block ~ ~ ~ container.7 minecraft:clock[item_name='{"translate":"aeternum.gui.name.scroll_up"}',custom_data~{aeternum-item_data:{gui:1}}] run item replace block ~ ~ ~ container.7 with clock[item_name='{"translate":"aeternum.gui.name.scroll_up"}',custom_data={aeternum-item_data:{gui:1}},item_model="aeternum:class_table/gui/page_change"] 1

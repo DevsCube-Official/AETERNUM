@@ -20,8 +20,8 @@ item replace block ~ ~ ~ container.22 with air
 item replace block ~ ~ ~ container.23 with air
 item replace block ~ ~ ~ container.24 with air
 
-scoreboard players set @e[type=item_display,tag=aeternum.class_table.display,limit=1,sort=nearest] aeternum.class_table.cool 4
+scoreboard players set @n[type=item_display,tag=aeternum.class_table.display,limit=1,sort=nearest] aeternum.class_table.cool 4
 playsound minecraft:ui.button.click master @s ~ ~ ~
-$scoreboard players $(arg) @e[type=item_display,tag=aeternum.class_table.display,limit=1,sort=nearest] aeternum.class_table.wheel.page 1
-execute if score @e[type=item_display,tag=aeternum.class_table.display,limit=1,sort=nearest] aeternum.class_table.wheel.page matches ..0 run return run scoreboard players set @e[type=item_display,tag=aeternum.class_table.display,limit=1,sort=nearest] aeternum.class_table.wheel.page 24
-execute if score @e[type=item_display,tag=aeternum.class_table.display,limit=1,sort=nearest] aeternum.class_table.wheel.page matches 25.. run return run scoreboard players set @e[type=item_display,tag=aeternum.class_table.display,limit=1,sort=nearest] aeternum.class_table.wheel.page 1
+$scoreboard players $(arg) @n[type=item_display,tag=aeternum.class_table.display,limit=1,sort=nearest] aeternum.class_table.wheel.page 1
+execute if score @n[type=item_display,tag=aeternum.class_table.display,limit=1,sort=nearest] aeternum.class_table.wheel.page matches ..0 run return run scoreboard players set @n[type=item_display,tag=aeternum.class_table.display,limit=1,sort=nearest] aeternum.class_table.wheel.page 24
+execute if score @n[type=item_display,tag=aeternum.class_table.display,limit=1,sort=nearest] aeternum.class_table.wheel.page matches 25.. run return run scoreboard players set @n[type=item_display,tag=aeternum.class_table.display,limit=1,sort=nearest] aeternum.class_table.wheel.page 1

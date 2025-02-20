@@ -33,7 +33,7 @@ scoreboard objectives add aeternum.merchant.hurt_time dummy
 scoreboard objectives add aeternum.merchant.noAI dummy
 scoreboard objectives add aeternum.merchant.random dummy
 scoreboard objectives add aeternum.merchant.timer dummy
-scoreboard players set #global aeternum.merchant.timer 24000
+scoreboard players set .global aeternum.merchant.timer 24000
 
 scoreboard objectives add aeternum.gamerule.spawn_chunk_radius dummy
 scoreboard objectives add aeternum.world.difficulty dummy
@@ -66,10 +66,10 @@ scoreboard objectives add aeternum.player.xp.level.old dummy
 scoreboard objectives add aeternum.player.id dummy
 scoreboard objectives add aeternum.player.quest_id dummy
 
-execute unless score #global aeternum.player.id matches -2147483647..2147483647 run scoreboard players set #global aeternum.player.id 1
+execute unless score .global aeternum.player.id matches -2147483647..2147483647 run scoreboard players set .global aeternum.player.id 1
 
-schedule function aeternum:abilities/cooldowns 1t replace
-schedule function aeternum:abilities/cooldowns_15s 1t replace
+# schedule function aeternum:abilities/cooldowns 1t replace
+# schedule function aeternum:abilities/cooldowns_15s 1t replace
 
 function aeternum:abilities/load
 function aeternum:quests/load
@@ -79,3 +79,7 @@ execute as @a unless score @s aeternum.player.health_check matches -2147483648..
 scoreboard objectives add aeternum.backstab.raycast dummy
 
 scoreboard objectives add aeternum.boxes.count dummy
+
+scoreboard objectives add aeternum.schedule.cool dummy
+execute unless score .global aeternum.schedule.cool matches -2147483647..2147483647 run scoreboard players set .global aeternum.schedule.cool 1
+execute unless score .global2 aeternum.schedule.cool matches -2147483647..2147483647 run scoreboard players set .global2 aeternum.schedule.cool 1

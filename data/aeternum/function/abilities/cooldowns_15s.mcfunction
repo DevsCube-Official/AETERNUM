@@ -1,2 +1,2 @@
 function aeternum:abilities/healer/cooldowns_15s
-schedule function aeternum:abilities/cooldowns_15s 15s replace
+execute if score .global2 aeternum.schedule.cool matches ..0 run scoreboard players set .global2 aeternum.schedule.cool 300

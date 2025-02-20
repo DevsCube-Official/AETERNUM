@@ -28,8 +28,8 @@ scoreboard players reset @s aeternum.ability_wheel.passive_id.7
 scoreboard players reset @s aeternum.ability_wheel.passive_id.8
 
 scoreboard players reset @s aeternum.player.id
-scoreboard players operation @s aeternum.player.id = #global aeternum.player.id
-scoreboard players add #global aeternum.player.id 1
+scoreboard players operation @s aeternum.player.id = .global aeternum.player.id
+scoreboard players add .global aeternum.player.id 1
 scoreboard players reset @s aeternum.player.quest_id
 
 scoreboard players set @a aeternum.abilities.summoner.spirit_energy.max 0

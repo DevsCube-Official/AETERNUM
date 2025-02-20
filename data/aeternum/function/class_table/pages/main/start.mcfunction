@@ -1,7 +1,7 @@
-scoreboard players set @e[type=item_display,tag=aeternum.class_table.display,limit=1,sort=nearest] aeternum.class_table.page 1
-scoreboard players set @e[type=item_display,tag=aeternum.class_table.display,limit=1,sort=nearest] aeternum.class_table.cool 4
-scoreboard players set @e[type=item_display,tag=aeternum.class_table.display,limit=1,sort=nearest] aeternum.class_table.wheel.slot 1
-scoreboard players set @e[type=item_display,tag=aeternum.class_table.display,limit=1,sort=nearest] aeternum.class_table.wheel.page 1
+scoreboard players set @n[type=item_display,tag=aeternum.class_table.display,limit=1,sort=nearest] aeternum.class_table.page 1
+scoreboard players set @n[type=item_display,tag=aeternum.class_table.display,limit=1,sort=nearest] aeternum.class_table.cool 4
+scoreboard players set @n[type=item_display,tag=aeternum.class_table.display,limit=1,sort=nearest] aeternum.class_table.wheel.slot 1
+scoreboard players set @n[type=item_display,tag=aeternum.class_table.display,limit=1,sort=nearest] aeternum.class_table.wheel.page 1
 
 function aeternum:class_table/pages/main/player_head
 
