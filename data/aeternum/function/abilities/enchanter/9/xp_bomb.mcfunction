@@ -5,5 +5,5 @@ scoreboard players set @s aeternum.abilities.enchanter.9.ability.4.cool 180
 tellraw @s {"translate": "aeternum.abilities.enchanter.xp_bomb.accept"}
 playsound minecraft:block.metal_pressure_plate.click_on player @s ~ ~ ~
 
-summon item_display ~ ~ ~ {item_display:head,Tags:["aeternum.abilities.enchanter.xp_bomb"],item:{id:"minecraft:clock",count:1,components:{"minecraft:item_model":"aeternum:general/enchanter/xp_bomb"}}}
+summon item_display ~ ~ ~ {item_display:head,Tags:["aeternum.abilities.schedule.cool","aeternum.abilities.enchanter.xp_bomb"],item:{id:"minecraft:clock",count:1,components:{"minecraft:item_model":"aeternum:general/enchanter/xp_bomb"}}}
 scoreboard players set @n[tag=aeternum.abilities.enchanter.xp_bomb] aeternum.abilities.enchanter.9.ability.4.cool 5

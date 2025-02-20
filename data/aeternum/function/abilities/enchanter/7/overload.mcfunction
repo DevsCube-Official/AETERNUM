@@ -6,6 +6,7 @@ execute store result score @s aeternum.abilities.enchanter.7.ability.3.motion.pl
 execute store result score @s aeternum.abilities.enchanter.7.ability.3.motion.player3 run data get entity @s Pos[2] 100
 
 execute as @s at @s rotated as @s positioned ^ ^0.5 ^0.9 summon minecraft:snowball run tag @s add aeternum.abilities.enchanter.orb_shooter2
+execute as @s at @s rotated as @s positioned ^ ^0.5 ^0.9 run tag @n[type=snowball,tag=aeternum.abilities.enchanter.orb_shooter2] add aeternum.abilities.schedule.cool
 execute as @s at @s rotated as @s positioned ^ ^0.5 ^0.9 as @n[type=snowball,tag=aeternum.abilities.enchanter.orb_shooter2] run data modify entity @s Item.id set value "minecraft:experience_bottle"
 
 execute as @s at @s rotated as @s positioned ^ ^0.5 ^0.9 store result score @s aeternum.abilities.enchanter.7.ability.3.motion.orb1 run data get entity @n[type=snowball,tag=aeternum.abilities.enchanter.orb_shooter2] Pos[0] 100
@@ -26,6 +27,7 @@ execute if score @s aeternum.abilities.enchanter.mastery matches 1.. store resul
 execute if score @s aeternum.abilities.enchanter.mastery matches 1.. store result score @s aeternum.abilities.enchanter.7.ability.3.motion.player3 run data get entity @s Pos[2] 100
 
 execute if score @s aeternum.abilities.enchanter.mastery matches 1.. as @s at @s rotated as @s positioned ^ ^0.5 ^1 summon minecraft:snowball run tag @s add aeternum.abilities.enchanter.orb_shooter2
+execute if score @s aeternum.abilities.enchanter.mastery matches 1.. as @s at @s rotated as @s positioned ^ ^0.5 ^1 run tag @n[type=snowball,tag=aeternum.abilities.enchanter.orb_shooter2] add aeternum.abilities.schedule.cool
 execute if score @s aeternum.abilities.enchanter.mastery matches 1.. as @s at @s rotated as @s positioned ^ ^0.5 ^1 as @n[type=snowball,tag=aeternum.abilities.enchanter.orb_shooter2] run data modify entity @s Item.id set value "minecraft:experience_bottle"
 
 execute if score @s aeternum.abilities.enchanter.mastery matches 1.. as @s at @s rotated as @s positioned ^ ^0.5 ^1 store result score @s aeternum.abilities.enchanter.7.ability.3.motion.orb1 run data get entity @n[type=snowball,tag=aeternum.abilities.enchanter.orb_shooter2] Pos[0] 100

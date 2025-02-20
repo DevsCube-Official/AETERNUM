@@ -6,6 +6,7 @@ execute store result score @s aeternum.abilities.enchanter.1.ability.1.motion.pl
 execute store result score @s aeternum.abilities.enchanter.1.ability.1.motion.player3 run data get entity @s Pos[2] 100
 
 execute as @s at @s rotated as @s positioned ^ ^0.5 ^0.9 summon minecraft:experience_bottle run tag @s add aeternum.abilities.enchanter.orb_shooter
+execute as @s at @s rotated as @s positioned ^ ^0.5 ^0.9 run tag @n[type=experience_bottle,tag=aeternum.abilities.alchemist.orb_shooter] add aeternum.abilities.schedule.cool
 
 execute as @s at @s rotated as @s positioned ^ ^0.5 ^0.9 store result score @s aeternum.abilities.enchanter.1.ability.1.motion.orb1 run data get entity @n[type=experience_bottle,tag=aeternum.abilities.enchanter.orb_shooter] Pos[0] 100
 execute as @s at @s rotated as @s positioned ^ ^0.5 ^0.9 store result score @s aeternum.abilities.enchanter.1.ability.1.motion.orb2 run data get entity @n[type=experience_bottle,tag=aeternum.abilities.enchanter.orb_shooter] Pos[1] 100
@@ -25,6 +26,7 @@ execute if score @s aeternum.abilities.enchanter.mastery matches 1.. store resul
 execute if score @s aeternum.abilities.enchanter.mastery matches 1.. store result score @s aeternum.abilities.enchanter.1.ability.1.motion.player3 run data get entity @s Pos[2] 100
 
 execute if score @s aeternum.abilities.enchanter.mastery matches 1.. as @s at @s rotated as @s positioned ^ ^0.5 ^1 summon minecraft:experience_bottle run tag @s add aeternum.abilities.enchanter.orb_shooter
+execute if score @s aeternum.abilities.enchanter.mastery matches 1.. as @s at @s rotated as @s positioned ^ ^0.5 ^1 run tag @n[type=experience_bottle,tag=aeternum.abilities.alchemist.orb_shooter] add aeternum.abilities.schedule.cool
 
 execute if score @s aeternum.abilities.enchanter.mastery matches 1.. as @s at @s rotated as @s positioned ^ ^0.5 ^1 store result score @s aeternum.abilities.enchanter.1.ability.1.motion.orb1 run data get entity @n[type=experience_bottle,tag=aeternum.abilities.enchanter.orb_shooter] Pos[0] 100
 execute if score @s aeternum.abilities.enchanter.mastery matches 1.. as @s at @s rotated as @s positioned ^ ^0.5 ^1 store result score @s aeternum.abilities.enchanter.1.ability.1.motion.orb2 run data get entity @n[type=experience_bottle,tag=aeternum.abilities.enchanter.orb_shooter] Pos[1] 100

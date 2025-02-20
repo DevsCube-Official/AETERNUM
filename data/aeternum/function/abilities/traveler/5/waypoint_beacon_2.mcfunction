@@ -34,7 +34,7 @@ execute positioned ~ ~ ~-1 run setblock ~ ~ ~ gold_block
 execute positioned ~ ~ ~1 run setblock ~ ~ ~ gold_block
 execute positioned ~ ~1 ~ run setblock ~ ~ ~ beacon
 
-execute align xyz positioned ~0.5 ~ ~0.5 run summon minecraft:interaction ~ ~-.1 ~ {Tags:["aeternum.classes.traveler.beacon2"],width:3.2f,height:2.2f}
+execute align xyz positioned ~0.5 ~ ~0.5 run summon minecraft:interaction ~ ~-.1 ~ {Tags:["aeternum.abilities.schedule.cool","aeternum.classes.traveler.beacon2"],width:3.2f,height:2.2f}
 scoreboard players set @n[tag=aeternum.classes.traveler.beacon2] aeternum.abilities.traveler.3.ability.2.cool 2700
 
 tp ~ ~2 ~

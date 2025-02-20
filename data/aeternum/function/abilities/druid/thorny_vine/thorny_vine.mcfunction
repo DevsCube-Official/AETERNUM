@@ -1,4 +1,4 @@
-execute align xyz positioned ~ ~ ~ run summon minecraft:block_display ~ ~ ~ {Tags:["aeternum.classes.druid.thorny_vine"],block_state: {Name: "minecraft:tall_seagrass"}}
+execute align xyz positioned ~ ~ ~ run summon minecraft:block_display ~ ~ ~ {Tags:["aeternum.abilities.schedule.cool","aeternum.classes.druid.thorny_vine"],block_state: {Name: "minecraft:tall_seagrass"}}
 
 execute unless score @s aeternum.abilities.druid.one_with_nature matches 1.. run scoreboard players set @n[type=block_display,tag=aeternum.classes.druid.thorny_vine] aeternum.abilities.druid.vine.cool 10
 execute if score @s aeternum.abilities.druid.one_with_nature matches 1.. run scoreboard players set @n[type=block_display,tag=aeternum.classes.druid.thorny_vine] aeternum.abilities.druid.vine.cool 20

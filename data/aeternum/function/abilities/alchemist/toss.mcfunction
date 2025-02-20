@@ -4,6 +4,7 @@ execute store result score @s aeternum.abilities.alchemist.1.ability.1.motion.pl
 execute store result score @s aeternum.abilities.alchemist.1.ability.1.motion.player3 run data get entity @s Pos[2] 100
 
 execute as @s at @s rotated as @s positioned ^ ^0.5 ^0.9 summon minecraft:snowball run tag @s add aeternum.abilities.alchemist.orb_shooter
+execute as @s at @s rotated as @s positioned ^ ^0.5 ^0.9 run tag @n[type=snowball,tag=aeternum.abilities.alchemist.orb_shooter] add aeternum.abilities.schedule.cool
 execute as @s at @s rotated as @s positioned ^ ^0.5 ^0.9 as @n[type=snowball,tag=aeternum.abilities.alchemist.orb_shooter] run data modify entity @s Item.id set value "minecraft:splash_potion"
 
 execute as @s at @s rotated as @s positioned ^ ^0.5 ^0.9 store result score @s aeternum.abilities.alchemist.1.ability.1.motion.orb1 run data get entity @n[type=snowball,tag=aeternum.abilities.alchemist.orb_shooter] Pos[0] 100
@@ -19,4 +20,4 @@ execute as @s at @s rotated as @s positioned ^ ^0.5 ^0.9 store result entity @n[
 execute as @s at @s rotated as @s positioned ^ ^0.5 ^0.9 store result entity @n[type=snowball,tag=aeternum.abilities.alchemist.orb_shooter] Motion[2] double 0.01 run scoreboard players get @s aeternum.abilities.alchemist.1.ability.1.motion.orb3
 
 playsound minecraft:entity.experience_bottle.throw player @a ~ ~ ~ 1 0.5
-$tag @n[type=snowball,tag=aeternum.abilities.alchemist.orb_shooter] add aeternum.abilities.alchemist.type.$(type)
+$execute as @s at @s rotated as @s positioned ^ ^0.5 ^0.9 run tag @n[type=snowball,tag=aeternum.abilities.alchemist.orb_shooter] add aeternum.abilities.alchemist.type.$(type)

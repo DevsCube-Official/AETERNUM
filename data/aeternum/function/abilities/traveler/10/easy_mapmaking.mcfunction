@@ -3,5 +3,5 @@ execute if score @s aeternum.abilities.traveler.10.ability.1.cool matches 1.. ru
 
 scoreboard players set @s aeternum.abilities.traveler.10.ability.1.cool 1800
 
-summon minecraft:wandering_trader ~ ~ ~ {DeathTime:200s}
+summon minecraft:wandering_trader ~ ~ ~ {Tags:["aeternum.abilities.schedule.cool"],DeathTime:200s}
 scoreboard players set @n[type=wandering_trader] aeternum.abilities.traveler.10.ability.1.cool 60

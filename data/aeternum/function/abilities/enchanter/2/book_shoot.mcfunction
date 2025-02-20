@@ -2,7 +2,7 @@ execute store result score @s aeternum.abilities.enchanter.2.ability.1.motion.pl
 execute store result score @s aeternum.abilities.enchanter.2.ability.1.motion.player2 run data get entity @s Pos[1] 100
 execute store result score @s aeternum.abilities.enchanter.2.ability.1.motion.player3 run data get entity @s Pos[2] 100
 
-execute as @s at @s rotated as @s positioned ^ ^0.5 ^0.9 summon minecraft:snowball run data merge entity @s {Item:{id:"minecraft:paper",count:1},Tags:["aeternum.abilities.enchanter.books_flying"]}
+execute as @s at @s rotated as @s positioned ^ ^0.5 ^0.9 summon minecraft:snowball run data merge entity @s {Item:{id:"minecraft:paper",count:1},Tags:["aeternum.abilities.schedule.cool","aeternum.abilities.enchanter.books_flying"]}
 
 execute as @s at @s rotated as @s positioned ^ ^0.5 ^0.9 store result score @s aeternum.abilities.enchanter.2.ability.1.motion.orb1 run data get entity @n[type=snowball,tag=aeternum.abilities.enchanter.books_flying] Pos[0] 100
 execute as @s at @s rotated as @s positioned ^ ^0.5 ^0.9 store result score @s aeternum.abilities.enchanter.2.ability.1.motion.orb2 run data get entity @n[type=snowball,tag=aeternum.abilities.enchanter.books_flying] Pos[1] 100

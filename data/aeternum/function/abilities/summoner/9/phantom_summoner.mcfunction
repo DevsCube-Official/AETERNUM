@@ -3,7 +3,7 @@ execute if score @s aeternum.abilities.summoner.9.ability.4.cool matches 1.. run
 
 execute unless score @s aeternum.abilities.summoner.spirit_energy.current matches 6.. run return run function aeternum:abilities/deny_v2 {en:9,translate:"aeternum.abilities.summoner.spirits.deny"}
 
-summon phantom ~ ~ ~ {Tags:["aeternum.classes.summoner.summon","aeternum.classes.summoner.phantom"],Health:10.0f}
+summon phantom ~ ~ ~ {Tags:["aeternum.abilities.schedule.cool","aeternum.classes.summoner.summon","aeternum.classes.summoner.phantom"],Health:10.0f}
 scoreboard players set @n[tag=aeternum.classes.summoner.phantom] aeternum.abilities.summoner.summon_cool 120
 effect give @n[tag=aeternum.classes.summoner.phantom] strength infinite 2 false
 

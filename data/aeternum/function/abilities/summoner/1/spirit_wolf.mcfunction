@@ -3,7 +3,7 @@ execute if score @s aeternum.abilities.summoner.1.ability.2.cool matches 1.. run
 
 execute unless score @s aeternum.abilities.summoner.spirit_energy.current matches 1.. run return run function aeternum:abilities/deny_v2 {en:1,translate:"aeternum.abilities.summoner.spirits.deny"}
 
-summon wolf ~ ~ ~ {Tags:["aeternum.classes.summoner.summon","aeternum.classes.summoner.spirit_wolf"]}
+summon wolf ~ ~ ~ {Tags:["aeternum.abilities.schedule.cool","aeternum.classes.summoner.summon","aeternum.classes.summoner.spirit_wolf"]}
 data modify entity @n[tag=aeternum.classes.summoner.spirit_wolf] Owner set from entity @s UUID
 scoreboard players set @n[tag=aeternum.classes.summoner.spirit_wolf] aeternum.abilities.summoner.summon_cool 15
 

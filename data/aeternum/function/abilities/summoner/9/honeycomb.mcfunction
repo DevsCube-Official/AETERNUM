@@ -3,9 +3,9 @@ execute if score @s aeternum.abilities.summoner.9.ability.2.cool matches 1.. run
 
 execute unless score @s aeternum.abilities.summoner.spirit_energy.current matches 15.. run return run function aeternum:abilities/deny_v2 {en:9,translate:"aeternum.abilities.summoner.spirits.deny"}
 
-summon bee ~ ~ ~ {Tags:["aeternum.classes.summoner.summon","aeternum.classes.summoner.bee"]}
-summon bee ~ ~ ~ {Tags:["aeternum.classes.summoner.summon","aeternum.classes.summoner.bee"]}
-summon bee ~ ~ ~ {Tags:["aeternum.classes.summoner.summon","aeternum.classes.summoner.bee"]}
+summon bee ~ ~ ~ {Tags:["aeternum.abilities.schedule.cool","aeternum.classes.summoner.summon","aeternum.classes.summoner.bee"]}
+summon bee ~ ~ ~ {Tags:["aeternum.abilities.schedule.cool","aeternum.classes.summoner.summon","aeternum.classes.summoner.bee"]}
+summon bee ~ ~ ~ {Tags:["aeternum.abilities.schedule.cool","aeternum.classes.summoner.summon","aeternum.classes.summoner.bee"]}
 scoreboard players set @e[tag=aeternum.classes.summoner.bee,distance=..1] aeternum.abilities.summoner.summon_cool 120
 
 scoreboard players set @s aeternum.abilities.summoner.9.ability.2.cool 300

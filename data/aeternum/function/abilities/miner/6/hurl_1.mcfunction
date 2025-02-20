@@ -6,6 +6,7 @@ execute store result score @s aeternum.abilities.enchanter.7.ability.3.motion.pl
 execute store result score @s aeternum.abilities.enchanter.7.ability.3.motion.player3 run data get entity @s Pos[2] 100
 
 execute as @s at @s rotated as @s positioned ^ ^0.5 ^1 summon minecraft:snowball run tag @s add aeternum.abilities.miner.hurl1
+execute as @s at @s rotated as @s positioned ^ ^0.5 ^1 as @n[type=snowball,distance=..0.1] run tag @s add aeternum.abilities.schedule.cool
 execute as @s at @s rotated as @s positioned ^ ^0.5 ^1 as @n[type=snowball,tag=aeternum.abilities.miner.hurl1] run data modify entity @s Item.id set value "minecraft:cobblestone"
 
 execute as @s at @s rotated as @s positioned ^ ^0.5 ^1 store result score @s aeternum.abilities.enchanter.7.ability.3.motion.orb1 run data get entity @n[type=snowball,tag=aeternum.abilities.miner.hurl1] Pos[0] 100

@@ -3,7 +3,7 @@ execute if score @s aeternum.abilities.summoner.3.ability.2.cool matches 1.. run
 
 execute unless score @s aeternum.abilities.summoner.spirit_energy.current matches 5.. run return run function aeternum:abilities/deny_v2 {en:3,translate:"aeternum.abilities.summoner.spirits.deny"}
 
-summon blaze ~ ~ ~ {Tags:["aeternum.classes.summoner.summon","aeternum.classes.summoner.fire_elemental"]}
+summon blaze ~ ~ ~ {Tags:["aeternum.abilities.schedule.cool","aeternum.classes.summoner.summon","aeternum.classes.summoner.fire_elemental"]}
 scoreboard players set @n[tag=aeternum.classes.summoner.fire_elemental] aeternum.abilities.summoner.summon_cool 30
 
 scoreboard players set @s aeternum.abilities.summoner.3.ability.2.cool 300

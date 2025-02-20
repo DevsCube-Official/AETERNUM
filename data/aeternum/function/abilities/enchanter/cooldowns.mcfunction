@@ -46,7 +46,7 @@ execute as @s[type=player,scores={aeternum.abilities.enchanter.1.ability.2.cool=
 execute as @s[type=player,scores={aeternum.abilities.enchanter.7.ability.1.cool=597}] at @s if score @s aeternum.abilities.enchanter.mastery matches 1.. run function aeternum:abilities/enchanter/7/explod
 
 execute as @s[type=item_display,tag=aeternum.abilities.enchanter.books_flying.book,tag=aeternum.abilities.enchanter.books_flying.type_book] at @s run function aeternum:abilities/enchanter/2/book_shoot
-execute as @s[type=item_display,tag=aeternum.abilities.enchanter.books_flying.book,tag=aeternum.abilities.enchanter.books_flying.type_tome] at @s run summon minecraft:armor_stand ~ ~1 ~ {Tags:["aeternum.abilities.enchanter.books_flying.missile"],NoGravity:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"minecraft:knowledge_book",count:1}]}
+execute as @s[type=item_display,tag=aeternum.abilities.enchanter.books_flying.book,tag=aeternum.abilities.enchanter.books_flying.type_tome] at @s run summon minecraft:armor_stand ~ ~1 ~ {Tags:["aeternum.abilities.schedule.cool","aeternum.abilities.enchanter.books_flying.missile"],NoGravity:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"minecraft:knowledge_book",count:1}]}
 execute as @s[type=item_display,tag=aeternum.abilities.enchanter.books_flying.book] at @s run rotate @s ~90 ~
 execute as @s[type=item_display,tag=aeternum.abilities.enchanter.books_flying.book,scores={aeternum.abilities.enchanter.2.ability.1.cool=0}] at @s run playsound minecraft:entity.evoker.cast_spell hostile @a ~ ~ ~
 execute as @s[type=item_display,tag=aeternum.abilities.enchanter.books_flying.book,scores={aeternum.abilities.enchanter.2.ability.1.cool=0}] at @s run kill @s
