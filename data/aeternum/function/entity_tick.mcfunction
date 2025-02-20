@@ -16,5 +16,4 @@ execute as @e[type=marker] at @s run function aeternum:tick/marker_tick
 
 execute as @e[type=interaction,tag=aeternum.boxes.interaction_entity] at @s on target run function aeternum:boxes/interact
 
-execute as @e[tag=aeternum.abilities.schedule.cool] at @s run function aeternum:abilities/tick
-execute as @e[nbt={HurtTime:10s}] run function aeternum:abilities/hurtime
+execute as @e at @s run function aeternum:abilities/tick

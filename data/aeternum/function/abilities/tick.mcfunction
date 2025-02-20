@@ -15,3 +15,4 @@ function aeternum:abilities/swordsman/tick
 function aeternum:abilities/rogue/tick
 function aeternum:abilities/alchemist/tick
 
+execute as @e[nbt={HurtTime:10s}] run function aeternum:abilities/hurtime
