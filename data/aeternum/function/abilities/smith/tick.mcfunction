@@ -1,7 +1,0 @@
-execute as @s[nbt={HurtTime:10s}] at @s on attacker if entity @s[tag=aeternum.classes.smith.reinforced_strikes.1] if items entity @s weapon.mainhand #minecraft:axes run summon creeper ~ ~ ~ {Fuse:0s}
-execute as @s[nbt={HurtTime:10s}] at @s on attacker if entity @s[tag=aeternum.classes.smith.reinforced_strikes.2] if items entity @s weapon.mainhand #minecraft:axes run summon creeper ~ ~ ~ {Fuse:0s,ExplosionRadius:5b}
-execute as @s[nbt={HurtTime:10s}] at @s on attacker if entity @s[tag=aeternum.classes.smith.reinforced_strikes.3] if items entity @s weapon.mainhand #minecraft:axes run summon creeper ~ ~ ~ {Fuse:0s,ExplosionRadius:6b}
-
-execute as @s[nbt={HurtTime:10s}] at @s on attacker if entity @s[tag=aeternum.classes.smith.reinforced_strikes.1] if items entity @s weapon.mainhand #minecraft:axes run tag @s remove aeternum.classes.smith.reinforced_strikes.1
-execute as @s[nbt={HurtTime:10s}] at @s on attacker if entity @s[tag=aeternum.classes.smith.reinforced_strikes.2] if items entity @s weapon.mainhand #minecraft:axes run tag @s remove aeternum.classes.smith.reinforced_strikes.2
-execute as @s[nbt={HurtTime:10s}] at @s on attacker if entity @s[tag=aeternum.classes.smith.reinforced_strikes.3] if items entity @s weapon.mainhand #minecraft:axes run tag @s remove aeternum.classes.smith.reinforced_strikes.3

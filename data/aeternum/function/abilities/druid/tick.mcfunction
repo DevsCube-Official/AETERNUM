@@ -7,4 +7,3 @@ execute at @s[tag=aeternum.classes.druid.ability.bramble2] align xyz positioned 
 execute at @s[type=block_display,tag=aeternum.classes.druid.thorny_vine] align xyz positioned ~0.5 ~ ~0.5 run effect give @e[distance=..1.2] slowness 1 255
 execute at @s[type=block_display,tag=aeternum.classes.druid.thorny_vine] align xyz positioned ~0.5 ~ ~0.5 run execute as @e[distance=..1.2] run attribute @s minecraft:jump_strength modifier add aeternum.classes.druid.thorny_vine -1 add_multiplied_total
 
-execute as @s[type=player,nbt={HurtTime:10s}] at @s on attacker if entity @s[tag=aeternum.classes.druid.seedling.wither] run effect give @n wither 5 0

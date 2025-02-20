@@ -1,6 +1,3 @@
-execute as @s[type=#taglib:hostile,nbt={HurtTime:10s}] at @s on attacker if score @s aeternum.abilities.barbarian.1.ability.1.cool matches 185.. run function aeternum:abilities/barbarian/1/smite
-execute as @s[type=#taglib:hostile,nbt={HurtTime:10s}] at @s on attacker if score @s aeternum.abilities.barbarian.5.ability.2.cool matches 185.. run function aeternum:abilities/barbarian/5/smite
-execute as @s[type=#taglib:hostile,nbt={HurtTime:10s}] at @s on attacker if score @s aeternum.abilities.barbarian.5.ability.3.cool matches 185.. run function aeternum:abilities/barbarian/5/smite2
 
 execute as @s[scores={aeternum.abilities.barbarian.wind_spin=1..}] at @s run particle minecraft:sweep_attack ~ ~1 ~
 execute as @s[scores={aeternum.abilities.barbarian.wind_spin=1..}] at @s run playsound minecraft:entity.player.attack.sweep player @a ~ ~ ~
