@@ -3,11 +3,11 @@ execute if score @s aeternum.abilities.mage.10.power_of_magic.cool matches 1.. r
 
 scoreboard players set @s aeternum.abilities.mage.10.power_of_magic.cool 60
 
-execute as @s rotated as @s rotated ~ 0 run summon shulker_bullet ^1 ^1 ^2 {HasBeenShot:1b, Steps:40,Tags:["aeternum.abilities.schedule.cool","aeternum.abilities.mage.10.power_of_magic.bullet"]}
-execute as @s rotated as @s rotated ~ 0 run summon shulker_bullet ^ ^1 ^2 {HasBeenShot:1b, Steps:40,Tags:["aeternum.abilities.schedule.cool","aeternum.abilities.mage.10.power_of_magic.bullet"]}
-execute as @s rotated as @s rotated ~ 0 run summon shulker_bullet ^-1 ^1 ^2 {HasBeenShot:1b, Steps:40,Tags:["aeternum.abilities.schedule.cool","aeternum.abilities.mage.10.power_of_magic.bullet"]}
+execute rotated as @s rotated ~ 0 run summon shulker_bullet ^1 ^1 ^2 {HasBeenShot:1b, Steps:40,Tags:["aeternum.abilities.schedule.cool","aeternum.abilities.mage.10.power_of_magic.bullet"]}
+execute rotated as @s rotated ~ 0 run summon shulker_bullet ^ ^1 ^2 {HasBeenShot:1b, Steps:40,Tags:["aeternum.abilities.schedule.cool","aeternum.abilities.mage.10.power_of_magic.bullet"]}
+execute rotated as @s rotated ~ 0 run summon shulker_bullet ^-1 ^1 ^2 {HasBeenShot:1b, Steps:40,Tags:["aeternum.abilities.schedule.cool","aeternum.abilities.mage.10.power_of_magic.bullet"]}
 playsound minecraft:entity.shulker.shoot player @a ~ ~ ~
-execute as @s rotated as @s rotated ~ 0 as @e[type=minecraft:shulker_bullet,tag=aeternum.abilities.mage.10.power_of_magic.bullet,sort=nearest,limit=3] at @s run data modify entity @s Target set from entity @n[type=#taglib:hostile] UUID
+execute rotated as @s rotated ~ 0 as @e[type=minecraft:shulker_bullet,tag=aeternum.abilities.mage.10.power_of_magic.bullet,sort=nearest,limit=3] at @s run data modify entity @s Target set from entity @n[type=#taglib:hostile] UUID
 
 function aeternum:quests/data/mage/mage_3 {num:3}
 advancement grant @s only aeternum:quest_data/mage/mage_1

@@ -5,21 +5,21 @@ execute store result score @s aeternum.abilities.enchanter.7.ability.3.motion.pl
 execute store result score @s aeternum.abilities.enchanter.7.ability.3.motion.player2 run data get entity @s Pos[1] 100
 execute store result score @s aeternum.abilities.enchanter.7.ability.3.motion.player3 run data get entity @s Pos[2] 100
 
-execute as @s at @s rotated as @s positioned ^ ^0.5 ^0.9 summon minecraft:snowball run tag @s add aeternum.abilities.enchanter.orb_shooter2
-execute as @s at @s rotated as @s positioned ^ ^0.5 ^0.9 run tag @n[type=snowball,tag=aeternum.abilities.enchanter.orb_shooter2] add aeternum.abilities.schedule.cool
-execute as @s at @s rotated as @s positioned ^ ^0.5 ^0.9 as @n[type=snowball,tag=aeternum.abilities.enchanter.orb_shooter2] run data modify entity @s Item.id set value "minecraft:experience_bottle"
+execute at @s rotated as @s positioned ^ ^0.5 ^0.9 summon minecraft:snowball run tag @s add aeternum.abilities.enchanter.orb_shooter2
+execute at @s rotated as @s positioned ^ ^0.5 ^0.9 run tag @n[type=snowball,tag=aeternum.abilities.enchanter.orb_shooter2] add aeternum.abilities.schedule.cool
+execute at @s rotated as @s positioned ^ ^0.5 ^0.9 as @n[type=snowball,tag=aeternum.abilities.enchanter.orb_shooter2] run data modify entity @s Item.id set value "minecraft:experience_bottle"
 
-execute as @s at @s rotated as @s positioned ^ ^0.5 ^0.9 store result score @s aeternum.abilities.enchanter.7.ability.3.motion.orb1 run data get entity @n[type=snowball,tag=aeternum.abilities.enchanter.orb_shooter2] Pos[0] 100
-execute as @s at @s rotated as @s positioned ^ ^0.5 ^0.9 store result score @s aeternum.abilities.enchanter.7.ability.3.motion.orb2 run data get entity @n[type=snowball,tag=aeternum.abilities.enchanter.orb_shooter2] Pos[1] 100
-execute as @s at @s rotated as @s positioned ^ ^0.5 ^0.9 store result score @s aeternum.abilities.enchanter.7.ability.3.motion.orb3 run data get entity @n[type=snowball,tag=aeternum.abilities.enchanter.orb_shooter2] Pos[2] 100
+execute at @s rotated as @s positioned ^ ^0.5 ^0.9 store result score @s aeternum.abilities.enchanter.7.ability.3.motion.orb1 run data get entity @n[type=snowball,tag=aeternum.abilities.enchanter.orb_shooter2] Pos[0] 100
+execute at @s rotated as @s positioned ^ ^0.5 ^0.9 store result score @s aeternum.abilities.enchanter.7.ability.3.motion.orb2 run data get entity @n[type=snowball,tag=aeternum.abilities.enchanter.orb_shooter2] Pos[1] 100
+execute at @s rotated as @s positioned ^ ^0.5 ^0.9 store result score @s aeternum.abilities.enchanter.7.ability.3.motion.orb3 run data get entity @n[type=snowball,tag=aeternum.abilities.enchanter.orb_shooter2] Pos[2] 100
 
 scoreboard players operation @s aeternum.abilities.enchanter.7.ability.3.motion.orb1 -= @s aeternum.abilities.enchanter.7.ability.3.motion.player1
 scoreboard players operation @s aeternum.abilities.enchanter.7.ability.3.motion.orb2 -= @s aeternum.abilities.enchanter.7.ability.3.motion.player2
 scoreboard players operation @s aeternum.abilities.enchanter.7.ability.3.motion.orb3 -= @s aeternum.abilities.enchanter.7.ability.3.motion.player3
 
-execute as @s at @s rotated as @s positioned ^ ^0.5 ^0.9 store result entity @n[type=snowball,tag=aeternum.abilities.enchanter.orb_shooter2] Motion[0] double 0.01 run scoreboard players get @s aeternum.abilities.enchanter.7.ability.3.motion.orb1
-execute as @s at @s rotated as @s positioned ^ ^0.5 ^0.9 store result entity @n[type=snowball,tag=aeternum.abilities.enchanter.orb_shooter2] Motion[1] double 0.01 run scoreboard players get @s aeternum.abilities.enchanter.7.ability.3.motion.orb2
-execute as @s at @s rotated as @s positioned ^ ^0.5 ^0.9 store result entity @n[type=snowball,tag=aeternum.abilities.enchanter.orb_shooter2] Motion[2] double 0.01 run scoreboard players get @s aeternum.abilities.enchanter.7.ability.3.motion.orb3
+execute at @s rotated as @s positioned ^ ^0.5 ^0.9 store result entity @n[type=snowball,tag=aeternum.abilities.enchanter.orb_shooter2] Motion[0] double 0.01 run scoreboard players get @s aeternum.abilities.enchanter.7.ability.3.motion.orb1
+execute at @s rotated as @s positioned ^ ^0.5 ^0.9 store result entity @n[type=snowball,tag=aeternum.abilities.enchanter.orb_shooter2] Motion[1] double 0.01 run scoreboard players get @s aeternum.abilities.enchanter.7.ability.3.motion.orb2
+execute at @s rotated as @s positioned ^ ^0.5 ^0.9 store result entity @n[type=snowball,tag=aeternum.abilities.enchanter.orb_shooter2] Motion[2] double 0.01 run scoreboard players get @s aeternum.abilities.enchanter.7.ability.3.motion.orb3
 
 # Mastery
 execute if score @s aeternum.abilities.enchanter.mastery matches 1.. store result score @s aeternum.abilities.enchanter.7.ability.3.motion.player1 run data get entity @s Pos[0] 100

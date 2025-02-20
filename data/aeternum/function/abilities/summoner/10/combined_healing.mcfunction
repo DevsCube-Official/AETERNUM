@@ -1,7 +1,7 @@
 execute if block ~ ~ ~ minecraft:barrel[facing=up,open=true]{CustomName:'{"text":"","extra":[{"text":"Class Table","italic":false},{"text":"\\u0003","font":"aeternum:gui"},{"text":"","font":"aeternum:gui","color":"white"}]}'} run return fail
 execute if score @s aeternum.abilities.summoner.10.ability.2.cool matches 1.. run return run function aeternum:abilities/deny {en:10}
 
-execute as @s at @s as @e[tag=aeternum.classes.summoner.summon] if score @s aeternum.abilities.summoner.summon_id = @p aeternum.abilities.summoner.summon_id run scoreboard players add @p aeternum.abilities.summoner.10.ability.2.cool 1
+execute at @s as @e[tag=aeternum.classes.summoner.summon] if score @s aeternum.abilities.summoner.summon_id = @p aeternum.abilities.summoner.summon_id run scoreboard players add @p aeternum.abilities.summoner.10.ability.2.cool 1
 
 execute if score @s aeternum.abilities.summoner.10.ability.2.cool matches 1 run effect give @s regeneration 30 0 true
 execute if score @s aeternum.abilities.summoner.10.ability.2.cool matches 2 run effect give @s regeneration 30 1 true

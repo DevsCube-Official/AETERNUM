@@ -1,122 +1,122 @@
 # Healer
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=1}] run function aeternum:abilities/healer/1/heal_self_1
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=3}] run function aeternum:abilities/healer/5/heal_self_2
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=4}] run function aeternum:abilities/healer/7/divine_aura
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=5}] run function aeternum:abilities/healer/8/blessed_1
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=6}] run function aeternum:abilities/healer/9/healing_beacon
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=7}] run function aeternum:abilities/healer/9/divine_aura_2
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=8}] run function aeternum:abilities/healer/9/heal_self_3
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=9}] run function aeternum:abilities/healer/9/blessed_2
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=1}] run function aeternum:abilities/healer/1/heal_self_1
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=3}] run function aeternum:abilities/healer/5/heal_self_2
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=4}] run function aeternum:abilities/healer/7/divine_aura
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=5}] run function aeternum:abilities/healer/8/blessed_1
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=6}] run function aeternum:abilities/healer/9/healing_beacon
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=7}] run function aeternum:abilities/healer/9/divine_aura_2
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=8}] run function aeternum:abilities/healer/9/heal_self_3
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=9}] run function aeternum:abilities/healer/9/blessed_2
 
 # Archer
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=10}] run function aeternum:abilities/archer/2/tenacious
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=11}] run function aeternum:abilities/archer/4/nimble_1
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=12}] run function aeternum:abilities/archer/6/nimble_2
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=13}] run function aeternum:abilities/archer/7/nimble_3
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=14}] run function aeternum:abilities/archer/8/stun_shot
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=10}] run function aeternum:abilities/archer/2/tenacious
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=11}] run function aeternum:abilities/archer/4/nimble_1
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=12}] run function aeternum:abilities/archer/6/nimble_2
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=13}] run function aeternum:abilities/archer/7/nimble_3
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=14}] run function aeternum:abilities/archer/8/stun_shot
 
 # Swordsman
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=15}] run function aeternum:abilities/swordsman/1/rage_1
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=16}] run function aeternum:abilities/swordsman/2/rage_2
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=17}] run function aeternum:abilities/swordsman/9/rage_3
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=18}] run function aeternum:abilities/swordsman/10/rage_4
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=19}] run function aeternum:abilities/swordsman/7/shield_wall
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=20}] run function aeternum:abilities/swordsman/10/battle_spirit
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=15}] run function aeternum:abilities/swordsman/1/rage_1
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=16}] run function aeternum:abilities/swordsman/2/rage_2
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=17}] run function aeternum:abilities/swordsman/9/rage_3
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=18}] run function aeternum:abilities/swordsman/10/rage_4
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=19}] run function aeternum:abilities/swordsman/7/shield_wall
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=20}] run function aeternum:abilities/swordsman/10/battle_spirit
 
 # Rogue
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=21}] run function aeternum:abilities/rogue/1/sneak_1
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=22}] run function aeternum:abilities/rogue/6/sneak_2
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=23}] run function aeternum:abilities/rogue/3/soft_paws_1
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=24}] run function aeternum:abilities/rogue/5/soft_paws_2
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=25}] run function aeternum:abilities/rogue/2/dexterous_1
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=26}] run function aeternum:abilities/rogue/9/dexterous_2
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=27}] run function aeternum:abilities/rogue/5/elusive
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=28}] run function aeternum:abilities/rogue/8/charming
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=29}] run function aeternum:abilities/rogue/9/sneak_3
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=30}] run function aeternum:abilities/rogue/10/one_lucky_god
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=21}] run function aeternum:abilities/rogue/1/sneak_1
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=22}] run function aeternum:abilities/rogue/6/sneak_2
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=23}] run function aeternum:abilities/rogue/3/soft_paws_1
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=24}] run function aeternum:abilities/rogue/5/soft_paws_2
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=25}] run function aeternum:abilities/rogue/2/dexterous_1
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=26}] run function aeternum:abilities/rogue/9/dexterous_2
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=27}] run function aeternum:abilities/rogue/5/elusive
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=28}] run function aeternum:abilities/rogue/8/charming
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=29}] run function aeternum:abilities/rogue/9/sneak_3
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=30}] run function aeternum:abilities/rogue/10/one_lucky_god
 
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Smith
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=31}] run function aeternum:abilities/smith/9/warriors_endurance_1
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=32}] run function aeternum:abilities/smith/10/shield_reinforcement
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=33}] run function aeternum:abilities/smith/10/warriors_endurance_2
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=31}] run function aeternum:abilities/smith/9/warriors_endurance_1
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=32}] run function aeternum:abilities/smith/10/shield_reinforcement
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=33}] run function aeternum:abilities/smith/10/warriors_endurance_2
 
 # Enchanter
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=34}] run function aeternum:abilities/enchanter/3/xp_drain
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=35}] run function aeternum:abilities/enchanter/4/spellbinding_aura
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=36}] run function aeternum:abilities/enchanter/6/arcane_mastery
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=34}] run function aeternum:abilities/enchanter/3/xp_drain
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=35}] run function aeternum:abilities/enchanter/4/spellbinding_aura
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=36}] run function aeternum:abilities/enchanter/6/arcane_mastery
 
 # Soldier
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=37}] run function aeternum:abilities/soldier/8/legendary_defender_1
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=38}] run function aeternum:abilities/soldier/9/legendary_defender_2
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=37}] run function aeternum:abilities/soldier/8/legendary_defender_1
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=38}] run function aeternum:abilities/soldier/9/legendary_defender_2
 
 # Monster
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=39}] run function aeternum:abilities/monster/8/heart_drain_1
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=40}] run function aeternum:abilities/monster/10/blood_drain
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=41}] run function aeternum:abilities/monster/10/heart_drain_2
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=39}] run function aeternum:abilities/monster/8/heart_drain_1
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=40}] run function aeternum:abilities/monster/10/blood_drain
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=41}] run function aeternum:abilities/monster/10/heart_drain_2
 
 # Barbarian
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=42}] run function aeternum:abilities/barbarian/2/enhanced_cleave
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=43}] run function aeternum:abilities/barbarian/3/axe_guard_1
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=44}] run function aeternum:abilities/barbarian/6/axe_guard_2
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=45}] run function aeternum:abilities/barbarian/9/backstab
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=42}] run function aeternum:abilities/barbarian/2/enhanced_cleave
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=43}] run function aeternum:abilities/barbarian/3/axe_guard_1
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=44}] run function aeternum:abilities/barbarian/6/axe_guard_2
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=45}] run function aeternum:abilities/barbarian/9/backstab
 
 # Alchemist
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=46}] run function aeternum:abilities/alchemist/5/potion_harvest
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=47}] run function aeternum:abilities/alchemist/10/elixir_of_life
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=46}] run function aeternum:abilities/alchemist/5/potion_harvest
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=47}] run function aeternum:abilities/alchemist/10/elixir_of_life
 
 # Miner
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=48}] run function aeternum:abilities/miner/1/hard_work_1
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=49}] run function aeternum:abilities/miner/2/robust_1
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=50}] run function aeternum:abilities/miner/3/adeptness
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=51}] run function aeternum:abilities/miner/3/energize
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=52}] run function aeternum:abilities/miner/4/hard_work_2
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=53}] run function aeternum:abilities/miner/5/robust_2
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=54}] run function aeternum:abilities/miner/5/trained_eye_1
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=55}] run function aeternum:abilities/miner/6/trained_eye_2
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=56}] run function aeternum:abilities/miner/7/hard_work_3
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=57}] run function aeternum:abilities/miner/7/ore_vision
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=58}] run function aeternum:abilities/miner/8/miners_experience_1
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=59}] run function aeternum:abilities/miner/8/robust_3
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=60}] run function aeternum:abilities/miner/9/auto_smelt
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=61}] run function aeternum:abilities/miner/9/miners_luck
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=62}] run function aeternum:abilities/miner/9/simple_resistance
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=63}] run function aeternum:abilities/miner/10/miners_experience_2
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=64}] run function aeternum:abilities/miner/10/trained_eye_3
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=48}] run function aeternum:abilities/miner/1/hard_work_1
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=49}] run function aeternum:abilities/miner/2/robust_1
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=50}] run function aeternum:abilities/miner/3/adeptness
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=51}] run function aeternum:abilities/miner/3/energize
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=52}] run function aeternum:abilities/miner/4/hard_work_2
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=53}] run function aeternum:abilities/miner/5/robust_2
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=54}] run function aeternum:abilities/miner/5/trained_eye_1
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=55}] run function aeternum:abilities/miner/6/trained_eye_2
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=56}] run function aeternum:abilities/miner/7/hard_work_3
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=57}] run function aeternum:abilities/miner/7/ore_vision
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=58}] run function aeternum:abilities/miner/8/miners_experience_1
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=59}] run function aeternum:abilities/miner/8/robust_3
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=60}] run function aeternum:abilities/miner/9/auto_smelt
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=61}] run function aeternum:abilities/miner/9/miners_luck
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=62}] run function aeternum:abilities/miner/9/simple_resistance
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=63}] run function aeternum:abilities/miner/10/miners_experience_2
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=64}] run function aeternum:abilities/miner/10/trained_eye_3
 
 # Druid
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=65}] run function aeternum:abilities/druid/1/fast_steps_1
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=66}] run function aeternum:abilities/druid/5/fast_steps_2
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=67}] run function aeternum:abilities/druid/5/longer_vines_1
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=68}] run function aeternum:abilities/druid/5/marking_vines
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=69}] run function aeternum:abilities/druid/6/longer_vines_2
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=70}] run function aeternum:abilities/druid/7/fast_steps_3
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=71}] run function aeternum:abilities/druid/8/one_with_nature
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=72}] run function aeternum:abilities/druid/9/power_sap
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=73}] run function aeternum:abilities/druid/10/endless_growth
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=65}] run function aeternum:abilities/druid/1/fast_steps_1
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=66}] run function aeternum:abilities/druid/5/fast_steps_2
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=67}] run function aeternum:abilities/druid/5/longer_vines_1
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=68}] run function aeternum:abilities/druid/5/marking_vines
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=69}] run function aeternum:abilities/druid/6/longer_vines_2
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=70}] run function aeternum:abilities/druid/7/fast_steps_3
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=71}] run function aeternum:abilities/druid/8/one_with_nature
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=72}] run function aeternum:abilities/druid/9/power_sap
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=73}] run function aeternum:abilities/druid/10/endless_growth
 
 # Summoner
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=74}] run function aeternum:abilities/summoner/1/energy_harvest_1
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=75}] run function aeternum:abilities/summoner/2/linked_healing
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=76}] run function aeternum:abilities/summoner/3/energy_reservoir_1
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=77}] run function aeternum:abilities/summoner/4/warding_spirits_1
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=78}] run function aeternum:abilities/summoner/5/energy_harvest_2
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=79}] run function aeternum:abilities/summoner/5/warding_spirits_2
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=80}] run function aeternum:abilities/summoner/6/energy_reservoir_2
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=81}] run function aeternum:abilities/summoner/7/linked_saturation
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=82}] run function aeternum:abilities/summoner/7/shared_strength
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=83}] run function aeternum:abilities/summoner/8/soul_mastery
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=84}] run function aeternum:abilities/summoner/9/energy_harvest_3
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=85}] run function aeternum:abilities/summoner/10/avatar_of_spirits
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=74}] run function aeternum:abilities/summoner/1/energy_harvest_1
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=75}] run function aeternum:abilities/summoner/2/linked_healing
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=76}] run function aeternum:abilities/summoner/3/energy_reservoir_1
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=77}] run function aeternum:abilities/summoner/4/warding_spirits_1
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=78}] run function aeternum:abilities/summoner/5/energy_harvest_2
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=79}] run function aeternum:abilities/summoner/5/warding_spirits_2
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=80}] run function aeternum:abilities/summoner/6/energy_reservoir_2
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=81}] run function aeternum:abilities/summoner/7/linked_saturation
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=82}] run function aeternum:abilities/summoner/7/shared_strength
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=83}] run function aeternum:abilities/summoner/8/soul_mastery
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=84}] run function aeternum:abilities/summoner/9/energy_harvest_3
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=85}] run function aeternum:abilities/summoner/10/avatar_of_spirits
 
 # Traveler
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=86}] run function aeternum:abilities/traveler/1/night_hunter_1
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=87}] run function aeternum:abilities/traveler/1/rewarding_1
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=88}] run function aeternum:abilities/traveler/2/night_hunter_2
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=89}] run function aeternum:abilities/traveler/4/night_hunter_3
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=90}] run function aeternum:abilities/traveler/3/terrain_mastery_1
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=91}] run function aeternum:abilities/traveler/6/rewarding_2
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=92}] run function aeternum:abilities/traveler/7/night_hunter_4
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=93}] run function aeternum:abilities/traveler/9/rewarding_3
-execute as @s if entity @s[scores={aeternum.ability_wheel.passive_id.1=94}] run function aeternum:abilities/traveler/10/night_hunter_5
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=86}] run function aeternum:abilities/traveler/1/night_hunter_1
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=87}] run function aeternum:abilities/traveler/1/rewarding_1
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=88}] run function aeternum:abilities/traveler/2/night_hunter_2
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=89}] run function aeternum:abilities/traveler/4/night_hunter_3
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=90}] run function aeternum:abilities/traveler/3/terrain_mastery_1
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=91}] run function aeternum:abilities/traveler/6/rewarding_2
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=92}] run function aeternum:abilities/traveler/7/night_hunter_4
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=93}] run function aeternum:abilities/traveler/9/rewarding_3
+execute if entity @s[scores={aeternum.ability_wheel.passive_id.1=94}] run function aeternum:abilities/traveler/10/night_hunter_5

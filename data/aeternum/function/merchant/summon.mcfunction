@@ -6,4 +6,4 @@ summon wandering_trader ~ ~ ~ {NoAI:1b,DespawnDelay:48000,DeathLootTable:"aetern
 
 execute as @n[type=minecraft:wandering_trader,distance=..0.1,tag=aeternum.entity.trader_dungeon] run function aeternum:merchant/inv_change
 
-execute as @s if entity @s[type=wandering_trader] if predicate {"condition":"minecraft:random_chance","chance":0.7} run tp @s[type=wandering_trader] ~ ~-1000 ~
+execute if entity @s[type=wandering_trader] if predicate {"condition":"minecraft:random_chance","chance":0.7} run tp @s[type=wandering_trader] ~ ~-1000 ~

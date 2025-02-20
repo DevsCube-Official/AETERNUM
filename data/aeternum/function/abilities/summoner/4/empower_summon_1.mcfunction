@@ -4,5 +4,5 @@ execute if score @s aeternum.abilities.summoner.4.ability.1.cool matches 1.. run
 execute unless score @s aeternum.abilities.summoner.spirit_energy.current matches 2.. run return run function aeternum:abilities/deny_v2 {en:4,translate:"aeternum.abilities.summoner.spirits.deny"}
 scoreboard players remove @s aeternum.abilities.summoner.spirit_energy.current 2
 
-execute as @s at @s as @e[tag=aeternum.classes.summoner.summon] if score @s aeternum.abilities.summoner.summon_id = @p aeternum.abilities.summoner.summon_id run effect give @s strength 10
+execute at @s as @e[tag=aeternum.classes.summoner.summon] if score @s aeternum.abilities.summoner.summon_id = @p aeternum.abilities.summoner.summon_id run effect give @s strength 10
 scoreboard players set @s aeternum.abilities.summoner.4.ability.1.cool 20

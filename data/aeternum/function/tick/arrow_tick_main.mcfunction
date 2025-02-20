@@ -1,2 +1,2 @@
-execute as @s if entity @s[type=arrow,tag=!aeternum.entity.spawned] run function aeternum:tick/arrow_load
-execute as @s if entity @s[type=arrow,tag=aeternum.entity.spawned,nbt={inGround:1b}] run function aeternum:tick/arrow_tick
+execute if entity @s[type=arrow,tag=!aeternum.entity.spawned] run function aeternum:tick/arrow_load
+execute if entity @s[type=arrow,tag=aeternum.entity.spawned,nbt={inGround:1b}] run function aeternum:tick/arrow_tick
