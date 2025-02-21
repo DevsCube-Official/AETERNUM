@@ -8,3 +8,5 @@ execute as @s[type=marker,tag=aeternum.boxes.type.advanced.modifier] at @s if bl
 
 execute as @s[type=marker,tag=aeternum.boxes.type.advanced.modifier] at @s unless block ~ ~ ~ barrel run loot spawn ~ ~ ~ loot aeternum:boxes/advanced
 execute as @s[type=marker,tag=aeternum.boxes.type.advanced.modifier] at @s unless block ~ ~ ~ barrel run kill @s
+
+execute as @s[tag=aeternum.abilities.archer.suction_shot.marker,scores={aeternum.abilities.archer.9.suction_shot.cool=1..}] at @s run tp @e[type=#taglib:hostile,distance=..4] ~ ~ ~

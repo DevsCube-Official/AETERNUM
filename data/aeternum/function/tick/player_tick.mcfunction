@@ -48,3 +48,5 @@ tag @s[tag=aeternum.quests.enchanter_3.near_orb] remove aeternum.quests.enchante
 execute if score .global2 aeternum.schedule.cool matches 0 as @a run function aeternum:abilities/cooldowns_15s
 
 tag @s add aeternum.abilities.schedule.cool
+
+function aeternum:abilities/player_tick
