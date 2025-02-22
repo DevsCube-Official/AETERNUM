@@ -10,3 +10,9 @@ execute as @s[type=marker,tag=aeternum.boxes.type.advanced.modifier] at @s unles
 execute as @s[type=marker,tag=aeternum.boxes.type.advanced.modifier] at @s unless block ~ ~ ~ barrel run kill @s
 
 execute as @s[tag=aeternum.abilities.archer.suction_shot.marker,scores={aeternum.abilities.archer.9.suction_shot.cool=1..}] at @s run tp @e[type=#taglib:hostile,distance=..4] ~ ~ ~
+
+execute as @s[tag=aeternum.classes.druid.ability.bramble] at @s align xyz positioned ~0.5 ~ ~0.5 run effect give @e[distance=0.01..0.5] slowness 1 5
+execute as @s[tag=aeternum.classes.druid.ability.bramble] at @s align xyz positioned ~0.5 ~ ~0.5 run effect clear @e[distance=0.01..0.5] invisibility
+
+execute as @s[tag=aeternum.classes.druid.ability.bramble2] at @s align xyz positioned ~0.5 ~ ~0.5 run effect give @e[distance=0.01..1.5] slowness 1 5
+execute as @s[tag=aeternum.classes.druid.ability.bramble2] at @s align xyz positioned ~0.5 ~ ~0.5 run effect clear @e[distance=0.01..1.5] invisibility

@@ -54,6 +54,7 @@ execute as @s[scores={aeternum.abilities.druid.vine.cool=1..},tag=aeternum.class
 execute as @s[scores={aeternum.abilities.druid.vine.cool=1..},tag=aeternum.classes.druid.power_sap] at @s align xyz positioned ~0.5 ~ ~0.5 run execute as @e[distance=0.01..1.2] run effect give @s weakness 1 3
 
 execute as @s[scores={aeternum.abilities.druid.vine.cool=0}] at @s align xyz positioned ~0.5 ~ ~0.5 run execute as @e[distance=..1.2] run attribute @s minecraft:jump_strength modifier remove aeternum.classes.druid.thorny_vine
+execute as @s[scores={aeternum.abilities.druid.vine.cool=0}] at @s align xyz positioned ~0.5 ~ ~0.5 run execute as @e[distance=..1.2] run attribute @s minecraft:knockback_resistance modifier remove aeternum.classes.druid.thorny_vine
 execute as @s[scores={aeternum.abilities.druid.vine.cool=0}] run kill @s
 
 
